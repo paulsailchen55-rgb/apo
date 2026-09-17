@@ -2,6 +2,34 @@
 
 ## Archive of Possibilities
 
+> **Chat Loader / Reference Repository**
+>
+> This repository is intended to be a reusable archive and reference point for ideas, conversations, experiments, designs, research, and possible projects.
+>
+> **When adding new work:** put it into its own clearly named folder, keep that folder self-contained and usable, preserve its original meaning and provenance, and do not treat unfinished ideas as established facts.
+>
+> ### Standard APO Push Prompt
+>
+> ```text
+> Push this work to my GitHub repository:
+>
+> https://github.com/paulsailchen55-rgb/apo
+>
+> Treat `apo` as an archive / chat-loader repository for reference, not as the project itself.
+>
+> Do not create or modify the root README unless I explicitly ask you to.
+> Put this work into its own clearly named folder inside the repository.
+> Keep the contents of that folder self-contained and usable.
+> Preserve the original meaning and context of the material.
+> Do not silently turn ideas, hypotheses, conversations, or possibilities into established facts.
+> If the material is a project, make the folder usable as an independent project or reference package.
+> If supporting files are needed, place them inside the same folder rather than scattering them through the repository.
+> Do not overwrite existing work. Inspect existing files before changing anything.
+> Use clear filenames and a sensible folder structure.
+> Commit directly to `main` unless I specify otherwise.
+> After pushing, report the folder created, files added or changed, commit SHA, and any important assumptions or unresolved issues.
+> ```
+
 This repository is an archive.
 
 It is a place to preserve ideas, conversations, experiments, designs, questions, fragments, and possible directions that may or may not become something else later.

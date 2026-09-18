@@ -5,7 +5,7 @@
 
 ## Scope
 
-This folder grew from research into [PERSON_042], Mike Brodkin, a 2019 Santa Cruz political-organizing list, and related questions about how to approach living people and networks in the present.
+This folder grew from research into [PERSON_042], [PERSON_072], a 2019 Santa Cruz political-organizing list, and related questions about how to approach living people and networks in the present.
 
 It is **not** a roster, endorsement list, political recommendation, or authoritative account of anyone's current beliefs. Historical material is retained as historical material.
 

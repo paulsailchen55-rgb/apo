@@ -1,47 +1,58 @@
-# Wayfinder / Community Access Information
+# WAYFINDER — Community Information / Wayfinding
 
-## Classification
-Potential information-access project / supporting civic-community tool.
+## Working identity
 
-## Origin
-The conversation developed an idea for a simple, printable and scannable way to help people find free or low-cost coffee, tea, meals, daylight-access spaces and related community resources.
+**WAYFINDER**
+
+Working message:
+
+> **There’s useful information ahead.**
+
+WAYFINDER is a proposed local community-information layer. It gathers existing public and community information into a simple, accessible format so a person can discover useful daytime opportunities, services, gatherings, learning, food, hospitality, volunteering, and civic participation.
+
+It is not intended to be a homelessness program, shelter, recovery program, membership organization, territorial marking system, reputation system, or single authority over a community.
 
 ## Core idea
-Create a human-scale information layer that answers practical questions such as:
-- Where can I go?
-- What is available today?
-- At what time?
-- What are the eligibility or participation conditions?
-- How do I get there?
-- What should I do if the information is wrong or the service is closed?
 
-The proposed presentation included printable library/community handouts, calendars, QR codes and simple symbols inspired by wayfinding systems. A rough early production thought was about 10 calendars with 31 daily sheets each, but that was a planning idea rather than a requirement.
+> Someone came through here before you and left useful information.
 
-## Wayfinder symbol idea
-A hobo-code-inspired visual vocabulary was discussed as an inspiration for simple navigation symbols. This should not be presented as an official or universal code. Symbols would need testing for comprehension and accessibility.
+A related principle is:
 
-## Related but separate work
-This is related to the Community Hygiene/Laundry/Meal Access work, but the distinction is useful:
-- Community access project: the services/network themselves.
-- Wayfinder: the information and navigation layer that helps people locate and understand available services.
+> Leave something useful for the next person.
 
-It also relates to the Daily Information System, but is a concrete community-access use case rather than the whole information architecture.
+The project is inspired by traveler-information traditions, zines, almanacs, and community calendars, and newer networked tools. The historical lineage is a source of inspiration, not a claim that one standardized historical “hobo code” existed.
 
-## Potential distribution
-Libraries were discussed as a trusted public-access point. Other possible distribution points include shelters, community centers, clinics, outreach tables and public notice locations, subject to permission.
+## Current ten categories
 
-## Information integrity
-Schedules, locations, eligibility, provider names and availability must be verified before publication. A stale calendar can itself create friction, so update frequency and responsibility are part of the design.
+1. Free Coffee & Tea
+2. Free Food / Community Meals
+3. Meditation & Mindfulness
+4. Faith & Spirituality
+5. Recovery & Peer Support
+6. Volunteering / Community Cleanup
+7. Library & Learning
+8. Arts, Music & Creative Community
+9. Activism & Civic
+10. General Daytime Community
 
-## Open questions
-- Who maintains updates?
-- How often should information expire or be rechecked?
-- What is the smallest useful daily format?
-- Can the same information work on paper, phone and library computers?
-- How should accessibility and language needs be handled?
-- Can providers report changes without creating a burdensome administrative system?
+## Immediate experiment
 
-## Status
-Potential project / information-access concept. Not an established service network.
+Start with a defined, walkable Santa Cruz regional area rather than attempting to enumerate every city.
 
-> Preserve the possibility before deciding what it is.
+The test question is:
+
+> Can one person, using current AI and free or low-cost tools, maintain a useful local community almanac for one walkable area?
+
+A small or resource-poor town is allowed to have few results. The system should not manufacture a full calendar where little exists.
+
+## Design commitments
+
+- Information, not territorial ownership.
+- Opportunities, not reputational judgments.
+- Verification of information, not scoring of organizations.
+- Human choice remains central.
+- Local information can be incomplete.
+- Every listing should retain source and verification context.
+- The standardized civil calendar remains interoperable with ordinary calendars.
+- Local ecological and community cycles can be added as another layer.
+- AI may assist research and presentation but should not silently invent facts.

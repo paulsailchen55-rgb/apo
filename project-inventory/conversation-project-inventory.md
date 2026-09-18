@@ -68,3 +68,46 @@ The inventory was used as the archive map. Following inspection of the repositor
 The Minimal Functional Continuity, Vertical Commons, 1214 Soquel/Seabright, and Property Risk/Value/Options Map areas were already represented sufficiently for this archive pass. Existing projects that were already adequately represented were left unchanged.
 
 The inventory remains a snapshot of the available conversation context. Classification is provisional; absence of an artifact from the archive does not mean the idea was rejected, and inclusion does not mean the idea is validated.
+
+
+## Conversation-wide expansion — 2026-09-18
+
+The current conversation added or clarified the following bodies of work. These are preserved separately where they have distinct purposes:
+
+### WAYFINDER / community information
+33. **WAYFINDER** — local community information / wayfinding layer; working message: “There’s useful information ahead.”
+34. **Santa Cruz walking-area pilot** — test whether one defined walkable area can be maintained with current AI and free/low-cost services.
+35. **Verification layer** — verify whether information matched reality rather than score organizations.
+36. **Non-territorial symbol system** — visual interface, not secret code, ownership marker, or neighborhood claim.
+37. **Alternative futures** — deliberate solarpunk/cyberpunk failure-mode analysis covering graffiti conflict, territorialization, reputation systems, corporate capture, information decay, and AI distortion.
+38. **Community almanac / multiple calendars** — standardized civil dates plus local ecological, school, work, sports, civic, religious, and agricultural cycles.
+39. **AI local-scribe architecture** — small local AI interprets a dated structured packet; larger AI is reserved for harder tasks.
+40. **Source accessibility experiment** — measure what AI can access directly versus what requires humans because it is social-media-gated, private, or verbal.
+41. **Community Cup / free coffee and tea pilot** — inclusive hospitality experiment subject to site permission and safety requirements.
+42. **Declaration / lineage writing** — possible public declaration connecting traveler information, zines, almanacs, calendars, and networked tools.
+43. **Honor-oriented information record** — record useful contributions rather than creating permanent public dossiers of failures.
+44. **Calendar naming experiments** — UIA, UIO, GIF, and related “ahead/forward/onward” wording; unresolved.
+45. **Plant/phenology calendar experiment** — nature-based local cycle as a second calendar layer, not a replacement for civil dates.
+46. **Community scaling model** — workload depends on active maintainable records and verification cost, not simply the number of cities.
+
+### Resilience / computing additions
+47. **Minimal Functional Continuity research and experiments** — actual device-load measurement, low-power continuity, energy experiments, and residential continuity.
+48. **Residential continuity framework** — building-level continuity as ordinary infrastructure rather than only emergency response.
+
+### Civic / housing additions
+49. **Vertical Commons conversation context** — adaptable modular housing and mixed-use infrastructure.
+50. **Seabright community question routing** — questions derived from community concerns, routed to responsible records/agencies without converting them into accusations.
+51. **Property Risk & Options evidence framework** — evidence labels, due-diligence map, and option preservation.
+52. **Government authority framework** — identify who can answer, decide, review, fund, regulate, or route a civic question.
+53. **Twelve / 4×3 / 6-pair metaphor** — personal organizing metaphor, explicitly not an established government structure.
+54. **Ocean extraction / marine-noise research scope** — technical and regulatory questions kept separate from settled claims.
+
+### Deliberate boundaries
+
+WAYFINDER is not the Daily Information System, although the two may exchange structured information. Personal Agency Infrastructure is a general provenance/control architecture, while WAYFINDER is an application of related principles to community information. Civic Flow Chart maps governmental procedures; WAYFINDER maps community opportunities. Vertical Commons, Modular Public Infrastructure, FlexSpace, and the hygiene/laundry pilot share modularity themes but remain distinct bodies of work. Seabright Plaza is a site-specific case; Property Risk & Options Map is the reusable method. Religious/philosophical reflections are retained as provenance/context and are not treated as technical evidence. Reports of hacking or hostile behavior are not converted into verified claims about particular actors.
+
+### Archive status after this pass
+
+The repository already adequately represented the general information, agency, relay, device, outreach, mobility, and modular-infrastructure bodies listed in the earlier inventory. This pass adds substantial self-contained material where the repository was sparse and creates the missing WAYFINDER package.
+
+The root README was intentionally left untouched.

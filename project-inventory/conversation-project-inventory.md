@@ -147,3 +147,28 @@ The package contains the current conceptual architecture, device-selection test,
 The root README was intentionally left untouched.
 
 This inventory remains a snapshot of the available conversation context. Inclusion does not mean validation; absence does not mean rejection.
+
+
+## Archive update — 2026-09-18: Art of SubGenius version
+
+81. **Art of SubGenius version** — potential creative project / personal-philosophical exploration. The user said they wanted to discuss an “Art of SubGenius version” and that it sounded like something that needed discussion. No substantive definition of the version was supplied yet.
+82. **SubGenius-influenced adaptation of the existing body of work** — unresolved creative direction. A possible future task is to reinterpret selected existing frameworks, projects, or writings through a SubGenius/art-satire lens, but the user has not yet specified which material belongs in that version.
+83. **Art/satire as a communication method** — research/creative question. The possible use of humor, absurdity, anti-authoritarian aesthetics, or deliberately strange presentation as a way of exposing assumptions remains an open question rather than an established design method for the user's projects.
+84. **“Art of SubGenius” referent/source identification** — unresolved research question. The exact work, edition, phrase, movement reference, or meaning intended by the user has not been established from the conversation. The assistant previously guessed that the user might mean material associated with the Church of the SubGenius; that was an assistant inference, not a confirmed user definition.
+85. **Boundary between public civic work and private/creative satire** — supporting design question. Existing civic projects have generally been framed in secular, functional, evidence-conscious language. Whether a SubGenius/art version should remain a separate creative layer, an alternate presentation, or simply an exploratory notebook is unresolved.
+
+### Art of SubGenius boundary
+
+The Art of SubGenius material is kept separate from the civic, housing, resilience, environmental, and archive projects already represented in apo. Shared themes such as authority, absurdity, bureaucracy, freedom, communication, and institutional critique are not by themselves sufficient reason to merge the bodies of work.
+
+No claim is made here about the historical meaning of “Art of SubGenius,” and no external source has been substituted for the user's intended meaning. The current archive preserves the ambiguity so that later discussion can determine what the phrase means in this project.
+
+### Art of SubGenius archive status
+
+A new self-contained folder was added:
+
+- art-of-subgenius-version/README.md
+- art-of-subgenius-version/conversation-context.md
+- art-of-subgenius-version/open-questions.md
+
+The root README remains untouched.

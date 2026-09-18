@@ -157,3 +157,14 @@ A new self-contained folder was added:
 The existing root README was not modified. Existing housing, civic, environmental, archive, and outreach folders were not overwritten or reorganized merely because they are thematically adjacent.
 
 The exact editions and contents of the user's found textbooks remain unresolved. The new folder therefore records the books as source leads rather than pretending to reproduce their contents.
+
+
+## Archive update — 2026-09-18: Omega principle
+
+33. **Omega Principle / Closure** — framework / concept under development, with possible future research, design-criterion, and article/book applications. The central idea is to consider the proper end of a thing, process, relationship, or system while beginning and using it, and to consider material closure when making things from extracted materials. It overlaps with Endpoint Closure/STUR but is not the same project.
+
+**Existing representation:** The repository already contains endpoint-closure-stur-outreach-2026-09-17, which addresses usable endpoints for systems and relationships. A repository search found no existing Omega-specific folder or file. Therefore Omega is archived separately rather than merged into STUR.
+
+**Current classification:** framework / concept. It is not being represented as a validated scientific principle, technical standard, religious doctrine, or completed project.
+
+**Key unresolved boundaries:** the meaning of “proper” and “honorable” end; whether closure means return, reuse, recovery, transformation, safe termination, or another endpoint; the feasibility of material return to the earth; and how Omega should be distinguished from existing lifecycle and circularity disciplines.

@@ -124,3 +124,36 @@ The root README was intentionally left untouched.
 61. **Hostile-theological red-team of public writing** — writing method used to identify language that could be read as claiming prophetic authority, hidden knowledge, moral superiority, or condemnation.
 
 These six bodies are related, but the technical research, public letter, and private philosophical provenance remain separate. The public letter is not evidence for the underlying environmental or engineering questions.
+
+
+## Archive pass continuation — 2026-09-18: property access and community title
+
+62. **Property access and community title** — research question / potential project concerning how people without property or conventional wealth can obtain durable, lawful interests in land or housing.
+63. **Community Stewardship and Access Model** — assistant-generated working label for a possible structure in which a legally recognized organization holds land while community members receive defined use, occupancy, membership, or beneficial rights. This is not established California law.
+64. **Property-less entry problem** — research question about the difference between legal capacity to own property and practical ability to acquire it.
+65. **Title / beneficial interest / occupancy distinction** — supporting legal framework separating fee title from other possible forms of recognized interest.
+66. **Existing-structure comparison** — research direction comparing individual ownership, co-ownership, partnerships, corporations, nonprofits, LLCs, trusts, cooperatives, community land trusts, leases, and occupancy arrangements.
+67. **Institutional feedback-loop question** — research question asking whether funding, administrative, housing, correctional, or service systems can unintentionally reproduce housing instability, while requiring evidence before claiming intentional coordination.
+68. **Historical “unclaimed/fatherless” analogy** — personal/philosophical exploration comparing changing institutional labels and forms of social placement. Preserved as analogy, not empirical proof.
+69. **Spiritual/demon-possession analogy** — personal/philosophical exploration raised by the user. Preserved separately from legal and empirical claims; no factual claim about demons operating a real-estate system is established.
+70. **California real-estate textbook source trail** — supporting research source identification. User reported copies of *California Real Estate Principles* and *California Real Estate Practice*; exact editions remain unresolved.
+71. **California DRE title-source check** — supporting legal research: the DRE Reference Book Chapter 5 discusses lawfully created entities including corporations, trusts, LLCs, and LLPs as capable of holding title or interests in real property. Current-law verification remains necessary for any legal conclusion.
+
+### New archive boundary
+
+The property-access body of work is related to Vertical Commons, Modular Public Infrastructure, FlexSpace, and Property Risk & Options Map because all concern housing, land, or civic infrastructure. It remains separate because its central question is the legal and social architecture of **who can hold or receive a recognized property interest**, rather than the physical design of housing, the analysis of a particular parcel, or the mapping of government procedure.
+
+The institutional and spiritual reflections are retained as provenance and questions for further inquiry. They are not converted into claims that any institution or spiritual entity intentionally maintains people in a property-less condition.
+
+### Current archive status
+
+A new self-contained folder was added:
+
+- `property-access-and-community-title/README.md`
+- `property-access-and-community-title/conversation-context.md`
+- `property-access-and-community-title/research-questions.md`
+- `property-access-and-community-title/legal-source-notes.md`
+
+The existing root README was not modified. Existing housing, civic, environmental, archive, and outreach folders were not overwritten or reorganized merely because they are thematically adjacent.
+
+The exact editions and contents of the user's found textbooks remain unresolved. The new folder therefore records the books as source leads rather than pretending to reproduce their contents.

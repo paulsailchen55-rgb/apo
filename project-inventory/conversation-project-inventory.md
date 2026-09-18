@@ -54,3 +54,17 @@ Resilience items belong to one family but remain distinct by function. Civic pro
 ## Archive rule
 
 Do not silently merge unrelated work. Preserve user ideas, observations, interpretations, hypotheses, proposals, documented facts, external evidence and assistant-generated organization as different categories where the distinction matters.
+
+
+## Archive update — 2026-09-18
+
+The inventory was used as the archive map. Following inspection of the repository, the previously partial areas were given additional self-contained material without changing the root README:
+
+- Wayfinder / Community Access now has a standalone README.
+- Marine Research now has a research-scope file distinguishing questions from established claims.
+- Authority Map now has a framework file.
+- The Twelve / 4×3 / 6-pair idea now has a separate file explicitly classified as personal/philosophical exploration rather than government fact.
+
+The Minimal Functional Continuity, Vertical Commons, 1214 Soquel/Seabright, and Property Risk/Value/Options Map areas were already represented sufficiently for this archive pass. Existing projects that were already adequately represented were left unchanged.
+
+The inventory remains a snapshot of the available conversation context. Classification is provisional; absence of an artifact from the archive does not mean the idea was rejected, and inclusion does not mean the idea is validated.

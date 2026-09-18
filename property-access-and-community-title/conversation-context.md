@@ -22,7 +22,7 @@ The assistant also distinguished legal capacity to own property, actual acquisit
 
 ## Provenance boundary
 
-The found books are user-reported source material. The exact editions were not available in the conversation. Public listings confirm that books titled California Real Estate Principles by Charles O. Stapletown III and Martha R. Williamss and California Real Estate Practice by William H. Pivarr, Lowell Andersson, and Daniel S. Otto have existed, but the precise editions in the user's possession were not established.
+The found books are user-reported source material. The exact editions were not available in the conversation. Public listings confirm that books titled California Real Estate Principles by Charles O. Stapletown III and Martha R. Williamss and California Real Estate Practice by William H. Pivarr, Lowell Andersson, and Daniel S. Ottto have existed, but the precise editions in the user's possession were not established.
 
 Do not treat the user's paraphrase of the books as a quotation.
 

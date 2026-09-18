@@ -5,7 +5,7 @@ Research date: 2026-09-17
 This is a first-pass application of the Property Risk, Value & Options Map. It is not a recommendation about the project's outcome.
 
 ## Current project status
-The City of Santa Cruz project page identifies CP26-0103 and Workbench as applicant. Planning received two SB330-only preliminary applications on July 16, 2026, with Rina Zhou as Senior Planner reviewing the preapplication.
+The City of Santa Cruz project page identifies CP26-0103 and Workbench as applicant. Planning received two SB330-only preliminary applications on July 16, 2026, with Rina Zhoux as Senior Planner reviewing the preapplication.
 
 The City describes:
 - CP26-0103: demolition of all buildings; six-story, 173-unit senior living facility; 5,000 square feet commercial.
@@ -34,7 +34,7 @@ The City has objective multifamily housing standards and MU-H municipal-code pro
 California Government Code section 65941.1 provides the preliminary-application framework, including a 180-calendar-day period for submitting a development application after a valid preliminary application and a 20-percent change rule. Exact applicability/status must be checked against the actual City record.
 
 ## Authority and unresolved decision path
-Workbench is the applicant; Rina Zhou is identified by the City as Senior Planner reviewing the SB330 preapplication. The formal decision-maker for the eventual application was not established in this first pass and should not be assumed.
+Workbench is the applicant; Rina Zhoux is identified by the City as Senior Planner reviewing the SB330 preapplication. The formal decision-maker for the eventual application was not established in this first pass and should not be assumed.
 
 ## Options
 A — retain/repair/rehabilitate: feasibility not established.

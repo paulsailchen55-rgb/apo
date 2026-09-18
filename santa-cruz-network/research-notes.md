@@ -2,7 +2,7 @@
 
 ## Why this folder exists
 
-The immediate research question was prompted by finding historical material while looking into [PERSON_042] and Mike Brodkin, followed by contact with people connected to that local history.
+The immediate research question was prompted by finding historical material while looking into [PERSON_042] and [PERSON_072], followed by contact with people connected to that local history.
 
 The broader question is how to understand a living person's present-day network and worldview without converting historical records into fixed identities.
 

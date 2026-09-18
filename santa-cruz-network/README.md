@@ -5,7 +5,7 @@
 
 ## Scope
 
-This folder grew from research into Bruce Van Allen, Mike Brodkin, a 2019 Santa Cruz political-organizing list, and related questions about how to approach living people and networks in the present.
+This folder grew from research into [PERSON_042], Mike Brodkin, a 2019 Santa Cruz political-organizing list, and related questions about how to approach living people and networks in the present.
 
 It is **not** a roster, endorsement list, political recommendation, or authoritative account of anyone's current beliefs. Historical material is retained as historical material.
 
@@ -48,7 +48,7 @@ Suggested fields:
 
 Example:
 
-- **Known:** Bruce Van Allen and Mike Rotkin discussed identifying as socialist-feminists in a 1979 interview conducted after their election to Santa Cruz City Council.
+- **Known:** [PERSON_042] and [PERSON_071] discussed identifying as socialist-feminists in a 1979 interview conducted after their election to Santa Cruz City Council.
 - **Known:** The interview discusses local organizing, housing, feminism, socialism, and municipal politics in that historical context.
 - **Unknown:** What either person currently believes about those subjects.
 - **Not justified without current evidence:** treating a 1979 political identity as a 2026 identity.
@@ -77,7 +77,7 @@ The relevant methodological implication is: do not assume that disagreement over
 
 ## Historical sources
 
-- Bruce Van Allen / Mike Rotkin interview, *Who Rules America?* — historical source: https://whorulesamerica.ucsc.edu/santacruz/rotkin_van_allen_interview.html
+- [PERSON_042] / [PERSON_071] interview, *Who Rules America?* — historical source: https://whorulesamerica.ucsc.edu/santacruz/rotkin_van_allen_interview.html
 - Santa Cruz 2020 recall election context and results were discussed in the originating conversation. Current or historical election claims should be rechecked against official election records before being treated as authoritative.
 
 ## 2019 recall-list provenance

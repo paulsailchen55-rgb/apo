@@ -352,11 +352,11 @@ The packet includes:
 - Development Record / Open Workbench;
 - Version 1 Release Check.
 
-The packet deliberately separates the technical/factual Civic Flow material from the open development conversation and the John Mayer cultural reference.
+The packet deliberately separates the technical/factual Civic Flow material from the open development conversation and the John Mayerr cultural reference.
 
 ## Cultural development reference
 
-The conversation included John Mayer's “Waiting on the World to Change” as a cultural reference point.
+The conversation included John Mayerr's “Waiting on the World to Change” as a cultural reference point.
 
 The relevant project question is:
 

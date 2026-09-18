@@ -172,3 +172,28 @@ A new self-contained folder was added:
 - art-of-subgenius-version/open-questions.md
 
 The root README remains untouched.
+
+
+## Archive update — 2026-09-18: information archaeology and decade boundaries
+
+86. **Information Archaeology / Information Half-Life** — research direction / potential project asking how long public information remains accessible, searchable, verifiable, and independently recoverable. It concentrates on historical information survival and discoverability rather than assuming censorship or deliberate deletion.
+87. **Information-survival measurement protocol** — experiment/research method using age bands, ordinary search, exact-source recovery, recognized archives, bibliographic indexes, later citations, and independent copies. Proposed outcomes include normally discoverable, search-degraded, archive-dependent, secondary-only, unrecovered, and documented removal.
+88. **LED lighting historical evidence test case** — supporting research direction within Information Archaeology. The question is whether historical public claims and scientific evidence concerning LED lighting, temporal light modulation/flicker, visual effects, circadian effects, and related health questions remain recoverable today. The archive does not establish that LED/PWM exposure causes long-term injury.
+89. **Search-result displacement / commercial-SEO question** — research question about whether newer commercial or SEO-oriented material makes older noncommercial information harder to discover. This should be measured rather than attributed to a particular company or intentional strategy without evidence.
+90. **Ten-year information-loss hypothesis** — hypothesis that a ten-year interval might be a meaningful boundary for information survival or discoverability. It is unvalidated and should be tested against other age intervals.
+91. **Decade Boundary Map** — research question / framework concept asking where ten-year or other multi-year boundaries occur across institutions, technologies, contracts, datasets, standards, planning, and records, and why those intervals exist.
+92. **Domain-registration / Census coincidence** — observational starting point for the Decade Boundary Map. The resemblance between a discussed ten-year domain-registration maximum and the U.S. Census ten-year cycle is preserved as a coincidence/question, not evidence of a shared purpose.
+93. **Internet “census” analogy** — interpretive metaphor comparing domain renewal/check-in with periodic institutional updating. It is not treated as an established explanation of domain-registration policy.
+
+### Boundary with existing Internet Complexity work
+
+Information Archaeology is adjacent to the existing internet-complexity-voice-and-knowledge-access package but remains separate. Internet Complexity examines contemporary cost and complexity of accessing information; Information Archaeology examines historical survival and discoverability. Personal Agency Infrastructure remains a related provenance architecture, not evidence about information decay.
+
+### Archive status
+
+Two new self-contained folders were added:
+
+- information-archaeology-and-information-half-life/
+- decade-boundary-map/
+
+The LED question remains a test case rather than a separate project. The domain/Census coincidence remains separate because it concerns institutional time boundaries rather than LED health evidence. No existing project folder was intentionally overwritten, and the root README was not modified.

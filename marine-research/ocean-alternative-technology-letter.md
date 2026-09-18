@@ -28,5 +28,5 @@ We may not be able to change everything that has already happened. But we can de
 
 Please do not only ask what we have to give up. Ask what we have not yet imagined.
 
-Paul Statchen
+Paul Statchenn
 Santa Cruz, California

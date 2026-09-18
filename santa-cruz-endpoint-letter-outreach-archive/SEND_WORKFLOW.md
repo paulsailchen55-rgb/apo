@@ -31,10 +31,10 @@ Never invent, guess, autocomplete, or substitute an email address. When verifica
 
 ## Historical corrections preserved in this archive
 
-- Pauline Seales (`paulineseales120@gmail.com`) is recorded as SENT and must not be reused.
-- Santa Cruz County Grand Jury (`grandjury@scgrandjury.org`) is recorded as SENT and must not be reused.
-- `gtfoscc@proton.me` is recorded as DO NOT USE because of a previously reported delivery problem.
-- Christopher Platt and Brett Hoyer are recorded as SENT in the current master and are excluded from future batches.
+- [PERSON_070] (`[EMAIL_REDACTED]`) is recorded as SENT and must not be reused.
+- Santa Cruz County Grand Jury (`[EMAIL_REDACTED]`) is recorded as SENT and must not be reused.
+- `[EMAIL_REDACTED]` is recorded as DO NOT USE because of a previously reported delivery problem.
+- [PERSON_026] and [PERSON_027] are recorded as SENT in the current master and are excluded from future batches.
 
 ## Verification boundary
 

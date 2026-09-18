@@ -361,3 +361,30 @@ A new self-contained package was added:
 - chromebook-network-privacy-dns-vpn-experiment-2026-09/test-plan.md
 
 The root README remains untouched.
+
+
+## Archive update — 2026-09-18: public-record access and property-data access
+
+126. **Public Record Access and Data Equity** — research direction / potential civic-infrastructure project. The work asks how residents can discover and verify public property and civic records without needing proprietary real-estate subscriptions or specialized databases.
+
+127. **Source-of-record versus commercial aggregator** — framework. Commercial property-data services can be useful discovery aids, but an aggregated value should remain a lead until the originating public or authoritative record is checked.
+
+128. **Public-record access pathway** — Civic Flow Chart component. Record the jurisdiction, custodian, source, access method, cost, clock, verification date, secondary clues, conflicts, fallback route, and change status.
+
+129. **Access-barrier measurement** — research question. Compare free online access, public requests, in-person access, fees, subscriptions, and unknown/unlocated records without assuming that any particular barrier is unlawful or intentional.
+
+130. **Property-data connector/plugin research** — supporting tooling question. The available ChatGPT app/plugin directory was checked for Redfin-like or direct government property-data connections. Zillow was found as a real-estate app; no dedicated Redfin or Santa Cruz assessor/recorder connector was identified in that directory search. This is a time-bounded tooling observation, not proof that no connector exists elsewhere.
+
+131. **1214 Soquel first-pass research record** — site-specific research artifact. The Property Risk, Value & Options Map was applied to current City project status, existing-use evidence, rules/process, options, future flexibility, and unresolved records. The first pass deliberately does not establish building deficiencies, property value, legal rights, or a preferred project outcome.
+
+### Deliberate boundaries
+
+Public Record Access and Data Equity is distinct from Property Risk, Value & Options Map. The latter is a due-diligence framework for a property/project; the former studies the information-access system itself.
+
+The commercial-aggregator discussion is not a claim that Redfin, Zillow, LoopNet, CoreLogic, ATTOM, or any other company is acting improperly. It is a provenance and access question.
+
+Plugin availability is a tooling observation and should not become evidence about a property or government record.
+
+The 1214 first-pass research belongs with the existing Seabright and Property Risk folders rather than becoming a new duplicate project.
+
+The root README remains untouched.

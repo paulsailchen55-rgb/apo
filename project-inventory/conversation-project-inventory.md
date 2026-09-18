@@ -256,3 +256,72 @@ A new self-contained folder was added:
 No existing project folder was overwritten. The root README remains untouched.
 
 This update preserves the distinction between the user's observations and metaphors, assistant-generated organization, documented modern/archaeological evidence, physical hypotheses, and unresolved historical claims.
+
+
+## Archive update — 2026-09-18: Traveling Neighborhood Resource Network
+
+108. **Traveling Neighborhood Resource Network** — potential project / marketplace prototype. The user described a distributed network of neighbors or property participants who could offer very short, explicitly permitted access to resources such as overnight parking, a place to sleep, water, vehicle washing, or a place to perform limited vehicle work. The intended users include travelers and people who have experienced homelessness, but the system is not limited to one population. The desired price was described informally as affordable and below hotel cost, with roughly $50 or less discussed as an example rather than a fixed business rule.
+
+109. **Wayfinder Traveling Network distinction** — architectural boundary. This is related to the existing WAYFINDER community-information project but is not the same project. Existing WAYFINDER primarily records and verifies information about community opportunities. The new network would coordinate private-property participation, bookings/requests, permissions, payments, privacy, trust, and risk controls.
+
+110. **Jurisdiction-aware participation map** — research framework. A host location may be affected by state law, county rules, city rules, zoning, parking/camping rules, occupancy/transient-lodging rules, and other local requirements. The project should not assume a universal 28-day or 30-day rule. The user's remembered limits are preserved as questions to verify jurisdiction by jurisdiction.
+
+111. **Lease / mortgage / insurance participation gate** — research framework. Legal permissibility of an activity is separate from whether a participant has contractual or financing authority to offer it. The project should ask whether the participant is an owner, tenant, authorized occupant, manager, or another participant; whether the lease or other agreement restricts subletting, short-term rental, guests, parking, commercial activity, repairs, or related uses; whether mortgage or lender terms matter; and whether insurance covers the proposed activity.
+
+112. **Short-stay versus tenancy research question** — legal research question. The user raised concern about tenancy, “squatter's rights,” and short stays. The archive treats these as separate legal questions rather than assuming that a particular number of days automatically determines legal status. California adverse possession is a distinct doctrine with substantially different requirements; it should not be conflated with an ordinary short guest stay.
+
+113. **Network liability / shared insurance concept** — potential business and legal structure. The user proposed spreading liability costs across a network so that individual participants could provide low-cost services with appropriate protection. This remains a concept to investigate, not an established insurance model or promise of coverage. Insurance regulation, underwriting, exclusions, claims administration, host responsibility, and state-by-state operation remain unresolved.
+
+114. **Privacy-first host/traveler trust architecture** — technical and safety framework. Exact residential addresses should not be treated as an open public directory. The concept includes approximate locations before acceptance, identity/trust measures proportionate to risk, controlled disclosure of exact access information, mutual booking/consent, reporting and blocking, and minimal unnecessary retention of location history.
+
+115. **Host exploitation / targeting threat model** — safety research direction. The user identified the risk that a system intended to connect travelers with helpful households could inadvertently make those households easier to locate, rob, stalk, or exploit. This should be treated as a threat-model requirement rather than a prediction about participants. Abuse resistance, privacy, rate limits, verification, controlled disclosure, incident response, and host safety need to be designed before a public launch.
+
+116. **Neighborhood resource microservices** — potential feature family. Possible host offerings include temporary parking, sleeping space, water refill, vehicle washing, restroom access, basic tools, tire inflation, and a designated place for limited vehicle work. Each resource may have different local, contractual, safety, environmental, and insurance requirements.
+
+117. **Vehicle-work kit concept** — supporting experiment / feature idea. A participating host could provide a clearly labeled kit or defined resource for permitted basic vehicle work. The idea is to make a small, bounded service available without turning every host property into a general repair shop. Local rules and liability remain unresolved.
+
+118. **One- or two-night travel model** — potential pilot parameter. The user suggested that the platform might deliberately favor one- or two-night stays rather than maximizing length of occupancy. This is a product-design hypothesis, not a legal safe harbor.
+
+119. **Couch / car / trike / teardrop / van participation model** — user-originated use-case family. The network is envisioned as supporting people traveling by car, van, bicycle/trike, or small camper, and potentially people using a couch or another limited hospitality resource. These use cases should not be assumed legally interchangeable.
+
+120. **API / marketplace integration concept** — technical prototype direction. The user compared the desired experience to an Airbnb-style service/API, while emphasizing that the network's purpose and resource categories are different. A future system could expose availability, requests, agreements, payment, verification, and jurisdiction/eligibility information through an application interface.
+
+121. **Mercy Constraint Loop** — framework / social-systems concept. The user described a recurring pattern in which a person asks for modest help, a potential helper says they cannot help because a lease, policy, contract, or other rule prevents it, and the resulting hardship is treated as unfortunate without examining the upstream restriction. The project should preserve this as a structural hypothesis, not assume malicious intent by landlords, lenders, insurers, tenants, or other actors.
+
+122. **Contractual barrier / mutual-aid feedback question** — research question derived from the Mercy Constraint Loop. If many independent agreements or policies restrict ordinary neighbor-to-neighbor assistance, does the aggregate effect measurably reduce lawful mutual aid or increase unsheltered activity? The question requires evidence and should not be converted into a claim of coordinated intent.
+
+123. **Positive alternative / lawful participation pathway** — policy-design direction. Rather than beginning with a demand that all leases, mortgages, or insurance restrictions be invalidated, the project can investigate standardized voluntary pathways under which owners, tenants, lenders, insurers, and local governments could permit narrowly defined low-risk participation with clear responsibilities.
+
+124. **Existing-service comparison** — supporting research direction. The conversation referenced older or existing models including Neighbor, Couchsurfing, Nextdoor, and Airbnb-like marketplaces. Other hospitality/camping networks were discussed by the assistant. The archive should distinguish user-originated comparisons from assistant-suggested examples and verify current services separately before treating any as direct competitors or precedents.
+
+125. **Community-impact hypothesis** — research question. The user proposed that providing legitimate, affordable temporary places to stay or use basic resources might reduce some forms of unsafe or unauthorized activity in neighborhoods. This is a testable hypothesis, not an established effect. A pilot should measure both benefits and harms.
+
+### Deliberate boundaries
+
+The Traveling Neighborhood Resource Network is distinct from the existing WAYFINDER community-access information project. WAYFINDER is primarily an information/verification layer; the new network introduces property participation, transactions, permissions, insurance, and safety issues.
+
+It is also distinct from Community Hygiene/Laundry/Meal Access. Those projects concern public/community access to basic services; the new project concerns a distributed host/property network.
+
+Lease Harm Analysis is a supporting analytical framework, not the same project. Property Access and Community Title is a separate legal-structure exploration. The new project may use their questions about contractual authority and property access without merging the projects.
+
+The user's observations about leases preventing neighbor assistance are preserved as observations and research questions. They are not treated as proof that landlords, lenders, insurers, or governments intentionally coordinate to prevent assistance.
+
+The user's reference to “squatter's rights” is preserved as a question, not as a claim that one- or two-night participation creates or avoids tenancy. California's current legal materials should be checked for each specific issue and jurisdiction.
+
+The network-liability idea is preserved as a business/legal hypothesis. It does not mean that a network can automatically assume or eliminate a host's liability.
+
+### Current archive status
+
+No existing apo folder was found whose stated purpose was this specific paid, very-short-stay/private-resource network. A new self-contained folder was therefore added:
+
+- traveling-neighborhood-resource-network/README.md
+- traveling-neighborhood-resource-network/concept-and-provenance.md
+- traveling-neighborhood-resource-network/jurisdiction-lease-mortgage-insurance.md
+- traveling-neighborhood-resource-network/safety-trust-and-privacy.md
+- traveling-neighborhood-resource-network/resource-categories-and-pilot.md
+- traveling-neighborhood-resource-network/technical-prototype.md
+- traveling-neighborhood-resource-network/mercy-constraint-loop.md
+
+The root README remains untouched.
+
+This inventory update preserves the distinction between user experience, interpretation, hypothesis, legal question, business concept, technical proposal, and documented evidence. Inclusion does not mean validation; absence does not mean rejection.

@@ -9,6 +9,20 @@
 > **When adding new work:** put it into its own clearly named folder, keep that folder self-contained and usable, preserve its original meaning and provenance, and do not treat unfinished ideas as established facts.
 >
 > ### Standard APO Push Prompt
+Upload this conversation to my GitHub repository:
+
+
+
+https://github.com/paulsailchen55-rgb/apo
+
+
+
+Treat apo only as a chat archive/reference repository.
+
+
+
+Create ONE new folder for this conversation and put the conversation archive inside that folder.
+
 >
 > ```text
 > Push this work to my GitHub repository:

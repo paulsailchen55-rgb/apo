@@ -329,19 +329,19 @@ This inventory update preserves the distinction between user experience, interpr
 
 ## Archive update — 2026-09-18: Chromebook network privacy / DNS / VPN experiment
 
-91. **Chromebook network privacy configuration experiment** — technical experiment involving Proton VPN, Chrome Secure DNS, Quad9 DNS (9.9.9.9), Cloudflare DNS (1.1.1.1), and browser/network behavior. Purpose: determine what privacy controls can function reliably on the Chromebook/network without breaking ordinary connectivity.
+126. **Chromebook network privacy configuration experiment** — technical experiment involving Proton VPN, Chrome Secure DNS, Quad9 DNS (9.9.9.9), Cloudflare DNS (1.1.1.1), and browser/network behavior. Purpose: determine what privacy controls can function reliably on the Chromebook/network without breaking ordinary connectivity.
 
-92. **VPN-versus-encrypted-DNS distinction** — supporting technical framework. VPN routing, DNS-over-HTTPS, and Encrypted Client Hello (ECH) are separate mechanisms with different visibility properties. None should be treated as a complete invisibility mechanism.
+127. **VPN-versus-encrypted-DNS distinction** — supporting technical framework. VPN routing, DNS-over-HTTPS, and Encrypted Client Hello (ECH) are separate mechanisms with different visibility properties. None should be treated as a complete invisibility mechanism.
 
-93. **Xfinity/router connectivity-failure investigation** — troubleshooting/research question concerning the user's report that changing VPN/DNS settings caused connection failures. The observation is preserved, but no conclusion is made that Comcast intentionally blocked the settings or monitored browsing.
+128. **Xfinity/router connectivity-failure investigation** — troubleshooting/research question concerning the user's report that changing VPN/DNS settings caused connection failures. The observation is preserved, but no conclusion is made that Comcast intentionally blocked the settings or monitored browsing.
 
-94. **Cloudflare 1.1.1.1 diagnostic test** — experiment intended to establish whether Chrome is using encrypted DNS. The user's report that the diagnostic page itself could not be reached is an observed result, not proof of a particular cause.
+129. **Cloudflare 1.1.1.1 diagnostic test** — experiment intended to establish whether Chrome is using encrypted DNS. The user's report that the diagnostic page itself could not be reached is an observed result, not proof of a particular cause.
 
-95. **ECH / Chrome flags investigation** — technical research question concerning browser support and usefulness of Encrypted Client Hello in the user's configuration. Earlier advice called ECH an “ultimate stealth” mechanism; the archive preserves that as assistant-generated characterization, not established fact.
+130. **ECH / Chrome flags investigation** — technical research question concerning browser support and usefulness of Encrypted Client Hello in the user's configuration. Earlier advice called ECH an “ultimate stealth” mechanism; the archive preserves that as assistant-generated characterization, not established fact.
 
-96. **Network-location / San Francisco interpretation question** — research question about interpreting apparent network-location results. A San Francisco result may describe an ISP/service endpoint, routing location, data center, or geolocation estimate; it is not by itself evidence of surveillance.
+131. **Network-location / San Francisco interpretation question** — research question about interpreting apparent network-location results. A San Francisco result may describe an ISP/service endpoint, routing location, data center, or geolocation estimate; it is not by itself evidence of surveillance.
 
-97. **Positive privacy troubleshooting method** — framework: make one change at a time, retain a known-good configuration, record exact errors, distinguish observation from explanation, and measure what the network/browser actually reveals before attributing intent.
+132. **Positive privacy troubleshooting method** — framework: make one change at a time, retain a known-good configuration, record exact errors, distinguish observation from explanation, and measure what the network/browser actually reveals before attributing intent.
 
 ### Chromebook network privacy boundary
 

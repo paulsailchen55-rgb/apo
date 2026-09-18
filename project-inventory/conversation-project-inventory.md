@@ -388,3 +388,42 @@ Plugin availability is a tooling observation and should not become evidence abou
 The 1214 first-pass research belongs with the existing Seabright and Property Risk folders rather than becoming a new duplicate project.
 
 The root README remains untouched.
+
+
+## Archive update — 2026-09-18: Civic Flow Chart architecture and feedback bridge
+
+92. **Civic Flow Chart — Version 1 architecture** — framework / potential software project. The conversation defines a resident-facing and government-facing navigation layer for complicated civic processes. It maps existing procedures without replacing official authority and is intended to work in print, libraries, basic HTML, and eventually interactive software.
+93. **Child Test** — usability test for civic explanations. A person should be able to identify what is happening, what they are trying to do, where they are, who decides, who is responsible for the next step, what is required, why, cost, expected time, what happens next, and whether they can pause, backtrack, appeal, correct, or exit.
+94. **Civic node model** — framework. A node can include space, time/clock, priority, audience, authority, responsibility, input, action, status, money, next, backtrack, and exit. Unknown information is explicitly allowed.
+95. **Multiple civic clocks** — framework. Legal deadline, administrative target, observed duration, resident elapsed time, and financial clock should not be collapsed into one number.
+96. **Friction-purpose analysis** — framework. Ask “What is this friction doing?” before asking only what the resident must do. Friction may have legitimate functions as well as burdens.
+97. **Backtrack/reversibility map** — framework. Distinguish navigation backtracking, administrative correction, appeal/review, legal reversibility, physical reversibility, and irreversible consequences.
+98. **Current Process / Proposed Alternative separation** — guardrail. Existing authoritative process must remain distinct from proposals, experiments, and redesigns.
+99. **Resident Map / Government Map / Flow Map** — three views of the same underlying process graph: what the resident encounters, who is responsible, and how the process moves.
+100. **Twelve master doors** — navigation taxonomy of 12 broad civic domains. It is an organizing interface, not a claim that government consists of exactly 12 parts.
+101. **Emergency Mode** — alternative presentation of the same civic map emphasizing immediate safety, hazards, critical infrastructure, essential services, recovery, and return to normal civic business. The sequence is operational, not a moral ranking.
+102. **Ledger / Lab / Archive** — supporting architecture for recording friction and evidence, testing alternatives, and preserving prior maps and institutional memory without turning the archive into the current interface.
+103. **Civic Memory / Continuity / Renewal** — lifecycle framework preserving prior versions, carrying useful knowledge forward, and periodically reviewing what continues, changes, is replaced, or retires. “Lifecycle Review / Renewal Cycle” is the preferred secular wording.
+104. **Completion / contribution distinction** — framework distinguishing official/process/experience/outcome records and archive; “endpoint” does not necessarily equal completion or closure. Human dignity should not become a bureaucratic score.
+105. **System Gravity** — working metaphor for resistance between civic states/nodes, involving time, money, distance, knowledge, physical access, technology, uncertainty, authority, and risk. It is not a claim about a physical scientific force.
+106. **Maintenance and staleness controls** — framework requiring source owner, source location, verification date, effective date/version, review trigger, and responsible reviewer for time-sensitive information; uncertainty may remain UNKNOWN or DISPUTED.
+107. **Civic Flow self-audit / hostile-user testing** — framework for testing whether the map itself becomes an authority, bureaucracy, gatekeeper, source of false certainty, or new friction.
+108. **Fast production / slow release** — development rule. Move quickly during research and prototyping, but require substantive, structural, rendering, recipient, and evidence review before public release.
+109. **Resident Feedback & Evidence Bridge** — framework / potential infrastructure. Map not only the path a resident takes through government, but the path the resident’s observation takes back into the system.
+110. **Experience → Reflection record model** — evidence framework. Preserve an in-the-moment observation and, when the person chooses, a later reflection as separate records. Neither is automatically treated as more truthful; each has different sources of distortion.
+111. **Report → Route → Receipt → Review → Decision/Response → Record → Learning loop** — feedback architecture. Receipt proves entry into a channel, not agreement or guaranteed change. Receiver, router, responsible operator, reviewer, and authorized decision-maker remain distinct roles.
+112. **Feedback provenance / privacy / aggregation** — supporting framework. Preserve source and context while separating private case data, restricted records, de-identified aggregates, and public pattern evidence where lawful and appropriate. Do not promise anonymity or publication rules that have not been established.
+113. **“THIS LOOKS WRONG.” correction path** — usability principle for low-friction correction of mapped information without requiring the resident to understand the full system.
+114. **Continuous feedback versus formal survey** — research/design distinction. Standing feedback can capture experience near the event; formal surveys can sample defined populations later. They are complementary evidence mechanisms rather than universally ranked methods.
+
+### Boundaries for Civic Flow work
+
+Civic Flow remains separate from the Government Authority / Committee Framework even though the two inform each other. It remains separate from Personal Agency Infrastructure, which supplies broader provenance, permissions, routing, and AI-transformation principles. The 1214 Soquel/Seabright project is a test case, not the definition of Civic Flow. Emergency mode is a presentation of the same underlying model, not a separate emergency-government project.
+
+The Resident Feedback & Evidence Bridge is a component of Civic Flow, not a general complaint-management product. Its implementation remains subject to applicable privacy, records, security, accessibility, legal, and institutional requirements.
+
+### Archive status
+
+The existing apo civic-flow-chart folder was only partially representative of the expanded conversation. This archive pass added a self-contained architecture record and a separate feedback/evidence bridge record rather than replacing the earlier files.
+
+The separate active project repository remains the implementation/workbench location. apo preserves reference material and conversation-derived context so future chats can load the conceptual history without treating the archive as the project itself.

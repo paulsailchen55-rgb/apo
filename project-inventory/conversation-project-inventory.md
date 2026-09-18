@@ -485,3 +485,25 @@ The following existing archive packages were treated as adequate homes rather th
 This reconciliation does not imply that related packages should be merged. Shared themes such as closure, provenance, modularity, civic access, AI, or resilience are not sufficient reason to collapse distinct projects.
 
 The root `README.md` was not modified.
+
+
+## Archive update — 2026-09-18: Sustainable Apartment System
+
+148. **Sustainable Apartment System** — project / integrated apartment ecosystem concept. This broader project covers kitchen, bathroom, laundry, bedroom, living room, storage, furniture, fabrics, reusable containers, repair/replacement logistics, resilience, lifecycle closure, and open documentation. It is intentionally separate from the narrower Apartment Circular Materials Standard, Modular Material Recovery System, and Minimal Functional Continuity projects.
+
+### Sustainable Apartment System boundary
+
+The project uses three proposed material systems—plant fibers; structural plant materials; and binding/joining/interface materials—as one design direction, while allowing limited specialized materials where safety, sealing, durability, accessibility, repair, or function requires them. Local production, lifecycle benefits, and sustainability claims remain research questions.
+
+The guiding purpose is to make a home cooperate with natural cycles while leaving people free to serve, create, rest, and care for one another; “protect and preserve” and “design for living, not living for design” are preserved as guiding language rather than factual claims.
+
+The Three Sisters discussion is retained as ecological inspiration/analogy, not evidence or an equivalence claim about Indigenous traditions. Richlite remains an example of a paper-based composite using phenolic resin, not a plastic-free or fully biodegradable material.
+
+### Archive status
+
+A new self-contained folder was added:
+
+- sustainable-apartment-system/README.md
+- sustainable-apartment-system/conversation-context.md
+
+The root README remains untouched. The folder preserves the broader system concept without duplicating or merging the related narrower projects.

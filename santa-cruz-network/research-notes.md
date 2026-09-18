@@ -2,13 +2,13 @@
 
 ## Why this folder exists
 
-The immediate research question was prompted by finding historical material while looking into Bruce Van Allen and Mike Brodkin, followed by contact with people connected to that local history.
+The immediate research question was prompted by finding historical material while looking into [PERSON_042] and Mike Brodkin, followed by contact with people connected to that local history.
 
 The broader question is how to understand a living person's present-day network and worldview without converting historical records into fixed identities.
 
 ## Historical anchor: Van Allen / Rotkin
 
-The linked interview is a 1979 historical interview with Bruce Van Allen and Mike Rotkin following their election to Santa Cruz City Council:
+The linked interview is a 1979 historical interview with [PERSON_042] and [PERSON_071] following their election to Santa Cruz City Council:
 
 https://whorulesamerica.ucsc.edu/santacruz/rotkin_van_allen_interview.html
 

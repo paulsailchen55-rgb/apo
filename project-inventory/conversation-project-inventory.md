@@ -197,3 +197,62 @@ Two new self-contained folders were added:
 - decade-boundary-map/
 
 The LED question remains a test case rather than a separate project. The domain/Census coincidence remains separate because it concerns institutional time boundaries rather than LED health evidence. No existing project folder was intentionally overwritten, and the root README was not modified.
+
+
+
+## Archive update — 2026-09-18: temporary expansive interfaces / slug + beetle construction
+
+94. **Temporary Expansive Interfaces for Heavy Construction** — research hypothesis / potential interdisciplinary project. Central question: whether temporary interfaces can reduce the mechanical difficulty of moving, positioning, shaping, or constructing with very heavy materials.
+
+95. **Slug + Beetle model** — framework / system concept. The “slug” is a temporary conformal interface; the “beetle” is the mechanical mover. The names are user metaphors, not historical or biological claims.
+
+96. **100-ton lifting calculation** — quantitative research question / modeling exercise. A 100 metric ton load weighs about 981 kN. Required average pressure to balance that load is approximately 981 kPa over 1 m², 245 kPa over 4 m², and 98 kPa over 10 m². These are ideal first-order values, not engineering specifications.
+
+97. **1–10 mm incremental transport principle** — mechanical framework / experiment. Instead of continuously lifting a huge load, repeatedly create small clearance, lock, advance, reset, and repeat.
+
+98. **Sand as temporary infrastructure** — research direction / supporting engineering concept. A thin graded granular layer may act as a temporary road or terrain-adaptation layer. The user proposed a conceptual 1–10 mm grading range; this is not a validated specification.
+
+99. **Water + land/mineral + plants materials framework** — supporting materials concept. The user's formulation connects water, mineral terrain, and plant-derived materials as possible ingredients in temporary construction systems. In the formal research package this is treated as a materials question, not a scientific or theological premise.
+
+100. **Foam as an expansive pressure boundary** — research question. Modern foamed polyurethane demonstrates chemical expansion and infrastructure lifting, but no claim is made that natural or ancient foam can produce equivalent pressure.
+
+101. **Plant/seaweed-derived foam research** — materials experiment / research direction. Oats, saponin-containing plants, alginate, ulvan, and related surface-active materials are candidate families for controlled foam experiments. Their existence or foaming ability does not establish useful lifting capacity.
+
+102. **Reactive or “rock-eating” foam** — research question / metaphor. The user's phrase is translated into a testable idea of a foam/viscous carrier maintaining a reactive boundary layer at a mineral surface. No claim is made that foam intrinsically dissolves rock.
+
+103. **Foam-assisted abrasive interface** — research question. Ancient experimental drilling evidence indicates that water or lubricants can help retain abrasive at a cutting interface. The new question is whether a structured foam/gel/slurry could provide related particle-retention or transport functions.
+
+104. **Biodegradable temporary machinery** — potential engineering direction. The user proposed temporary mechanical systems and interfaces that could be recovered, reused, or biodegraded after construction. Material safety, strength, durability, and lifecycle remain unresolved.
+
+105. **Remote / rough-terrain construction system** — potential application. The combined slug, beetle, and temporary sand-road concept was connected to remote construction, terraces, shelters, storm response, and building on difficult terrain.
+
+106. **Archaeological foam-powered construction hypothesis** — historical research question. The conversation considered whether ancient builders might have used foaming or expanding interfaces. Current evidence supports several component technologies but does not establish this historical claim.
+
+107. **Temporary infrastructure as a general principle** — framework. Rather than permanently transforming an entire landscape, temporarily modify the local interface, move or construct the load, then recover or allow suitable temporary materials to disperse.
+
+### Deliberate boundaries
+
+The temporary-interface body of work is separate from Vertical Commons, Santa Cruz Modular Public Infrastructure, Minimal Functional Continuity, Ocean research, and the existing information-archaeology projects. Shared interests in sustainability, infrastructure, or temporary systems do not merge them.
+
+The archaeological hypothesis is kept separate from the modern engineering hypothesis. Modern polyurethane evidence is evidence about physics and engineering, not evidence about ancient practice.
+
+The user’s household oatmeal/seaweed observation is preserved as provenance and inspiration, not as a controlled experiment or proof of lifting capacity.
+
+The slug and beetle are metaphors for system roles. They are not claims that biological organisms supplied the historical technology.
+
+### Archive status
+
+A new self-contained folder was added:
+
+- temporary-expansive-interfaces-heavy-construction/README.md
+- temporary-expansive-interfaces-heavy-construction/hypothesis-paper.md
+- temporary-expansive-interfaces-heavy-construction/quantitative-100-ton-model.md
+- temporary-expansive-interfaces-heavy-construction/slug-beetle-sand-road-model.md
+- temporary-expansive-interfaces-heavy-construction/materials-and-mechanisms.md
+- temporary-expansive-interfaces-heavy-construction/experimental-protocol.md
+- temporary-expansive-interfaces-heavy-construction/archaeological-research-agenda.md
+- temporary-expansive-interfaces-heavy-construction/conversation-provenance.md
+
+No existing project folder was overwritten. The root README remains untouched.
+
+This update preserves the distinction between the user's observations and metaphors, assistant-generated organization, documented modern/archaeological evidence, physical hypotheses, and unresolved historical claims.

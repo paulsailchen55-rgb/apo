@@ -98,7 +98,7 @@ The intended distinction was:
 
 A web-researched City of Santa Cruz project page was identified as the primary source for current project status.
 
-The page is titled “Soquel Avenue, 1214 (CP26-0103)” and identifies Workbench as applicant and Rina Zhoux as the planner reviewing the SB330 preapplication.
+The page is titled “Soquel Avenue, 1214 (CP26-0103)” and identifies Workbench as applicant and [PERSON_001] as the planner reviewing the SB330 preapplication.
 
 The City page states that on July 16, 2026, Planning received two SB330-only preapplications from Workbench involving two different concepts. It explains that an SB330 preapplication is a preapplication process and that the submitted drawings are preliminary massing diagrams rather than the actual formal proposed design.
 

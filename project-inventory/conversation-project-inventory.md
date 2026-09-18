@@ -325,3 +325,39 @@ No existing apo folder was found whose stated purpose was this specific paid, ve
 The root README remains untouched.
 
 This inventory update preserves the distinction between user experience, interpretation, hypothesis, legal question, business concept, technical proposal, and documented evidence. Inclusion does not mean validation; absence does not mean rejection.
+
+
+## Archive update — 2026-09-18: Chromebook network privacy / DNS / VPN experiment
+
+91. **Chromebook network privacy configuration experiment** — technical experiment involving Proton VPN, Chrome Secure DNS, Quad9 DNS (9.9.9.9), Cloudflare DNS (1.1.1.1), and browser/network behavior. Purpose: determine what privacy controls can function reliably on the Chromebook/network without breaking ordinary connectivity.
+
+92. **VPN-versus-encrypted-DNS distinction** — supporting technical framework. VPN routing, DNS-over-HTTPS, and Encrypted Client Hello (ECH) are separate mechanisms with different visibility properties. None should be treated as a complete invisibility mechanism.
+
+93. **Xfinity/router connectivity-failure investigation** — troubleshooting/research question concerning the user's report that changing VPN/DNS settings caused connection failures. The observation is preserved, but no conclusion is made that Comcast intentionally blocked the settings or monitored browsing.
+
+94. **Cloudflare 1.1.1.1 diagnostic test** — experiment intended to establish whether Chrome is using encrypted DNS. The user's report that the diagnostic page itself could not be reached is an observed result, not proof of a particular cause.
+
+95. **ECH / Chrome flags investigation** — technical research question concerning browser support and usefulness of Encrypted Client Hello in the user's configuration. Earlier advice called ECH an “ultimate stealth” mechanism; the archive preserves that as assistant-generated characterization, not established fact.
+
+96. **Network-location / San Francisco interpretation question** — research question about interpreting apparent network-location results. A San Francisco result may describe an ISP/service endpoint, routing location, data center, or geolocation estimate; it is not by itself evidence of surveillance.
+
+97. **Positive privacy troubleshooting method** — framework: make one change at a time, retain a known-good configuration, record exact errors, distinguish observation from explanation, and measure what the network/browser actually reveals before attributing intent.
+
+### Chromebook network privacy boundary
+
+This body of work overlaps with Functional Phone — Minimal Dependencies and Internet Complexity, Voice & Knowledge Access, but remains separate because it is a concrete Chromebook/network experiment rather than a general phone configuration or broad research program.
+
+The archive does not establish that Comcast is tracking the user's browsing, forcing traffic through a surveillance loop, deliberately blocking encryption, or monitoring particular data. Those were interpretations raised in conversation.
+
+The archive also does not claim that ECH makes browsing completely invisible. ECH can protect particular hostname information in supported TLS connections, while other metadata and network relationships can remain observable.
+
+### Archive status
+
+A new self-contained package was added:
+
+- chromebook-network-privacy-dns-vpn-experiment-2026-09/README.md
+- chromebook-network-privacy-dns-vpn-experiment-2026-09/conversation-notes.md
+- chromebook-network-privacy-dns-vpn-experiment-2026-09/technical-claims-and-corrections.md
+- chromebook-network-privacy-dns-vpn-experiment-2026-09/test-plan.md
+
+The root README remains untouched.

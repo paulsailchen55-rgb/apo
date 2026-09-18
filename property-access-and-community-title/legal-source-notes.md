@@ -16,11 +16,11 @@ https://dre.ca.gov/Publications/RealEstateLaw.html
 
 User-reported:
 - California Real Estate Principles — Charles O. Stapletown and Martha R. W. [Exact edition not established.]
-- California Real Estate Practice — William H. Pivarr, Leo Anderson, and Daniel S. Otto. [Public listings located during the archive pass identify the middle author as Lowell Anderson; exact edition in the user's possession is not established.]
+- California Real Estate Practice — William H. Pivarr, Leo Anderson, and Daniel S. Otto. [Public listings located during the archive pass identify the middle author as Lowell Andersson; exact edition in the user's possession is not established.]
 
 Public textbook listings confirm:
 - California Real Estate Principles by Charles O. Stapletown III and Martha R. Williams, JD.
-- California Real Estate Practice by William H. Pivarr, Lowell Anderson, and Daniel S. Otto.
+- California Real Estate Practice by William H. Pivarr, Lowell Andersson, and Daniel S. Otto.
 
 These listings establish bibliographic existence, not the contents of the user's particular copies.
 

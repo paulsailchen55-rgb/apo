@@ -427,3 +427,43 @@ The Resident Feedback & Evidence Bridge is a component of Civic Flow, not a gene
 The existing apo civic-flow-chart folder was only partially representative of the expanded conversation. This archive pass added a self-contained architecture record and a separate feedback/evidence bridge record rather than replacing the earlier files.
 
 The separate active project repository remains the implementation/workbench location. apo preserves reference material and conversation-derived context so future chats can load the conceptual history without treating the archive as the project itself.
+
+
+## Archive update — 2026-09-18: apartment circular materials and modular recovery system
+
+133. **Apartment Circular Materials Standard** — project / research and design standard. Household products are envisioned around limited material systems, initially discussed as “two materials” and refined to three broad systems: plant fiber; structural plant material; and binding/joining/interface materials. Scope includes kitchenware, containers, bathroom/laundry goods, furniture, storage, emergency goods, repair, reuse, disassembly, local production, and end-of-life closure. It is a proposal, not an established standard.
+
+134. **Modular Material Recovery System** — project / experiment / prototype research. A proposed family of enclosed, standardized Material Recovery Modules rather than one universal machine. Core sequence: **Identify → Route → Process → Verify**. Furniture and household goods should be modularly separable before high-energy processing is considered.
+
+135. **Specialized processing-profile architecture** — framework / technical concept. The user's experience with large automated recovery machinery led to the distinction between a reprogrammable machine and a universally configured machine. Each module may be reprogrammable but should normally operate using a validated processing profile tailored to a defined material class and condition.
+
+136. **AI-assisted identification and routing** — technical framework / research question. Sensors and AI may assist identification, classification, routing, anomaly detection, monitoring, and output verification. AI should not be treated as an unrestricted authority to invent physical processing behavior in real time.
+
+137. **Robotic material-handling cell** — prototype concept. A sealed processing chamber may use one or more robotic arms to hold, rotate, inspect, separate, or present components to fixed or movable processing stations. The exact arm/tool arrangement remains unresolved.
+
+138. **Blasting / particle-reduction hypothesis** — experiment / research question. The original concept imagined blasting components into very small particles or dust. The archive explicitly preserves this as a hypothesis because abrasive processing can create respirable dust, heat, noise, sparks, and fragments. The preferred design principle is controlled material liberation and separation rather than destruction into dust.
+
+139. **Vibration-based separation hypothesis** — experiment / research question. Vibration may help separate material streams, but the idea that mixed material will automatically form clean layers is unverified. Particle size, density, shape, moisture, electrostatics, magnetic properties, airflow, and surface properties need testing.
+
+140. **Contained output-block logistics** — potential prototype. Recovered material could be placed into stackable, identifiable containers/blocks. The preferred rule is one block/container per known controlled material stream unless a documented downstream process is designed for a mixture.
+
+141. **Microbial outer-skin hypothesis** — speculative packaging concept. A biological/mineral “skin” was proposed as a way to seal fine recovered material inside a transportable block. It remains a hypothesis; reusable rigid containers, liners, molded fiber, and appropriate binders are alternative research paths.
+
+142. **Lego-like machine interface** — framework / technical architecture. Machine modules could share standardized mounting, power, data, emergency-stop, airflow, material inlet/outlet, identification, maintenance, and safety interfaces. Product modularity and machine modularity are linked but remain separate design problems.
+
+### Deliberate boundaries
+
+The Apartment Circular Materials Standard and Modular Material Recovery System are related but intentionally separate archives. The first concerns product/material design and lifecycle; the second concerns recovery equipment and processing architecture.
+
+The Three Sisters analogy remains supporting ecological inspiration, not evidence or a claim of equivalence to Indigenous traditions. Local plant production remains a hypothesis requiring lifecycle analysis. Richlite remains an example of a paper-based composite using phenolic resin and therefore is not described as plastic-free or fully biodegradable.
+
+The recovery machine remains conceptual. The archive does not establish that dust is harmless, that vibration produces layers, that microbial packaging is validated, or that AI can safely determine physical processing parameters without engineering controls.
+
+### Archive status
+
+Two new self-contained folders are added:
+
+- apartment-circular-materials-standard/
+- modular-material-recovery-system/
+
+Each contains a README and a conversation-context/provenance note. The existing inventory was updated rather than overwritten. The root README was intentionally left untouched.

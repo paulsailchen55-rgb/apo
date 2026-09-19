@@ -990,6 +990,283 @@ The conversation also associated wearable authentication objects with the biblic
 This section adds a new physical-token branch to the authentication research. The YubiKey comparison is documented current technology; the non-NFC acoustic token, 300-kHz signaling concept, multimodal physiological/VOC token, and one-button wearable form factor are proposed research directions. The existence of electronic-nose sensing and hardware security keys does not establish that the combined device is practical or secure. The next meaningful step would be a small laboratory prototype that tests the acoustic channel and cryptographic protocol separately before attempting to combine every sensing modality.
 
 
+
+## In-band acoustic steganography for authentication over ordinary cellular voice
+
+The conversation then connected the proposed acoustic authentication token to a different, established field: audio steganography and hidden-data communication.
+
+The remembered artistic example is most likely **Aphex Twin (Richard D. James)**. His 1999 *Windowlicker* release contains audio that can reveal hidden images when viewed as a spectrogram. Contemporary documentation and later technical discussion describe the images as being encoded into the sound itself; Wired described the technique as an aural equivalent of steganography, and research literature describes audio data-hiding methods including phase coding, spread-spectrum encoding, echo-based encoding, and other techniques. citeturn1search6turn1search0turn0search12
+
+This is important to the Simple Voice Link idea because it changes the question from:
+
+> Can a 300 kHz signal travel through a normal cellular voice call?
+
+to:
+
+> Can information associated with a high-frequency authentication device be encoded into an ordinary telephone-audio signal, survive the cellular audio path, and then be reconstructed or interpreted by the secretary at the receiving end?
+
+Those are very different engineering questions.
+
+### The proposed architecture
+
+The working concept is:
+
+```
+Physical authentication token
+        ↓
+local acoustic / ultrasonic signal
+        ↓
+phone sensor and local encoder
+        ↓
+ordinary telephone-audio signal
+        ↓
+cellular voice codec / network
+        ↓
+secretary receiver
+        ↓
+steganographic decoder
+        ↓
+authentication evidence
+        ↓
+authorization policy
+```
+
+The phone would not need to transmit an actual 300 kHz acoustic waveform through the cellular voice channel.
+
+Instead, the local device could measure or receive the high-frequency token signal, convert the relevant information into a compact digital representation, and embed that representation into the audio that the phone is already sending.
+
+The secretary would then recover the embedded information from the received audio.
+
+This is closer to a **covert/in-band data channel or audio watermark/steganographic channel** than to transmitting 300 kHz audio.
+
+### The “ghost” of the 300 kHz signal
+
+The phrase “ghost note” is useful as a design metaphor, but technically the receiving end would not necessarily be recovering the original 300 kHz waveform.
+
+Suppose the physical token produces a short high-frequency signal locally. The phone could extract a feature or cryptographic message from that signal. That message could then be represented by patterns inside the ordinary voice-band signal—possibly through phase, amplitude, timing, spread-spectrum, multicarrier, echo, or another robust modulation method.
+
+The remote secretary would decode the embedded message and recover the digital authentication information.
+
+So the chain could be:
+
+```
+300-kHz-class local signal
+        ↓
+local sensor / ADC
+        ↓
+feature extraction or cryptographic response
+        ↓
+compact digital token
+        ↓
+audio-band embedding
+        ↓
+cellular voice path
+        ↓
+audio-band extraction
+        ↓
+digital token recovered
+```
+
+The 300 kHz component therefore becomes a **local source of information**, not a requirement for the cellular network to carry 300 kHz.
+
+That distinction may make the concept considerably more practical.
+
+### Why the idea is technically plausible
+
+Audio steganography is an established research area. Published work describes several ways of hiding information in an audio carrier, including low-bit encoding, phase encoding, spread-spectrum methods, and echo-based methods. citeturn0search12
+
+More importantly for this project, research on **in-band acoustic data communication** has specifically investigated hiding data inside audible audio so that the data can survive codec and bandpass processing. A 2023 Princeton-affiliated paper on SoundSticker describes embedding hidden bits in audible sounds rather than relying only on inaudible frequency bands, using phase changes and an OFDM-based physical layer. citeturn0search13
+
+That is directly relevant to the proposed cellular path. A frequency component that simply sits above the telephone/codec passband can be removed. A signal encoded into features that survive the actual audio codec has a better chance of reaching the secretary.
+
+This does **not** establish that a particular LTE/VoLTE/EVS implementation will preserve a proposed authentication channel. It establishes the research principle that hidden data can be designed around the transformations imposed by an audio channel.
+
+### The carrier does not need to know the hidden data exists
+
+The proposed design could be entirely application-level at the endpoints.
+
+The cellular system would continue carrying an ordinary voice call. The phone would produce a normal-sounding voice signal, with a small additional structured signal embedded in it. The remote secretary would run a decoder against the received audio.
+
+Conceptually:
+
+```
+User speech ────────────────┐
+                            ├─→ audio encoder → cellular network
+Authentication data → embed┘
+                                      ↓
+                              received audio
+                                      ↓
+                       speech to secretary + decoder
+```
+
+The carrier's voice service would therefore not have to provide a special “300 kHz authentication channel.”
+
+### The major engineering problem: codec survival
+
+This is where the idea needs to be tested rather than assumed.
+
+Modern cellular voice systems can use different codecs and modes. 3GPP maintains the EVS codec specifications and related functions as current standards, so the exact audio transformation depends on the actual service path and configuration. citeturn0search0turn0search8
+
+A hidden signal that works perfectly in a WAV file may disappear after:
+
+- microphone and speaker frequency response,
+- automatic gain control,
+- noise suppression,
+- voice activity detection,
+- dynamic processing,
+- codec analysis/synthesis,
+- packet loss and concealment,
+- transcoding between codecs,
+- narrowband/wideband interworking,
+- echo cancellation,
+- resampling,
+- radio/network adaptation,
+- or the receiving telephone's audio processing.
+
+Therefore the right research sequence is not “design the perfect secret signal” first.
+
+It is:
+
+1. Identify the actual audio path.
+2. Record the signal before transmission.
+3. Send it through the real cellular service.
+4. Record the received signal.
+5. Compare what survived.
+6. Determine which modulation/embedding methods remain decodable.
+7. Measure false detections, missed detections, bit errors, and latency.
+8. Only then optimize the authentication protocol.
+
+### A useful distinction: data channel versus biometric signal
+
+The embedded signal should preferably carry a **cryptographic response**, not a raw biometric identity.
+
+For example:
+
+```
+Token contains secret/private key
+        ↓
+Phone or token receives fresh challenge
+        ↓
+Cryptographic response generated
+        ↓
+Response encoded into audio
+        ↓
+Secretary verifies cryptographic response
+```
+
+The audio steganographic channel would then be merely the transport mechanism.
+
+This is much cleaner than trying to hide a complete “voiceprint” or physiological signature inside the call.
+
+The secretary could combine the recovered token evidence with other observations:
+
+```
+Recovered cryptographic token
+        +
+Voice / behavioral evidence
+        +
+Physical-presence evidence
+        +
+Optional physiological evidence
+        ↓
+Action-specific authorization
+```
+
+The individual channels remain distinguishable.
+
+### Why a very small payload may be enough
+
+The authentication message does not need to contain a photograph, a voice recording, or a large sensor dataset.
+
+A fresh challenge/response or short authenticated token may be enough.
+
+That changes the engineering problem dramatically. Instead of trying to transmit the complete information produced by a 300 kHz sensor, the local endpoint could reduce the sensor output to a small cryptographic statement such as:
+
+```
+challenge + device response + freshness + protocol metadata
+```
+
+The exact protocol would need to be designed separately. The point is that the cellular audio channel may only need to carry a small number of robustly encoded bits.
+
+### The “20 kHz is enough” idea needs one correction
+
+The earlier discussion established that modern voice systems can be substantially wider than traditional 300–3400 Hz telephone audio, with EVS capable of wide/fullband operation. However, it would be too strong to say that “LTE gives us 20 kHz” as a guaranteed end-to-end property of every LTE cellular call.
+
+The actual available speech/audio bandwidth depends on the handset, codec mode, carrier configuration, call setup, interworking, and the complete audio path.
+
+For this project, the useful statement is:
+
+> There are modern cellular voice paths with substantially more audio bandwidth than the old narrow telephone band, but the project must measure the actual end-to-end path rather than assume a particular upper frequency.
+
+3GPP's EVS specification is currently maintained through Release 19, illustrating that EVS remains a live standardized codec family rather than a historical laboratory format. citeturn0search0
+
+### A possible experimental design
+
+A first prototype could avoid cellular networks entirely.
+
+**Stage 1 — clean audio channel**
+
+Generate a known voice signal plus a small hidden authentication payload. Pass it through controlled resampling, filtering, AGC, compression, and codec simulations. Determine which embedding schemes survive.
+
+**Stage 2 — actual phone hardware**
+
+Use the intended phone microphone/audio path and measure the signal before it enters the cellular call.
+
+**Stage 3 — real cellular call**
+
+Place calls through the intended carrier/service and capture the received audio at the secretary side. Test several call conditions rather than one successful demonstration.
+
+**Stage 4 — adversarial testing**
+
+Test:
+
+- ordinary speech;
+- silence and pauses;
+- competing speakers;
+- television/music/background noise;
+- different microphones;
+- different phones;
+- different carriers;
+- different network conditions;
+- packet loss;
+- codec changes;
+- replayed audio;
+- deliberately altered audio;
+- attempts to inject a false authentication signal.
+
+**Stage 5 — cryptographic integration**
+
+Only after the physical audio channel is characterized should the prototype connect the embedded data to a real challenge-response protocol.
+
+### The design may work even if the 300 kHz part fails
+
+This is an important architectural advantage.
+
+The high-frequency token can be treated as one possible **local sensing/input mechanism**, not as a mandatory part of the cellular protocol.
+
+If experiments show that 300 kHz adds useful local information, it can remain.
+
+If experiments show that ordinary acoustic frequencies or another local sensor are sufficient, the same in-band cellular authentication architecture can remain while the local sensor changes.
+
+So the project can separate:
+
+```
+Local physical authentication method
+             ↓
+     compact authenticated data
+             ↓
+     robust audio-band transport
+             ↓
+        secretary decoder
+```
+
+That keeps the research from becoming dependent on one frequency range.
+
+### Status of this branch
+
+This is a new research branch derived from the conversation and supported by research on audio steganography and in-band acoustic data communication. The artistic reference to Aphex Twin's spectrogram-encoded images is documented; the proposed use of an audio-band steganographic channel to carry a cryptographic authentication response over a cellular voice call is a project hypothesis requiring experiments. The concept does not require a 300 kHz signal to traverse the cellular network. The most important next experiment is to characterize which small, robustly encoded payloads survive the actual cellular voice path.
+
+
 ## Body-generated sound patterns as a possible behavioral authentication channel
 
 The conversation introduced another branch of the physiological/behavioral-signal idea: the body does not only produce heartbeat, respiration, speech, or other conventionally studied physiological signals. People also generate many small sounds through ordinary movements and habitual actions.

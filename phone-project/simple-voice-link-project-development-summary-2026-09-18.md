@@ -443,6 +443,264 @@ The AI-secretary and telephone-bridge material is a combination of conversation-
 The documented technical claims about DTMF, SIP interaction, PSTN bridging, and current telephone/AI integrations are supported by the cited standards and platform documentation. The specific Simple Voice Link architecture, permission model, edge-AI arrangement, and future machine-to-secretary concept remain project proposals requiring design, testing, and independent verification.
 
 
+## Voice-only authorization, extended-band acoustics, presence sensing, and physiological signals
+
+The authentication question developed into a broader research question than ordinary speaker recognition. The concern is not only whether a system can recognize the acoustic characteristics of a person's voice, but whether a communication endpoint can establish that the authorized person is physically present, live, and intentionally issuing an instruction rather than receiving a replayed recording or an injected digital signal.
+
+### The 16 kHz discussion is not the whole proposed sensing problem
+
+An earlier discussion used 16 kHz audio as an example of a common speech-processing sample rate. That is appropriate for many conventional speech applications, but it does not capture the full research direction being proposed here.
+
+The present concept asks whether an authentication/sensing system could examine information substantially outside the ordinary telephone or speech band. One proposed extreme is analysis extending into the hundreds of kilohertz, potentially above 300 kHz, together with very-low-frequency and mechanically coupled information that might reveal the presence of a human body in the acoustic environment.
+
+This should be treated as a research hypothesis, not as an established requirement that a phone microphone must meet. A 300 kHz upper frequency would imply, by the ordinary Nyquist relationship, a sampling rate above 600 ksample/s merely to represent that bandwidth, before considering real-world anti-alias filtering, sensor response, timing accuracy, dynamic range, and processing. More importantly, a microphone and ADC capable of recording such frequencies does not automatically mean that those frequencies contain useful person-specific authentication information.
+
+The research question is therefore broader than “does a cheap phone have a good enough microphone?” It is:
+
+> What acoustic and mechanically coupled information about a person, their voice, and their immediate environment is physically measurable, and what portion of that information survives the complete sensor → analog front end → ADC → processing → communication chain?
+
+### Acoustic presence and the room itself can be part of the signal
+
+The conversation proposed treating the surrounding acoustic field as information rather than merely as noise.
+
+There is substantial research supporting this general direction. Room impulse responses are affected by room geometry, objects, and the positions of people within the room. The SoundCam research dataset was specifically constructed around room acoustic measurements with people in different positions and reports that acoustic measurements can be used to detect, identify, and track humans. citeturn0academia30
+
+Other work has demonstrated localization of a silent listener by repeatedly measuring room impulse responses with known acoustic signals and microphone arrays. In one 2025 IEEE study, 20 Hz–24 kHz sine sweeps were used to estimate changes in room impulse responses associated with listener motion; the reported experiments localized sitting and standing listeners under the tested conditions. citeturn0search0
+
+Acoustic sensing can also operate without direct line of sight. Research on passive non-line-of-sight acoustic localization has shown that ordinary audible-frequency reflections can contain information about hidden objects or people, and specifically notes that conventional microphones can measure the relevant acoustic fields. citeturn0search7
+
+Smartphone audio hardware has also been used for active echo sensing. One IEEE study used a smartphone loudspeaker to emit near-inaudible chirps and its microphone to record echoes for indoor localization and room-geometry reconstruction, reporting sub-meter localization in the tested environments. citeturn0search4
+
+These results do not establish the stronger claim that a passive microphone can uniquely identify an individual's body in arbitrary conditions. They do establish that the acoustic environment and changes caused by human presence can be measurable signals rather than irrelevant background.
+
+### Active acoustic sensing may be especially important
+
+The strongest version of the environmental-presence concept may require the device to create a known acoustic stimulus and then measure the response, rather than simply listening to whatever happens to be present.
+
+That creates a sonar/room-impulse-response style architecture:
+
+```
+Known acoustic stimulus
+        ↓
+Room + objects + human body
+        ↓
+Reflections / diffraction / absorption / resonance
+        ↓
+Microphone array or other acoustic sensors
+        ↓
+High-resolution signal analysis
+        ↓
+Environmental + presence signature
+```
+
+Research on acoustic proximity authentication has already explored the use of emitted acoustic signals and their echoes as a two-factor proximity signal. Proximity-Echo, for example, derives location signatures from acoustic chirps and their reflections and evaluates them for proximity detection. citeturn0search8
+
+This suggests a potentially important research branch for Simple Voice Link: a secretary could potentially receive not just a person's speech, but evidence about whether the speech is arriving from the expected physical/acoustic context. That could make replay attacks harder, although it would not eliminate them and would require careful security testing.
+
+### High-frequency sensing is a separate hardware research track
+
+The idea of extending analysis to approximately 300 kHz should not be mixed together with ordinary voice-band processing.
+
+Ultrasonic acoustic sensing is an established research area, and specialized ultrasonic microphone arrays have been built for spatial analysis above the ordinary audible range. One Scientific Reports study describes a six-element ultrasonic microphone array designed for spatial analysis of ultrasonic sound fields. citeturn0search10 Other recent work uses ultrasonic chirps for device-free localization of a person's head. citeturn0search11
+
+At the same time, ordinary phone microphones are not automatically suitable for hundreds-of-kilohertz sensing. The microphone's mechanical transducer, analog front end, ADC sample rate, anti-alias filter, clock, storage/transport bandwidth, and signal-processing chain all impose limits. A future prototype would therefore need an intentionally selected sensor and acquisition chain rather than assuming that a phone's built-in microphone contains this information.
+
+A useful experimental architecture would keep the channels separate:
+
+```
+Channel A — conventional speech
+voice / harmonics / formants / articulation / timing / pauses
+
+Channel B — wideband or ultrasonic acoustic sensing
+room response / reflections / movement / body interaction
+
+Channel C — low-frequency or mechanically coupled sensing
+vibration / respiration / heart-related signals / contact phenomena
+
+Channel D — device and cryptographic evidence
+secure device key / freshness challenge / trusted hardware state
+```
+
+The purpose would be to determine which signals actually contribute independent evidence rather than simply collecting more data because it is available.
+
+### The analog-to-digital boundary matters
+
+The concern about the ADC is technically important, but it is not simply a question of “more bits = more identity.”
+
+The complete acquisition chain determines what can be measured. Relevant parameters include sensor bandwidth, sensitivity, self-noise, distortion, frequency response, microphone placement, analog filtering, ADC sample rate, ADC resolution, clock stability, gain structure, dynamic range, and the processing performed before authentication features are extracted.
+
+For voice, common speech-processing sample rates can preserve substantial identity information, but telephone codecs, noise suppression, AGC, compression, room acoustics, and microphone characteristics can remove or distort other information. For a proposed high-frequency or physiological channel, the acquisition system would need to be designed specifically for the target signal.
+
+The project should therefore avoid declaring a universal “required” sample rate or bit depth until the signal of interest has been identified experimentally.
+
+### Voice contains more than the words
+
+The voice-authentication concept can include multiple classes of information:
+
+- Spectral structure and harmonics.
+- Fundamental frequency and its variation.
+- Formants and vocal-tract characteristics.
+- Articulation and pronunciation patterns.
+- Temporal structure, rhythm, pauses, and speaking rate.
+- Amplitude dynamics and phonation characteristics.
+- Interaction with the local acoustic environment.
+
+Some of these characteristics are useful to speaker-recognition systems; others may be more useful for liveness or behavioral analysis. None should be treated as a secret in the cryptographic sense.
+
+### Heartbeat and other physiological signals
+
+The proposed second signal—heartbeat or a related physiological signal—is also grounded in existing research, but the sensing mechanism matters.
+
+Research has combined speech with ECG for multimodal biometric identification, and other work has explored heart sounds captured through in-ear microphones or related wearable sensors. These studies indicate that physiological and speech signals can be combined experimentally, but their reported accuracies are specific to their datasets, sensor arrangements, populations, and test protocols. They should not be interpreted as a general security guarantee.
+
+For Simple Voice Link, an ordinary airborne phone microphone should not be assumed to be a reliable ECG or heartbeat sensor. A more plausible experimental path is a contact, near-body, ear-canal, in-ear, wrist, headset, accelerometer, or dedicated ECG sensor designed around the physiological signal being measured.
+
+A particularly interesting research branch is the combination of an ear/near-ear audio sensor with a conventional voice microphone. The body could then contribute a physiological signal while the speech microphone captures the conversational signal. Whether this can be made comfortable, inexpensive, privacy-preserving, and reliable enough for authorization remains an open question.
+
+### Authentication should be treated as several questions
+
+The secretary architecture should not use a single “voice match” result as the entire authorization decision.
+
+A more useful decomposition is:
+
+```
+1. Identity      — Who appears to be speaking?
+2. Presence      — Is the authorized person physically present now?
+3. Liveness      — Is this a live interaction rather than a replay/injection?
+4. Intent        — Is the person actually requesting this action?
+5. Authority     — Is this person authorized to perform this action?
+6. Freshness     — Is the authentication evidence current rather than reused?
+```
+
+A device-bound cryptographic credential can provide a fundamentally different kind of evidence from a biometric. Biometrics are characteristics of a person and are not secret values in the same way as a cryptographic key. NIST's current Digital Identity Guidelines specifically caution that biometric characteristics are not secrets, require presentation-attack considerations, and state that voice-based biometric comparison is not to be used within that particular authentication framework. citeturn2search0turn2search1
+
+That NIST restriction should not be misread as evidence that voice biometrics are technically impossible. It is an authentication-policy/security-framework requirement. The research question here is broader: what combination of biometric, environmental, physiological, and cryptographic evidence can produce a trustworthy authorization decision?
+
+### Dynamic challenge-response may be more useful than fixed personal questions
+
+The conversation raised the problem of bank-style personal questions. Fixed questions have a serious weakness: the answers can potentially be learned, observed, recorded, or inferred. A person should not have to remember a large collection of static secrets merely to operate an accessible communication device.
+
+A different approach is to have the secretary issue a fresh challenge and evaluate the response. The challenge could be conversational, acoustic, or cryptographic. The security value comes from freshness and from making replay or pre-recorded responses difficult, not merely from asking a question that happens to be personal.
+
+NIST's authentication guidance emphasizes replay resistance and the use of fresh challenges/nonces where applicable. It also recommends that biometric comparison be used as part of a larger authentication design rather than treated as a standalone secret. citeturn2search1turn2search2
+
+A possible accessible interaction is therefore:
+
+```
+Secretary: fresh conversational challenge
+        ↓
+User: spontaneous spoken response
+        ↓
+Voice + behavioral + liveness analysis
+        ↓
+Optional physiological/environmental evidence
+        ↓
+Device-bound credential / secure hardware evidence
+        ↓
+Authorization policy
+        ↓
+Action allowed, denied, or escalated for stronger confirmation
+```
+
+This is a proposed architecture, not a validated security protocol.
+
+### Risk should determine the amount of authentication required
+
+Not every action should require the same burden.
+
+A person saying “call Paul” could potentially require substantially less authentication than a request to transfer money, change an account credential, release sensitive medical information, or authorize a new person to access the system.
+
+The secretary should therefore use an action-risk policy rather than one universal authentication ceremony. Low-risk actions might rely on ordinary access controls and presence evidence; higher-risk actions could require a device-bound credential, a physical confirmation, a second sensor, or another independent factor.
+
+This is especially important for accessibility. Making every ordinary phone call require a complex password would defeat the purpose of the project. The objective is instead to move complexity into the security architecture while keeping the human interaction manageable.
+
+### SIM security and telephone identity are separate from authorization
+
+The earlier concern about SIM cloning, SIM-swap/eSIM takeover, carrier account compromise, or interruption of service belongs in a separate security layer.
+
+A telephone number should therefore not automatically be treated as proof of the identity of the human speaking through it. The telecom channel can be compromised independently of the person's physical presence.
+
+A stronger architecture would conceptually separate:
+
+```
+Telephone identity
+      ≠
+Device identity
+      ≠
+Human identity
+      ≠
+Authorization to perform an action
+```
+
+This separation is particularly important for an AI secretary because the secretary could otherwise mistake control of a telephone number for authority to perform every action associated with the account.
+
+### A proposed research prototype
+
+A future laboratory experiment could compare progressively richer sensing rather than attempting to build the final system immediately.
+
+Prototype A: ordinary speech microphone and conventional speaker-recognition features.
+
+Prototype B: speech plus spontaneous challenge-response and replay-attack testing.
+
+Prototype C: speech plus environmental/room-response sensing.
+
+Prototype D: speech plus a near-body physiological channel such as in-ear, accelerometer, or ECG sensing.
+
+Prototype E: the preceding signals plus a device-bound cryptographic authenticator and a policy engine.
+
+For each stage, the experiment should measure false acceptance, false rejection, replay resistance, sensor failure, environmental changes, illness/fatigue effects, different distances and microphone positions, competing speakers, recorded speech, synthetic/deepfake speech, and deliberate signal injection.
+
+The important experimental question is not whether one spectacular classifier can recognize a person. It is whether several partly independent signals can be combined into a security system that remains usable when one signal is degraded or attacked.
+
+### Research terms worth pursuing
+
+The search vocabulary for this branch should include several neighboring research fields rather than only “voice biometrics”:
+
+- speaker recognition / speaker verification
+- presentation attack detection (PAD)
+- voice anti-spoofing
+- replay attack detection
+- audio injection attack detection
+- acoustic sensing
+- room impulse response (RIR)
+- acoustic scene analysis
+- device-free localization
+- human presence detection by acoustics
+- non-line-of-sight acoustic sensing
+- active acoustic sensing
+- ultrasonic localization
+- acoustic imaging
+- microphone-array sensing
+- beamforming and blind source separation
+- acoustic transfer function
+- body-induced acoustic reflections
+- physiological acoustics
+- heart-sound biometrics
+- in-ear heart-sound authentication
+- ECG biometric authentication
+- multimodal biometric fusion
+- behavioral biometrics
+- continuous authentication
+- challenge-response biometrics
+- sensor/endpoint integrity
+- cryptographic device-bound authentication
+
+These terms should be treated as a research map. They do not imply that every field has a practical solution for the Simple Voice Link use case.
+
+### Current interpretation of the idea
+
+The conversation's original intuition—that a person's identity might be represented by much more than the ordinary speech waveform—has a technically meaningful research direction behind it.
+
+The surrounding room can carry information about a person's presence. Reflections can reveal changes in object positions. Active acoustic sensing can measure environmental geometry. Wearable microphone arrays can exploit body-dependent acoustic transfer functions. Physiological signals can provide another modality. And cryptographic device credentials can provide evidence that is fundamentally different from biometrics.
+
+The unresolved question is how much of that information can be captured by an inexpensive, accessible, reliable device and turned into a secure authorization decision without creating an invasive or unmaintainable system.
+
+For Simple Voice Link, the most promising research posture is therefore not “find the magic biometric.” It is to investigate a layered evidence system in which voice, behavior, physical presence, acoustic environment, physiology, device possession, and action-specific authorization can each contribute appropriate evidence while no single signal is trusted beyond what its measured security properties justify.
+
+## Authentication research status
+
+This section combines the user's conversation-derived hypotheses, current web research, and architectural inference. The acoustic-presence research cited above demonstrates that room acoustics and human presence can be measurable; the high-frequency/300 kHz concept remains a hypothesis requiring dedicated sensing hardware and experiments. The physiological-signal concepts are supported by published research but remain experimental for this project. The proposed authorization architecture is a design research direction, not a validated authentication protocol.
+
 ## Evidence boundary
 
 This summary records the direction and reasoning developed in the conversation. It does not by itself establish that a particular Android phone, carrier, accessory, algorithm, or emergency-calling configuration will work.

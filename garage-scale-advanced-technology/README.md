@@ -573,3 +573,35 @@ It does not establish that a particular modular phone architecture is currently 
 It does not establish that photonic computing, biological manufacturing, or any other advanced technology can currently provide the proposed form factor.
 
 Those questions require separate technical research and, where appropriate, physical experiments.
+
+
+## Expanded research documents
+
+The folder now separates the larger idea into several connected research directions.
+
+### Modular skeleton phone
+See `modular-skeleton-phone.md`.
+
+This covers the physical phone skeleton, removable internal modules, removable battery and display, physical switches, independent diagnostic reader, test-before-install workflow, and the newer interchangeable sensor-case architecture. Cases can be specialized for home, work, field use, laboratories, vehicles, travel, accessibility, or other environments. A case may contain sensors, audio systems, controls, additional power, or its own processor, and a location-specific case could potentially continue operating while the phone is away.
+
+### Future miniature integrated electronics
+See `future-miniature-integrated-electronics.md`.
+
+This records the progression from today's large recorder-in-case prototype toward highly integrated, miniature modules, including the user's SIM-card-scale form-factor intuition. The central question is whether extreme miniaturization can preserve replaceability, inspectability, diagnostics, and technological agency.
+
+### Photonics and emerging computation
+See `photonics-and-emerging-computation.md`.
+
+This records the interest in photonic computing, optoelectronic systems, simulated or programmable circuits, hybrid computation, and other emerging hardware approaches. It explicitly treats these as research questions requiring separation of demonstrated technology from projected possibilities.
+
+### Garage-scale manufacturing and repairability
+See `garage-scale-manufacturing-repairability.md`.
+
+This asks what small workshops, schools, libraries, community laboratories, and individuals would actually need to inspect, test, repair, assemble, and modify sophisticated technology.
+
+### Public commons and economic models
+See `public-commons-and-economic-models.md`.
+
+This records the economic question of maintaining a substantial public experimentation layer while recognizing that manufacturers need compensation and incentives. The current informal preference recorded here is above 50%, perhaps around 60% or more, as a working design preference rather than an established standard.
+
+These documents are deliberately separate research branches under the same larger project. They are not claims that the proposed technologies are currently practical.

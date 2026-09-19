@@ -701,6 +701,294 @@ For Simple Voice Link, the most promising research posture is therefore not “f
 
 This section combines the user's conversation-derived hypotheses, current web research, and architectural inference. The acoustic-presence research cited above demonstrates that room acoustics and human presence can be measurable; the high-frequency/300 kHz concept remains a hypothesis requiring dedicated sensing hardware and experiments. The physiological-signal concepts are supported by published research but remain experimental for this project. The proposed authorization architecture is a design research direction, not a validated authentication protocol.
 
+## Physical authentication token: a non-NFC, near-field acoustic companion device
+
+The conversation introduced another possible layer between the person and the AI secretary: a small physical authentication device that is deliberately much simpler than a smartphone and different from a conventional YubiKey or NFC security token.
+
+### What the existing YubiKey model establishes
+
+The device being remembered is very likely a YubiKey or similar FIDO security key. YubiKeys can authenticate through USB and, on supported models, NFC; current Yubico documentation describes FIDO2/WebAuthn hardware-bound passkeys and touch/tap authentication. Some models require neither a battery nor network connectivity. citeturn0search0turn0search1
+
+That is useful as a reference architecture because it demonstrates the value of separating an authentication credential from the telephone itself.
+
+The proposed Simple Voice Link device is intentionally different.
+
+### Proposed companion-token concept
+
+The envisioned device would contain as little general-purpose communication capability as possible. It would not need a camera, NFC, Bluetooth, Wi-Fi, or a conventional wireless data interface.
+
+The working concept is:
+
+```
+Small physical token
+      ↓
+very-short-range acoustic / ultrasonic exchange
+      ↓
+phone microphone
+      ↓
+telephone/AI-secretary system
+```
+
+The token would be brought extremely close to, or physically coupled with, the microphone. The device would transmit a fresh authentication signal through the acoustic channel rather than through NFC or radio.
+
+The proposed high-frequency branch would investigate whether an ultrasonic or extended-band acoustic carrier, potentially reaching toward the previously discussed 300 kHz region, could carry a short cryptographic challenge/response or device-authentication signal. The exact frequency, modulation method, sensor requirements, and achievable range are open engineering questions.
+
+The important security property would not be that “300 kHz is secret.” It would be the combination of physical proximity, a device-held secret/private key, cryptographic freshness, short acoustic coupling, and a receiver designed to recognize the expected signal.
+
+### Why the very short range is interesting
+
+A near-contact acoustic channel could provide a deliberate physical-presence gesture:
+
+```
+Touch/position token near microphone
+          ↓
+Token produces fresh signal
+          ↓
+Microphone receives signal
+          ↓
+Phone verifies/forwards authentication evidence
+          ↓
+Secretary applies authorization policy
+```
+
+This could make the authentication action physically obvious to the user without requiring them to remember a password.
+
+It also creates an interesting attack surface. A signal that is difficult to hear is not automatically difficult to record, inject, relay, or reproduce. A future prototype would therefore have to test replay, relay, microphone injection, ultrasonic leakage, reflections, cross-device triggering, and deliberate acoustic transmission from a distance.
+
+The short range should be treated as one security control, not the whole security mechanism.
+
+### The token could be cryptographic, not merely an identifier
+
+The proposed device should ideally not transmit a permanent identifying code such as “Paul's token = 12345.” It should instead contain a hardware-protected secret or private key and participate in a challenge-response protocol.
+
+For example:
+
+```
+Secretary/phone → fresh challenge
+Token → cryptographic response
+Phone/secretary → verifies response
+Policy engine → determines what the authenticated token permits
+```
+
+This preserves an important property of modern hardware security keys: possession of the physical device can provide cryptographic evidence without requiring the secret itself to be transmitted.
+
+The token could potentially authenticate the device while the separate voice/acoustic/physiological system provides evidence about the human using it. That creates a fundamentally different architecture from relying on voice alone.
+
+### A possible two-device interaction
+
+The research concept can therefore be represented as:
+
+```
+Human
+  │
+  ├── voice / behavioral speech
+  ├── physical presence
+  ├── physiological evidence
+  │
+  └── physical authentication token
+             │
+             └── very-short-range acoustic exchange
+                         ↓
+                    phone microphone
+                         ↓
+                    AI secretary
+                         ↓
+                 authorization policy
+```
+
+The token and the person do not have to be treated as the same identity signal.
+
+The token can establish “this authorized credential is physically present.” The voice and other sensors can contribute evidence that the intended human is present. The authorization layer can then decide what action is appropriate.
+
+### Physical form factor
+
+The conversation suggests that the token should not necessarily look like a traditional computer accessory.
+
+Possible form factors include:
+
+- A small puck or pendant.
+- A watch-like device with a single physical control.
+- An earring or other wearable ornament.
+- A small body-worn token.
+- A device designed to be touched against a microphone.
+- Potentially two matching wearable tokens that can be brought into contact with each other as an intentional gesture.
+
+The design principle is that the electronic system should disappear into the physical interaction. The person should not need to understand USB, NFC, Bluetooth pairing, applications, or account settings in order to authenticate.
+
+The user's longer-term design concept is particularly minimal: a watch-like or wearable device whose primary human interface is one physical button. The user presses or holds it to begin communication, speaks, and physically operates it again to end the session. This is recorded here as a design vision, not as a finalized product specification.
+
+### Physical switch and deliberate state
+
+The insistence on a real physical switch is technically significant.
+
+A physical switch can provide an unmistakable human-controlled state transition:
+
+```
+OFF → deliberate physical activation → ON
+ON  → deliberate physical action → OFF
+```
+
+This could reduce accidental activation and provide a simple fallback indicator of whether the communication device is intended to be listening.
+
+A future design should investigate whether the switch should control microphone power, cryptographic authorization state, communication state, or merely initiate a secure state transition. Those are different functions and should not automatically be combined.
+
+### The “watch” architecture
+
+A particularly coherent version of the idea is a very small wearable device containing:
+
+- One physical button or switch.
+- Microphone/audio sensor.
+- Optional wideband/ultrasonic acoustic transducer.
+- Optional physiological sensor.
+- Optional chemical/VOC sensor.
+- Minimal processor.
+- Secure storage for a cryptographic key.
+- Battery sufficient for the intended operating period.
+- Cellular/eSIM connectivity only if the wearable itself is intended to be the telephone endpoint.
+
+The last item creates two possible architectures:
+
+```
+A. Token + separate phone
+   Token authenticates the person/device.
+   Phone provides the cellular connection.
+
+B. Independent one-button phone/watch
+   Wearable contains its own SIM/eSIM.
+   Wearable is itself the telephone endpoint.
+```
+
+The second architecture is closer to the decades-old design vision described in the conversation: a device that does almost nothing except provide a dependable one-button telephone connection.
+
+### Acoustic transfer versus NFC
+
+The proposed acoustic token is not simply an alternative spelling of NFC.
+
+NFC is a radio-frequency near-field technology with established standards, hardware, and security protocols. The proposed token would deliberately use a microphone/transducer interface instead.
+
+That distinction could have practical advantages—especially if the goal is to eliminate radios and minimize the endpoint—but it also means that an entirely new physical and protocol layer would need to be engineered and tested.
+
+A useful research question is therefore not merely “can data be transmitted at 300 kHz?” but:
+
+> Can a tiny, low-power token perform a secure, fresh, short-range cryptographic exchange through an ordinary or specially designed acoustic microphone interface, with sufficiently low probability of remote interception, replay, relay, and injection?
+
+That question can be experimentally answered.
+
+### A possible “touch the microphone” protocol
+
+One especially simple user interaction is:
+
+```
+1. Bring token directly to microphone.
+2. Press physical button.
+3. Token emits a short fresh acoustic authentication exchange.
+4. Phone microphone receives it.
+5. Phone or secretary verifies the cryptographic response.
+6. User speaks the intended command.
+7. Policy engine determines what the authenticated session permits.
+8. Press button again to end the session.
+```
+
+This does not require the user to remember a password.
+
+The system could also make the physical gesture itself part of the security policy: authentication is accepted only when the token signal arrives within a narrow acoustic window and the user has deliberately activated the physical switch.
+
+### The proposed “electronic nose” layer
+
+The conversation also introduced an experimental idea in which the physical token could contain a chemical sensor capable of sampling the person's breath, skin-emitted compounds, or other volatile organic compounds.
+
+This is not science fiction at the level of sensing technology. Electronic-nose systems use arrays of chemical sensors to measure patterns of volatile organic compounds in breath, and published research has investigated VOC patterns associated with disease and physiological states. citeturn0search2turn0search9 Recent research has also combined exhaled VOC sensing with ECG for experimental psychological-stress classification. citeturn0search5
+
+However, the specific idea of using an e-nose to determine that a person is the authorized user—or to determine whether someone is “afraid”—is not established by those findings.
+
+Fear in particular should not be treated as a simple chemical fingerprint. Stress, illness, exercise, diet, medication, environment, temperature, microbiome, and many other factors can alter breath and skin chemistry. A chemical sensor would therefore be better regarded initially as another physiological/environmental measurement channel rather than as a direct “fear detector.”
+
+The research question is nevertheless interesting:
+
+> Can a small wearable chemical-sensing system obtain sufficiently repeatable individual or state-related VOC patterns to contribute useful evidence to an authentication or safety system?
+
+That should be experimentally separated from medical diagnosis and from authorization.
+
+### Combining the token's modalities
+
+The most ambitious version of the token would therefore be multimodal:
+
+```
+Physical switch
+      +
+Cryptographic token
+      +
+Very-short-range acoustic exchange
+      +
+Voice
+      +
+Environmental acoustic signature
+      +
+Optional physiological signal
+      +
+Optional VOC/chemical signal
+      ↓
+Evidence fusion
+      ↓
+Action-specific authorization
+```
+
+The important design principle is that no individual modality has to carry the entire burden.
+
+The cryptographic token can provide possession evidence. The physical switch can provide deliberate activation. Acoustic proximity can provide a physical-coupling condition. Voice can provide human identity/behavioral evidence. Physiological sensing can provide another modality. Environmental acoustics can provide contextual evidence. The authorization policy can determine how much evidence is required for a particular action.
+
+### Security questions created by this device
+
+This design creates a useful experimental security checklist:
+
+- Can the acoustic signal be recorded and replayed?
+- Can an attacker inject the signal directly into the phone microphone?
+- Can the signal be relayed through another acoustic device?
+- Does the microphone accept the signal from several inches away, or only near-contact?
+- Does the security property survive different microphone models?
+- Can two devices accidentally authenticate each other?
+- Can the token be cloned?
+- Is the cryptographic key stored in a secure element?
+- What happens when the token battery is nearly dead?
+- What happens if the phone microphone is obstructed?
+- Can an attacker substitute a different microphone?
+- Can a compromised phone impersonate the secretary?
+- Can a compromised carrier account override the authentication system?
+- Can the token authorize only specific actions rather than the entire account?
+- How is a lost token revoked and replaced?
+- Can the user retain a safe fallback method without memorizing complicated credentials?
+- What happens when voice, physiological, or environmental signals disagree with the cryptographic token?
+
+The last question is especially important. A multimodal system needs a policy for disagreement rather than simply adding scores together.
+
+### Relation to the one-button telephone
+
+This token concept may ultimately simplify rather than complicate the original project.
+
+The endpoint could remain almost absurdly simple:
+
+```
+[ physical button ]
+[ microphone ]
+[ eSIM/SIM ]
+[ battery ]
+[ minimal electronics ]
+```
+
+The complexity would live in the authentication/secretary infrastructure and, where necessary, in a tiny companion token.
+
+The user would not be expected to understand the cryptographic system. The physical interaction would communicate the important state: activate, authenticate, speak, and stop.
+
+This remains a long-term design direction rather than a validated product architecture.
+
+### Symbolic/design note
+
+The conversation also associated wearable authentication objects with the biblical imagery of ornaments or adornment. That association is preserved here as a personal interpretive/design note rather than as a technical requirement or historical claim. The engineering concept stands independently of the religious interpretation.
+
+## Authentication-device research status
+
+This section adds a new physical-token branch to the authentication research. The YubiKey comparison is documented current technology; the non-NFC acoustic token, 300-kHz signaling concept, multimodal physiological/VOC token, and one-button wearable form factor are proposed research directions. The existence of electronic-nose sensing and hardware security keys does not establish that the combined device is practical or secure. The next meaningful step would be a small laboratory prototype that tests the acoustic channel and cryptographic protocol separately before attempting to combine every sensing modality.
+
 ## Evidence boundary
 
 This summary records the direction and reasoning developed in the conversation. It does not by itself establish that a particular Android phone, carrier, accessory, algorithm, or emergency-calling configuration will work.

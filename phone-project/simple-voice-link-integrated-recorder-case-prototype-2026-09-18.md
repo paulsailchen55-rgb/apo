@@ -193,6 +193,20 @@ This is only a conceptual layout. The actual positions should be determined by t
 
 The recorder does not necessarily need to occupy the entire rear surface. Once the signal path is understood, its electronics can be separated from the microphone and speaker and arranged for the smallest practical package.
 
+## Future miniature-manufacturing direction
+
+The bulky recorder-in-a-case prototype should be understood as a transitional experimental form, not necessarily as the desired long-term physical architecture.
+
+A later generation could replace the physically large recorder with a much smaller integrated electronics module containing the required sensing, processing, power, and audio-interface functions. The desired direction is toward electronics that are small enough to be integrated into a standardized phone module or case without the prototype looking like an external appliance attached to a phone.
+
+Possible future technologies to investigate include highly integrated low-power DSPs, advanced system-on-chip designs, photonic or optoelectronic computing where actually applicable, miniature sensors, and other manufacturing approaches that could compress the same functional chain into a substantially smaller replaceable module.
+
+This is a research direction, not a claim that any particular photonic or biological technology is currently suitable for this phone.
+
+The broader question is not simply how small the electronics can become. It is whether increasingly sophisticated hardware can remain understandable, replaceable, inspectable, repairable, and experimentally accessible rather than becoming an opaque service-dependent component.
+
+That broader manufacturing and public-access question is being recorded separately in the repository so that it does not get lost inside the immediate phone prototype.
+
 ## Staged experimental order
 
 ### Phase 1 — Prove the phone path
@@ -383,6 +397,10 @@ Once that path exists, different processing methods can be compared without chan
 13. How much heat is generated inside a sealed case?
 14. Can the electronics be made serviceable after integration?
 15. Can the entire accessory eventually be reduced to a purpose-built board substantially smaller than the commercial recorder?
+16. What functions could eventually be consolidated into a standardized miniature module?
+17. What interfaces and physical dimensions would make such modules interchangeable?
+18. Which advanced manufacturing technologies are genuinely useful for this kind of integration, as opposed to merely making the technology more opaque?
+19. What level of documentation, source access, tooling, and licensing would be needed for independent people to inspect, repair, modify, and reproduce such modules?
 
 ## Development principle
 
@@ -415,6 +433,8 @@ This keeps the physical prototype inexpensive and makes every later design decis
 This document records a project hypothesis and experimental plan derived from the Simple Voice Link work.
 
 It does not establish that any particular recorder provides the required real-time processed monitoring output. It does not establish that a particular Moto G Power variant will behave exactly as described. It does not establish that a particular battery, microphone, recorder, or enclosure is safe for a permanently sealed consumer device.
+
+The future miniature-manufacturing discussion is likewise a research direction rather than a claim that any particular photonic, biological, or other advanced technology is currently suitable.
 
 Those questions are experimental and should be verified before the design is treated as a working device.
 

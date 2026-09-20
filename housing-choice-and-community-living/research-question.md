@@ -1,14 +1,16 @@
 # Research Questions
 
 ## Central question
-
 What conditions are necessary for a housing offer to constitute meaningful choice, particularly for someone experiencing homelessness?
 
-## Supporting questions
-
-- Is one available unit a genuine choice or simply an offer that must be accepted?
-- What would a realistic range of housing options look like?
-- How do affordability, location, accessibility, safety, transportation, rules, and community affect choice?
-- Can a person decline an option without losing access to future assistance?
-- What responsibilities belong to public agencies, providers, landlords, and communities?
-- How can housing choice be expanded when supply is limited?
+## Ten questions
+1. What does meaningful housing choice mean to the person receiving an offer?
+2. Is one available unit a choice or simply the only option?
+3. How many realistic alternatives should a person be able to compare?
+4. Which factors matter most: cost, location, safety, accessibility, privacy, transportation, or community?
+5. Can someone decline an offer without losing future assistance?
+6. Who decides whether an option is suitable?
+7. How should personal preferences and lived experience influence placement?
+8. What barriers prevent people from comparing options across providers or jurisdictions?
+9. What evidence would show that a system provides meaningful choice?
+10. What changes could expand choice without creating unrealistic promises?

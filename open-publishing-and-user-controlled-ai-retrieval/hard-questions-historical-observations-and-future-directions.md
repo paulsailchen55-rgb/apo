@@ -168,7 +168,48 @@ Safeguards could include:
 
 The user's interface should be configurable, inspectable, and replaceable rather than controlled by one permanent provider.
 
-## 12. Research directions
+## 12. Proportional reciprocity, contribution tokens, and anti-abuse boundaries
+
+A further design direction is a proportional exchange model for publishing and retrieval. The central idea is that a participant should not be able to impose an unlimited burden on an open publishing system without contributing something proportionate to the amount or intensity of the activity. The exchange could be represented through deliberately minimal, user-controlled tokens or another accounting mechanism.
+
+The model is not intended to create a general paywall, universal identity requirement, or excessive administrative tax. It is intended to create a locally manageable boundary against disproportionate activity, including automated dumping, scraping, spam, resource exhaustion, or repeated unwanted distribution.
+
+The proposed principle can be stated as:
+
+> A participant may give and receive in proportionate relation, without being subjected to unnecessary bureaucracy or an unlimited one-way burden.
+
+The exchange might work in either direction:
+
+- A participant contributes material and receives access, responses, acknowledgments, retrieval capacity, or another defined form of return.
+- A participant requests or retrieves material and contributes a proportionate amount of useful service, capacity, information, or token value.
+- A human may participate through ordinary typing and receive a response, such as a letter or acknowledgment, without needing an elaborate account system.
+- A bot or AI agent may search or retrieve information, but its activity can be bounded by a reciprocal contribution or consumption budget.
+- A publisher may accept broad categories of content while requiring a proportionate exchange for unusually large volume, frequency, storage, or processing demands.
+
+This could make it harder for one person, bot, or AI to overwhelm a repository simply by sending an excessive quantity of material. It could also provide a way to distinguish ordinary participation from automated abuse without requiring the server to know a person's exact identity, age, location, or personal history.
+
+The model must be designed carefully. Tokens can become oppressive if they are expensive, difficult to obtain, nontransferable, secretly tracked, or imposed equally on activities with very different resource demands. A token requirement should therefore be measured against actual burden, not used as a pretext for social control or blanket exclusion. Low-volume human participation should remain possible, and accessibility accommodations should be considered from the beginning.
+
+Proportional reciprocity is also not a complete content-governance system. For example, a token exchange alone cannot determine whether a category of material is unlawful, harmful, exploitative, or inappropriate for a particular audience. It can limit volume and burden, but separate legal, safety, consent, and user-controlled filtering questions remain necessary. The mechanism should not be presented as a guarantee that harmful content cannot be published.
+
+A related concern is whether a system based on open publishing and user-controlled retrieval could weaken business models built around centralized search, advertising, tracking, recommendation, and platform intermediation. Existing companies or institutions might regard such a model as competitive or disruptive. That possibility should be researched as an economic and governance question rather than assumed to prove that any particular organization would act maliciously. The project should focus on whether the architecture improves user agency, access, safety, and accountability—not on predicting motives.
+
+Research questions for proportional reciprocity include:
+
+1. What should count as a contribution: data, storage, processing, verification, bandwidth, time, service, or a token issued by a trusted local system?
+2. How can the exchange remain proportional to actual resource consumption rather than become a flat fee?
+3. Can people participate without purchasing tokens or surrendering identifying information?
+4. Can tokens be issued, transferred, or renewed locally, anonymously, or through trusted intermediaries?
+5. How can the system prevent token hoarding, market manipulation, exclusion, or the creation of a new elite gatekeeping layer?
+6. How should the system handle emergency access, public-interest information, disability-related needs, children, and people with limited resources?
+7. Can rate limits and reciprocal accounting operate at the device, agent, session, repository, or network level without creating a permanent behavioral profile?
+8. How can a person appeal a mistaken block or an incorrect determination that their activity is disproportionate?
+9. Can the system distinguish high-volume legitimate archival work from spam or hostile resource exhaustion?
+10. What are the legal and ethical implications of requiring a return contribution for access to information?
+
+The desired outcome is not to replace one burdensome gatekeeping system with another. It is to investigate whether a modest, transparent, reversible, and proportionate exchange can protect open publishing from abuse while preserving ordinary human participation.
+
+## 13. Research directions
 
 Potential future research areas include:
 
@@ -186,8 +227,10 @@ Potential future research areas include:
 12. Interfaces for libraries, public computers, low-bandwidth devices, SMS, voice, and accessibility tools.
 13. Governance models that prevent one institution from becoming the sole gatekeeper.
 14. Economic models that do not require excessive advertising, tracking, or user lock-in.
+15. Proportional reciprocity systems that constrain abuse without becoming paywalls, identity traps, or centralized control mechanisms.
+16. Comparative testing of token-based, quota-based, rate-limited, and trust-minimized approaches to repository protection.
 
-## 13. Provisional principles
+## 14. Provisional principles
 
 The following principles are exploratory and subject to revision:
 
@@ -200,10 +243,14 @@ The following principles are exploratory and subject to revision:
 - Human review should be accountable, limited, and correctable.
 - No system should turn participation into a permanent reputation record by default.
 - Simplicity should reduce needless friction without concealing meaningful risks.
+- Any exchange or token requirement should be proportionate to actual burden, transparent, accessible, and contestable.
+- Reciprocal accounting should not become a universal identity system or a hidden social-ranking mechanism.
 - The architecture should remain open to competing interfaces, local control, and future correction.
 
-## 14. Unresolved central question
+## 15. Unresolved central question
 
 Can an internet be designed in which people can publish and express themselves with minimal unnecessary barriers, while users retain control over what they retrieve, families and communities can apply appropriate protections, and the system avoids becoming either a surveillance infrastructure or an automated authority over lawful human activity?
 
-This document treats that question as an ongoing research direction rather than a completed solution.
+A related question is whether proportional reciprocity can serve as a limited technical boundary—reducing spam, dumping, and resource exhaustion—without becoming another system of excessive taxation, identity surveillance, economic exclusion, or centralized authority.
+
+This document treats those questions as ongoing research directions rather than completed solutions.

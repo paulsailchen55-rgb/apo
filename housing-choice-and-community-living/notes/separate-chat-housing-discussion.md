@@ -2,16 +2,16 @@
 
 ## Provenance
 
-Source: separate ChatGPT conversation. Status: imported exploratory research material.
+Source: separate ChatGPT conversation. Status: imported exploratory research material. The source distinction should remain visible as this material is expanded.
 
-## Preserved themes
-
-- Meaningful housing choice versus a single available offer
-- Housing placement and practical scarcity
-- Homelessness and social interpretation
-- Mobile and vehicle-based living
-- Collective property networks across California
-- Legal title and access to property
-- Housing as a civic, social, and economic system
-
-This note preserves the source distinction. Ideas may later be expanded into dedicated documents, but their origin should remain identifiable.
+## Ten questions for further inquiry
+1. Which ideas came directly from the separate conversation?
+2. Which statements were personal observations, and which were research questions?
+3. What context from that conversation is missing here?
+4. Which themes deserve their own dedicated document?
+5. How was meaningful choice distinguished from receiving one available offer?
+6. What questions arose about homelessness, scarcity, and agency?
+7. What mobile, vehicle-based, or collective housing possibilities were discussed?
+8. What legal title, ownership, or access questions require local research?
+9. Which claims should be verified independently before being repeated?
+10. How can the material be preserved without confusing separate sources or later interpretations?

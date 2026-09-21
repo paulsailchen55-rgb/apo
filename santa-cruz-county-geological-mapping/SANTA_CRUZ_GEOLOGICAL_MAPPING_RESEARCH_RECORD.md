@@ -265,7 +265,7 @@ Examples:
 
 ## 5. Settlement question
 
-Only after the physical ground and geological processes have been separately examined should the project ask how those conditions relate to human settlement.
+Only after the physical ground and geological processes have separately examined should the project ask how those conditions relate to human settlement.
 
 This preserves the distinction between **describing the ground** and **making a settlement decision**.
 
@@ -384,8 +384,6 @@ The synthesis is not intended to prove a single theory. It is a reading framewor
 
 ---
 
-
-
 # New Methodological Branch — Dating and Process Evidence
 
 The reading of Bull also adds a methodological branch that should not be forced into the basic GIS workflow. A separate methods document now records how to investigate four complementary evidence approaches:
@@ -405,6 +403,29 @@ This creates a practical bridge between the easier-to-navigate local County GIS 
 
 See SANTA_CRUZ_LANDSCAPE_DATING_AND_PROCESS_EVIDENCE_METHODS.md for the detailed questions, extraction strategy, limitations, and proposed workflow.
 
+---
+
+# New Methodological Branch — Scarp Morphology, LiDAR, and Diffusion Modeling
+
+A further branch now focuses on using high-resolution terrain data to study **scarp morphology quantitatively**.
+
+The branch was prompted by the observation that scarp height, orientation, microclimate, vegetation, and geomorphic process can interact, and that diffusion-equation models provide a mathematical way to test landform evolution rather than relying only on visual interpretation.
+
+The new document is:
+
+**SANTA_CRUZ_SCARP_MORPHOLOGY_LIDAR_DIFFUSION_MODELING.md**
+
+Its central workflow is:
+
+**candidate scarp → high-resolution LiDAR/DEM → cross-scarp elevation profile → morphometric measurements → diffusion-model test → environmental controls → cross-check against geological origin → research interpretation**
+
+The method explicitly distinguishes possible tectonic, fluvial, lacustrine, coastal, landslide, and anthropogenic scarps rather than assuming that all scarps are fault scarps.
+
+The new research also establishes that Santa Cruz County has substantial public LiDAR resources. County GIS documentation identifies LiDAR-derived contours and a 3-foot hillshade based on a Digital Terrain Model representing 2018/2020 countywide LiDAR. NOAA catalogs a 2020 Santa Cruz County LiDAR project and a corresponding 2-foot DEM product, while USGS 3DEP provides additional regional high-resolution elevation resources.
+
+The new document records the sources, modeling concepts, LiDAR metadata questions, proposed program architecture, limitations, and the connection between resident observation and geographically specific scientific questions.
+
+---
 
 # Human Settlement Research Flow
 
@@ -632,15 +653,27 @@ This document belongs beside:
 
 SANTA_CRUZ_GIS_TO_GOOGLE_EARTH_WORKFLOW.md
 
+SANTA_CRUZ_LANDSCAPE_DATING_AND_PROCESS_EVIDENCE_METHODS.md
+
+SANTA_CRUZ_SCARP_MORPHOLOGY_LIDAR_DIFFUSION_MODELING.md
+
 The workflow document answers primarily:
 
 > **How do we get authoritative County GIS information into a usable research environment such as Google Earth?**
 
-This research record answers:
+The research record answers:
 
 > **Why are we doing it, what questions are we asking, what experiments have we run, what books inform the questions, and how does the geological investigation connect to the later settlement question?**
 
-The two documents should remain separate but cross-reference one another.
+The dating/process methods document answers:
+
+> **How can stratigraphic, geomorphic, dendrochronologic, and lichenometric evidence extend the GIS investigation?**
+
+The scarp/LiDAR/diffusion document answers:
+
+> **How can high-resolution terrain morphology and quantitative landform-evolution models be added to the investigation?**
+
+The documents should remain separate but cross-reference one another.
 
 The apo repository is an archive/reference record for this work, not the GIS project itself.
 
@@ -648,19 +681,24 @@ The apo repository is an archive/reference record for this work, not the GIS pro
 
 # Current Research Direction
 
-The immediate research direction remains:
+The immediate research direction is now:
 
 1. Complete and verify the Layer 133 fault-zone export/import experiment.
 2. Test Geologic Unit (Layer 140).
-3. Compare geological composition with structural and mass-movement information.
-4. Continue building the physical-ground classification framework without prematurely scoring it.
-5. Use the three-book synthesis as a set of questions for interpreting the mapped evidence.
-6. Keep the human-settlement question downstream from the physical-ground investigation.
-7. Revise the method as actual GIS work reveals what is possible.
-8. Preserve the resulting workflow so it can eventually be repeated across California.
+3. Identify accessible LiDAR/DEM sources and record their provenance and technical characteristics.
+4. Identify one candidate scarp for a small quantitative profile experiment.
+5. Compare geological composition with structural and mass-movement information.
+6. Develop scarp morphometry before attempting age interpretation.
+7. Test a basic diffusion model only as a model of landform evolution under explicit assumptions.
+8. Compare scarp morphology with orientation, vegetation, drainage, lithology, and other environmental controls.
+9. Continue building the physical-ground classification framework without prematurely scoring it.
+10. Use the three-book synthesis as a set of questions for interpreting the mapped evidence.
+11. Keep the human-settlement question downstream from the physical-ground investigation.
+12. Revise the method as actual GIS work reveals what is possible.
+13. Preserve the resulting workflow so it can eventually be repeated across California.
 
 ## Working statement
 
 > **Identify and classify the physical ground conditions and geological processes across Santa Cruz County.**
 
-That statement is the anchor for the first phase of the project.
+That statement remains the anchor for the first phase of the project.

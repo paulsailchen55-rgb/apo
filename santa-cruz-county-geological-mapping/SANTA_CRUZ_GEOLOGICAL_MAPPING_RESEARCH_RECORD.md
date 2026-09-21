@@ -384,6 +384,28 @@ The synthesis is not intended to prove a single theory. It is a reading framewor
 
 ---
 
+
+
+# New Methodological Branch — Dating and Process Evidence
+
+The reading of Bull also adds a methodological branch that should not be forced into the basic GIS workflow. A separate methods document now records how to investigate four complementary evidence approaches:
+
+- **Stratigraphic** — sequence and relationships of materials and deposits.
+- **Geomorphic** — landforms and the processes that create or modify them.
+- **Dendrochronologic** — tree-ring evidence that may constrain the timing of disturbances.
+- **Lichenometric** — possible surface-age or relative-chronology evidence from suitable lichen-covered surfaces.
+
+These methods are not assumed to be directly downloadable from County GIS. Instead, the GIS can provide the spatial starting point, while USGS sources, scientific reports, field observations, and specialist measurements can provide additional evidence.
+
+The intended multi-source path is:
+
+**County GIS → candidate location → Google Earth → identify question → USGS/scientific source → field or specialist evidence when appropriate → geographically referenced research layer**
+
+This creates a practical bridge between the easier-to-navigate local County GIS and deeper scientific sources that may be harder to discover or work with directly.
+
+See SANTA_CRUZ_LANDSCAPE_DATING_AND_PROCESS_EVIDENCE_METHODS.md for the detailed questions, extraction strategy, limitations, and proposed workflow.
+
+
 # Human Settlement Research Flow
 
 The settlement question is deliberately downstream from the geological investigation.

@@ -2,7 +2,7 @@
 
 ## Status
 
-- Stage: Initial workflow formalization
+- Stage: First data-access experiment completed at the service-definition level
 - Geographic starting point: Santa Cruz County, California
 - Intended eventual scope: repeatable workflow for all 58 California counties
 - Primary county source: Santa Cruz County GIS / GISWeb
@@ -10,216 +10,165 @@
 - Archive repository: `apo` (archive/reference repository, not the project itself)
 - Root README: do not modify unless explicitly requested
 
-## Purpose
+## First Tested Layer
 
-Develop a repeatable method for taking relevant, authoritative GIS information published by a county, extracting or obtaining the underlying geographic data, converting it into a format usable by Google Earth, and combining it with a separately developed research layer.
+**Santa Cruz County GIS — Mapped County and State Fault Zones (Layer ID 133)**
 
-The first application is Santa Cruz County.
+The County publishes this as an ArcGIS Feature Layer. It is polygon geometry and supports JSON, GeoJSON, and PBF query formats. Its coordinate system is California State Plane Zone 3, NAD 1983, US survey feet (WKID 2227 / service spatial reference 102643). The layer has two coded values: CFZ and SFZ. The County GIS service also exposes a Query operation whose output format options include **KMZ** and **GeoJSON**.
 
-The broader research question is to investigate how geological structure, tectonic processes, seismic evidence, rockfall/landslide behavior, surface materials, and related physical characteristics can be mapped spatially as part of a longer-term study of where relatively persistent and suitable ground occurs for human settlement.
+Source service:
+`https://sccgis.santacruzcountyca.gov/server/rest/services/gisweb/MapServer/133`
 
-This is a research/mapping framework, not yet a determination of where cities should be located.
+Query endpoint:
+`https://sccgis.santacruzcountyca.gov/server/rest/services/gisweb/MapServer/133/query`
 
-## Core Concept
+This discovery changes the original plan: a separate GIS conversion program may **not** be necessary for this layer. The County's ArcGIS REST Query operation can potentially produce KMZ directly.
 
-The workflow separates:
+## First-Experiment Procedure
 
-1. **Authoritative county data**
-   - County GIS layers
-   - Geological and hazard information
-   - Parcels/infrastructure where useful
-   - Metadata, source, scale, and accuracy information
+### 1. Open the County layer
 
-2. **Research interpretation**
-   - A separately constructed layer or set of layers
-   - Explicitly documented assumptions
-   - Geological/process classifications
-   - Confidence and source fields
+Open the County REST page for **Mapped County and State Fault Zones (ID 133)**.
 
-3. **Google Earth visualization**
-   - County-derived data imported as KML/KMZ or another supported format
-   - Research layers placed above/beside the source data
-   - Terrain and imagery used for visual comparison
-   - Saved Google Earth project files for reproducibility
+### 2. Open Query
+
+Use the layer's **Query** operation.
+
+### 3. Request all features
+
+Use:
+
+- Where: `1=1`
+- Out Fields: `*`
+- Return Geometry: True
+- Output Spatial Reference: `4326` (WGS 84)
+- Format: KMZ
+
+The choice of WGS 84 is deliberate because it is the normal geographic coordinate reference used by Google Earth.
+
+### 4. Download the KMZ
+
+Save the resulting file locally with a provenance-preserving name such as:
+
+`SantaCruz_Mapped_County_State_Fault_Zones_CountyGIS_YYYY-MM-DD.kmz`
+
+Record:
+
+- County GIS service URL
+- Layer ID 133
+- Query parameters
+- access/download date
+- original coordinate system (WKID 2227 / service 102643)
+- output coordinate system (WGS 84 / EPSG 4326)
+- output format (KMZ)
+
+### 5. Open in Google Earth
+
+Google Earth supports KML/KMZ geographic data. Google documents importing KML/KMZ into Earth projects and opening local KML/KMZ files. For the web version, use the file/project import or local KML workflow available in the current interface. Google Earth Pro can open KML/KMZ directly.
+
+### 6. Verify the first import
+
+Do not yet treat the map as scientifically validated.
+
+Check:
+
+- Does the layer appear in the correct geographic location?
+- Does the entire County extent appear?
+- Are the CFZ/SFZ polygons present?
+- Do the boundaries visually correspond to the County GISWeb display?
+- Does the layer remain usable when Google Earth terrain/imagery is turned on?
+- Can the feature information/attributes be inspected?
+- Is the file small enough for practical Google Earth use?
+
+## Why This Is Useful
+
+This first experiment establishes a potentially much simpler pipeline:
+
+**County GIS REST Feature Layer**
+→ **Query**
+→ **WGS 84**
+→ **KMZ**
+→ **Google Earth**
+
+rather than:
+
+**County GIS**
+→ download shapefile
+→ GIS conversion software
+→ reproject
+→ KML/KMZ
+→ Google Earth
+
+The simpler route should be preferred when it preserves geometry, attributes, provenance, and reproducibility.
+
+## Important Limitation
+
+The Query page and layer metadata establish that KMZ is an available output format, but the assistant has not independently verified the final downloaded KMZ file inside the user's Google Earth account. The final import is therefore a user-side verification step.
+
+If the direct KMZ route fails, fall back to GeoJSON or another downloadable format and perform an explicit conversion.
+
+## Research Layer Separation
+
+The County fault-zone layer is **source data**, not the research conclusion.
+
+It should remain separate from the future research interpretation layer.
+
+Later layers may include:
+
+- Geologic Unit
+- Geologic Structures - Faults
+- State Fault Traces
+- County Landslide Map
+- Mapped Small Landslides and Debris Flows
+- Liquefaction
+- Soils
+- Geologic Hazard Screening Areas
+- GeoPaleo
+- Mineral Resources
+
+These should initially be examined independently rather than collapsed into a single score.
 
 ## Workflow
 
 ### Stage 1 — Inventory the County GIS
 
-Open Santa Cruz County GISWeb and identify relevant existing layers.
-
-Initial candidates include:
-
-- fault zones
-- geologic hazard screening
-- GeoPaleo / geological-paleontological information
-- soils
-- debris-flow hazards
-- coastal hazards
-- coastal bluffs
-- groundwater
-- watersheds
-- mineral resources
-- other geology/geomorphology layers discovered during exploration
-
-For each useful layer, record:
-
-- layer name
-- source/agency
-- description
-- geographic extent
-- scale/resolution if provided
-- date/version if provided
-- coordinate reference system
-- attributes available
-- stated accuracy/limitations
-- download/export/service endpoint, if available
+Identify relevant existing layers and record source, description, extent, scale/resolution, date/version, coordinate system, attributes, accuracy/limitations, and service/export endpoint.
 
 ### Stage 2 — Determine the Actual Data Access Method
 
-For each selected layer, determine whether the County provides:
-
-- direct download
-- shapefile
-- GeoJSON
-- KML/KMZ
-- feature service
-- ArcGIS REST service
-- map service
-- other export mechanism
-
-Do not assume that a visible map can be directly downloaded as a usable GIS layer.
-
-Preserve the original source information before transforming anything.
+Prefer the simplest authoritative export that preserves the needed geometry and attributes. For Layer 133, direct KMZ output is available through the Query operation.
 
 ### Stage 3 — Obtain a Working Copy
 
-Acquire the selected source data without altering the County's authoritative data.
-
-Create a local/research copy with clear provenance.
-
-Suggested naming pattern:
-
-`county_layer_source_date.ext`
-
-Example:
-
-`SantaCruz_fault_zones_countyGIS_YYYY-MM-DD.ext`
-
-Maintain a simple source record describing where the data came from and what transformations are later performed.
+Acquire the selected source data without altering County authoritative data. Preserve provenance.
 
 ### Stage 4 — Convert for Google Earth
 
-Determine the simplest reliable conversion path for the particular source format.
-
-Likely target formats:
-
-- KML
-- KMZ
-
-Possible intermediate formats may include:
-
-- Shapefile
-- GeoJSON
-- GeoPackage
-
-The conversion should preserve, as far as practical:
-
-- geographic position
-- feature geometry
-- useful attributes
-- source identity
-- layer names
-
-The conversion process itself should be documented.
+Only convert when the County does not provide a suitable Google Earth-compatible output. For Layer 133, test direct KMZ first.
 
 ### Stage 5 — Load Into Google Earth
 
-Import the converted County layer into Google Earth.
-
-Confirm:
-
-- geographic alignment
-- visible boundaries
-- feature completeness
-- scale/zoom behavior
-- terrain relationship
-- labels/attributes where available
-
-Save the imported source layer separately from research-created layers.
+Import/open the KMZ and verify alignment, completeness, scale behavior, terrain relationship, and attributes.
 
 ### Stage 6 — Create the Research Layer
 
-Construct the first experimental research layer independently.
-
-Possible initial categories:
-
-- geological substrate/material
-- tectonic structure
-- seismic/earthquake evidence
-- rockfall
-- landslide/debris-flow evidence
-- erosion/coastal processes
-- hydrologic behavior
-- other mechanically relevant surface conditions
-
-Do not combine unlike evidence into one score prematurely.
-
-Keep source observations and interpretations distinguishable.
+Construct experimental research layers independently from source data.
 
 ### Stage 7 — Overlay and Compare
 
-Place the research layer over the County-derived layers in Google Earth.
-
-Compare spatial relationships.
-
-Questions to investigate include:
-
-- Do mapped hazards cluster with particular geological materials?
-- Do rockfall/landslide observations correspond with particular structures or terrain?
-- What areas appear repeatedly stable across different data sources?
-- Where are the data sparse or contradictory?
-- Which conclusions depend heavily on map scale or source accuracy?
+Compare research layers against County geological/hazard layers without prematurely combining unlike evidence.
 
 ### Stage 8 — Document Every Transformation
 
-For every derived layer, preserve:
-
-- original source
-- download/access date
-- original format
-- conversion software/tool
-- conversion steps
-- target format
-- coordinate system
-- filtering or selection performed
-- transformations performed
-- known limitations
-
-The goal is that another person could reproduce the map without relying on undocumented steps.
+Preserve source, date, format, coordinate systems, queries, conversion tools, filtering, transformations, and limitations.
 
 ### Stage 9 — Revise the Workflow
 
-The workflow is expected to change as actual County GIS data are processed.
-
-When a step proves unnecessary, replace it rather than preserving a theoretical procedure.
-
-When a new required step is discovered, add it and record why it became necessary.
-
-The archived workflow should therefore represent the actual procedure eventually used, not merely the initial plan.
+Replace theoretical steps with the procedure actually used.
 
 ### Stage 10 — Generalize to California
 
-After the Santa Cruz County workflow is functional, identify which portions are:
-
-- universal to California county GIS systems
-- specific to Santa Cruz County
-- dependent on ArcGIS
-- dependent on Google Earth
-- dependent on a particular data format
-- dependent on a particular geological dataset
-
-Then use the resulting framework as a template for the remaining 57 California counties.
+Separate universal workflow components from Santa Cruz-specific components and reuse the resulting framework for the remaining 57 counties.
 
 ## Research Principles
 
@@ -233,7 +182,7 @@ Every derived map should be traceable to its original source.
 
 ### Preserve uncertainty
 
-Accuracy, scale, age, coverage, and limitations should remain visible in the research record.
+Accuracy, scale, age, coverage, and limitations should remain visible.
 
 ### Avoid premature scoring
 
@@ -245,24 +194,15 @@ The research may examine the ground as the product of deposition, erosion, tecto
 
 ## Related Reading
 
-The initial conceptual reading set includes:
-
 - William B. Bull — *Tectonic Geomorphology of Mountains: A New Approach to Paleoseismology*
 - David D. Alt and Donald W. Hyndman — *Roadside Geology of Oregon*
 - Lawrence Robb — *Oreforming Processes*
 
-These books are being used as conceptual/background sources rather than as substitutes for the County's actual spatial datasets.
+These books are conceptual/background sources rather than substitutes for the County's spatial datasets.
 
-## Current First Experiment
+## Current Next Experiment
 
-1. Open Santa Cruz County GISWeb.
-2. Identify the first geological/hazard layer worth testing.
-3. Determine how that layer can actually be obtained.
-4. Record its provenance and limitations.
-5. Convert it to KML/KMZ if necessary.
-6. Open it in Google Earth.
-7. Verify alignment and completeness.
-8. Only then begin designing the first research overlay.
+After the Layer 133 KMZ import is verified, test one layer that is closer to the physical-ground question—particularly **Geologic Unit (Layer 140)** or **County Landslide Map / Mapped Small Landslides and Debris Flows**—and compare its behavior in Google Earth.
 
 ## Archive Note
 

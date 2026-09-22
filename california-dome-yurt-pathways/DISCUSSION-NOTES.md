@@ -47,6 +47,36 @@ Material research must begin at the whole-building life-cycle level, not only at
 
 The project must not claim that a material is safe, natural, recyclable, biodegradable, fire-resistant, or code-compliant without source-backed verification for the specific product, assembly, climate, hazard condition, and jurisdiction.
 
+## 2026-09-22 — Existing-Home Materials Transition Pathway
+
+### User intention
+
+The project must include a pathway for people who are not demolishing their existing home. They may want to progressively change building materials, systems, interior finishes, or exterior components toward lower-plastic, more repairable, healthier, and more life-cycle-conscious conditions.
+
+This includes Victorian houses, Adobe and earthen buildings, historic homes, older homes, and contemporary homes that have accumulated plastic-heavy or difficult-to-manage materials.
+
+### Functional distinction
+
+The pathway is not limited to dome and yurt construction. It can serve as a complementary pathway and may later become a separate project focused on existing-building materials transitions generally.
+
+The default question is: “What can be safely retained, repaired, removed, substituted, or redesigned in stages?” Demolition is not the default starting point.
+
+### Research and safety requirements
+
+Existing-building work must investigate structural integrity, moisture, fire safety, indoor air quality, hazardous materials, accessibility, code triggers, historic significance, and lifecycle tradeoffs. Removing plastic is not automatically beneficial if the replacement introduces greater structural, fire, moisture, health, or environmental risks.
+
+### Historic and Adobe considerations
+
+Historic status and cultural significance must be checked before alteration. California's Historical Building Code may provide alternative compliance methods for qualified historic buildings, but it does not eliminate reasonable safety or jurisdictional review. Adobe and other earthen structures require specialized attention to moisture management, seismic behavior, compatible repairs, and coatings.
+
+### Future distinction
+
+The project may cross-reference a future standalone “Existing Buildings Materials Transition” project while retaining the present pathway within the California dome/yurt project.
+
+### Source-backed context
+
+California State Parks identifies condition assessment, retention, adaptive reuse, and sustainable rehabilitation as relevant preservation practices. CalRecycle identifies material-selection factors such as low toxicity, low emissions, durability, local production, recyclability, and reuse. These sources support the research direction but do not approve any specific material or assembly.
+
 ### Unresolved items
 
 - Identify the Los Angeles dome community referenced by the user.
@@ -54,3 +84,4 @@ The project must not claim that a material is safe, natural, recyclable, biodegr
 - Determine the exact Santa Cruz County jurisdictional starting point.
 - Build a source-backed workflow for current rules and contacts.
 - Develop a materials evaluation rubric aligned with the Omega Principle.
+- Determine whether and when the existing-building materials pathway should become a separate APO project.

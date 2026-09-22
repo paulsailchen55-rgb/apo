@@ -101,6 +101,38 @@ Material identity and end-of-life pathway must be recorded separately. The workf
 
 The project should not automatically prohibit all plastics or automatically prefer all natural materials. It should apply additional scrutiny where composition, facility acceptance, separation, pollution, or end-of-life handling is uncertain or burdensome.
 
+## 2026-09-22 — Civic, Constitutional, and Collective-Choice Addendum
+
+### User intention
+
+The user requested an optional addendum addressing the deeper civic and constitutional dimensions of material choice, historic-building stewardship, changing supply chains, market limitations, resident agency, and collective values in the United States.
+
+The addendum should be optional rather than imposed on every reader. The practical pathway remains primary; the civic and constitutional discussion is available to readers who want to examine the underlying principles.
+
+### Supply-side concern
+
+The user observed that historic-building supply chains may change as original manufacturers, craftspeople, and specialized suppliers disappear or become expensive. This may narrow owners' practical choices and push them toward currently available products that can contain synthetic, petrochemical-derived, composite, or difficult-to-manage materials.
+
+This is recorded as an important research concern, not a universal factual conclusion. The project must compare historical and current suppliers, prices, material compositions, installation practices, preservation requirements, and actual alternatives.
+
+### Agency and decision pressure
+
+The project should investigate whether residents are given understandable information, adequate time, transparent explanations of mandatory versus optional requirements, practical alternatives, and access to independent advice. Reports of coercion or improper pressure must be distinguished from verified evidence and should be assessed through observable conduct, documents, deadlines, authority, and available remedies.
+
+### Constitutional framing
+
+The addendum should examine due process, property interests, regulatory burdens, historic-preservation authority, public health and safety powers, accessibility, and potential takings questions. It must not imply that constitutional principles create an unlimited right to use any material or avoid generally applicable safety, environmental, building, or historic-preservation rules.
+
+Constitutional text, statutes, regulations, case law, agency guidance, and policy arguments must be kept distinct. The project should not present a constitutional violation as established without jurisdiction-specific legal analysis and evidence.
+
+### Values and collective choice
+
+Collective values may include historic continuity, environmental stewardship, affordability, safety, repairability, cultural identity, and responsibility to future generations. These values should inform public discussion while preserving individual rights, minority viewpoints, professional safety obligations, and evidence-based review.
+
+### New file
+
+`CIVIC-CONSTITUTIONAL-ADDENDUM.md` was added as an optional reading layer. It emphasizes informed choice, transparent constraints, alternatives, reasonable review time, documented decisions, second opinions, and identifiable appeal pathways.
+
 ### Unresolved items
 
 - Identify the Los Angeles dome community referenced by the user.
@@ -110,3 +142,5 @@ The project should not automatically prohibit all plastics or automatically pref
 - Develop a materials evaluation rubric aligned with the Omega Principle.
 - Determine whether and when the existing-building materials pathway should become a separate APO project.
 - Verify examples of soil, plastic-contaminated soil, mixed construction debris, and facility-specific rejection or surcharge policies.
+- Document historic-building supply-chain changes and identify feasible repair-oriented alternatives.
+- Research relevant constitutional and administrative-law principles without presenting preliminary concerns as legal conclusions.

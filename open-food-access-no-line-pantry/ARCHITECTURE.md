@@ -27,6 +27,34 @@ The platform is an open-source intermediary between food seekers and participati
 11. Area-specific calendar generation and update handling.
 12. Temporary notification permissions and expiration.
 13. Optional integration adapters for existing nonprofit systems.
+14. Community access-point registry for participating tiny pantries, dual-use tiny libraries, and authorized harvest boxes.
+
+## Community tiny pantry and tiny library network
+
+The platform should provide an optional integration layer for an existing or emerging local network of community food access points, including:
+
+- tiny pantries;
+- tiny libraries that also contain food;
+- resident-authorized food-sharing boxes;
+- temporary boxes placed out during a tree or garden harvest.
+
+Participation must be voluntary and permission-based. Each host should control whether and how their location is listed, what food may be taken, access hours or conditions, whether direct contact is allowed, and when a listing is paused or removed.
+
+A participating access point may publish a minimal public record containing its general location, access instructions, food categories, current or expected availability, host-provided restrictions, and last-confirmed status. Exact residential details should not be exposed unless the host explicitly authorizes that level of disclosure.
+
+The SMS workflow may answer a temporary request with an appropriate nearby access point or a short list of options. It should not promise that food remains available after the last confirmation, and it must not direct people to trespass, take restricted items, or disturb a host's property.
+
+The system should support separate status labels such as:
+
+- host registered;
+- currently open;
+- harvest box expected;
+- availability reported;
+- availability locally confirmed;
+- temporarily paused;
+- expired or removed.
+
+The network should be able to interoperate with existing community directories rather than requiring every host to adopt new software. Where no formal API exists, a documented import, referral, or human-verification process may be used.
 
 ## Harvest intelligence layer
 
@@ -50,7 +78,7 @@ Exact private-property locations must not be disclosed without authorization. Th
 
 ## Calendar and recurring-pattern layer
 
-The calendar system should support downloadable snapshots and optional subscribable feeds. Events may represent forecast windows, inspection reminders, confirmed availability, recurring pantry schedules, seasonal donation patterns, and community-garden cycles.
+The calendar system should support downloadable snapshots and optional subscribable feeds. Events may represent forecast windows, inspection reminders, confirmed availability, recurring pantry schedules, seasonal donation patterns, community-garden cycles, and temporary harvest-box windows.
 
 Calendar records must include status, source, date of observation or update, geographic scope, and confidence where practical. Forecast events must be visibly distinguished from confirmed availability. Feeds should be revocable and updateable without embedding seeker identity or phone numbers in event titles or URLs.
 

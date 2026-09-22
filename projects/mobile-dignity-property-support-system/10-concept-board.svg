@@ -2,6 +2,8 @@
 <rect width="1600" height="1000" fill="white"/>
 <text x="60" y="70" font-family="Arial,sans-serif" font-size="38" font-weight="700" fill="#17324d">Modular Mobility &amp; Property Support System</text>
 <text x="60" y="105" font-family="Arial,sans-serif" font-size="22" fill="#40566b">Concept board — walking / riding / sleeping / independently removable modules</text>
+<rect x="60" y="118" width="1480" height="42" rx="8" fill="#fff7df" stroke="#b89a4a" stroke-width="2"/>
+<text x="75" y="145" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#5c4b20">NOTE FROM PAUL: This is NOT actually how I saw it. This is what ChatGPT could put out right now. The drawing/rendering is an imperfect AI approximation of my concept, not the authoritative design.</text>
 
 <!-- panels -->
 <rect x="40" y="140" width="490" height="300" rx="12" fill="#f7fafc" stroke="#8aa9bf" stroke-width="2"/>

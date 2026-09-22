@@ -10,6 +10,15 @@
 - Allow users to revisit steps, change assistance modes, skip optional steps, or stop after a draft.
 - Use plain-language guidance without assuming prior civic knowledge, literacy level, technical skill, or available time.
 
+## Human-first access requirement
+
+- The first visible entrance should offer verified human-contact options before presenting digital tools as the only route.
+- Include phone, text, in-person, library, community, and other local options when current service information is available.
+- Human support is a primary pathway, not a failure state or secondary fallback.
+- The system may help discover local resources, but must not invent contact information or claim a service provides civic idea development without verification.
+- Record each resource's source, retrieval date, service scope, and verification status.
+- Track the possibility of a separate human civic-idea support network project.
+
 ## General design constraints
 
 - Two minutes is a preparation target, not an assumed legal limit.

@@ -133,14 +133,34 @@ Collective values may include historic continuity, environmental stewardship, af
 
 `CIVIC-CONSTITUTIONAL-ADDENDUM.md` was added as an optional reading layer. It emphasizes informed choice, transparent constraints, alternatives, reasonable review time, documented decisions, second opinions, and identifiable appeal pathways.
 
+## 2026-09-22 — Materials Screening Rubric
+
+### Implementation decision
+
+The next practical development is a source-backed materials screening rubric usable for new dome/yurt construction, existing-home material transitions, historic and earthen buildings, and phased renovations.
+
+The rubric evaluates both material identity and material burden. It examines composition, petrochemical content, health exposure, structural, fire, seismic, and moisture performance, repairability, maintenance, supply resilience, end-of-life pathways, lifecycle impacts, code and permitting requirements, and the time and information available to the decision-maker.
+
+### Decision discipline
+
+The rubric is a screening and conversation aid, not engineering certification, legal advice, permit approval, hazardous-materials clearance, or a substitute for qualified professional review. It should not automatically prohibit all synthetic materials or automatically prefer all natural materials. It should identify uncertainty and establish when a decision must pause for further investigation.
+
+### Initial repository artifact
+
+`MATERIALS-SCREENING-RUBRIC.md` was added as the first structured implementation of this approach.
+
+### Source-backed context
+
+CalRecycle states that construction and demolition materials may be reused or recycled, but that local opportunities can be limited and facilities should be contacted to confirm acceptance before delivery. This supports including facility-specific acceptance, separation, transport, and cost verification in the rubric. It does not establish a universal rule for soil, plastic-containing soil, or mixed construction debris.
+
 ### Unresolved items
 
 - Identify the Los Angeles dome community referenced by the user.
 - Identify the Boulder Creek plastic dome through a future photograph or location.
 - Determine the exact Santa Cruz County jurisdictional starting point.
 - Build a source-backed workflow for current rules and contacts.
-- Develop a materials evaluation rubric aligned with the Omega Principle.
 - Determine whether and when the existing-building materials pathway should become a separate APO project.
 - Verify examples of soil, plastic-contaminated soil, mixed construction debris, and facility-specific rejection or surcharge policies.
 - Document historic-building supply-chain changes and identify feasible repair-oriented alternatives.
 - Research relevant constitutional and administrative-law principles without presenting preliminary concerns as legal conclusions.
+- Determine which portions of the rubric can later become a downloadable HTML tool.

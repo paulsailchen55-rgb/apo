@@ -29,9 +29,38 @@ Before changing code:
    - SPECULATIVE
    - UNKNOWN
 
+## Understand the roles of project documents
+
+The repository may contain several kinds of documents. Do not treat them as interchangeable.
+
+- **Current project documents** describe the current architecture, design parameters, roadmap, safety rules, known limitations, and open questions.
+- **`AI-CODING-BUILD-PROMPT.md`** is an implementation instruction for a coding AI. It tells the AI what the project is currently asking it to build and how to work safely in the repository.
+- **`WORKFLOW-ARCHIVE-*` documents** preserve how an idea or architectural understanding developed. They are historical context and evidence of project reasoning, not automatically new implementation requirements.
+- **Practice/test artifacts** demonstrate or exercise behavior and should be distinguished from production implementation.
+- **Experimental documents** describe possible technical approaches without asserting that those approaches are validated.
+
+A future coding AI should read all relevant material, but should preserve these distinctions rather than flattening the repository into one undifferentiated specification.
+
+## Adapt the coding workflow to the AI being used
+
+Different coding AIs, agent environments, tool systems, and model families may have different recommended workflows.
+
+Do not assume that one tool's operating procedure applies to every other AI.
+
+Before coding:
+
+1. Identify the capabilities and constraints of the current coding environment.
+2. If the AI platform provides an official coding-agent guide, workflow document, PDF, or equivalent instruction, obtain and read it when practical.
+3. Adapt the **execution procedure** to that environment.
+4. Do **not** change the project's underlying principles merely because the AI's preferred workflow is different.
+5. Preserve the repository's evidence states and non-destructive rules.
+6. Ask for clarification when the platform's capabilities materially prevent the requested work rather than silently substituting a different project.
+
+The project defines the destination and constraints; the particular AI environment may determine the safest practical work order.
+
 ## Core architecture
 
-Treat the project as **one underlying resource system with multiple interfaces**, not three separate applications.
+Treat the project as **one underlying resource system with multiple replaceable interfaces**, not three separate applications.
 
 ### Interface A — Photograph/upload a guide
 
@@ -56,6 +85,59 @@ The distinction is:
 The system can use landmarks, intersections, stores, bus stops, neighborhood descriptions, or other ordinary language. A landmark is not automatically a GPS coordinate.
 
 Do not claim arrival unless supported by appropriate evidence or explicitly reported by the user.
+
+## Modular interface principle
+
+The interfaces must be treated as **replaceable adapters**, not containers for duplicated core logic.
+
+The underlying resource-access system should expose explicit, stable contracts for operations such as:
+
+- submit/ingest source;
+- create or retrieve resource records;
+- inspect provenance;
+- evaluate time/status/eligibility/access;
+- establish or continue journey state;
+- request a next action;
+- report a point-of-service obstacle;
+- retrieve alternatives.
+
+An interface may translate human input into these operations and translate results back into its own presentation format.
+
+### Replaceability test
+
+The architecture should permit, in principle:
+
+- removing the photo interface while text navigation continues to work;
+- replacing SMS with another transport while the resource engine remains usable;
+- adding voice without rewriting the resource model;
+- adding a web interface without duplicating eligibility/access logic;
+- replacing one OCR implementation without changing the resource records;
+- replacing one AI model without making the AI model the source of truth;
+- running a kiosk, community computer, or other interface against the same core.
+
+A module is not truly replaceable merely because its code is in a separate folder. **Its removal or substitution should not destroy the underlying resource-access system.**
+
+This is a modular/message-oriented design principle: an interface should need to know what the underlying component can do, not how that component internally does it.
+
+## First-build strategy: smallest modular vertical slice
+
+Do **not** build Interface A, B, and C as three separate applications first.
+
+Do **not** build one giant application that hard-codes all three interfaces together.
+
+Instead, build the **smallest end-to-end vertical slice that exercises all three interfaces while keeping their boundaries replaceable**.
+
+The first demonstration can be intentionally tiny:
+
+**guide image → extracted resource → provenance/review state → text request → useful action → simulated arrival → point-of-service obstacle → context-aware next action**
+
+The purpose of this first build is to prove the architectural relationship:
+
+> **One underlying system, multiple interfaces.**
+
+It is not a requirement to complete every interface, solve production messaging, or deploy publicly.
+
+The first implementation should therefore favor small adapters, explicit interfaces/contracts, test fixtures, and replaceable components over premature infrastructure.
 
 ### Interface C — Continue the journey after reaching a resource
 
@@ -357,12 +439,15 @@ Prefer this order unless repository evidence justifies another sequence:
 4. one real historical guide fixture;
 5. one food and one non-food resource fixture;
 6. time/status/eligibility/access evaluation;
-7. photo/MMS ingestion boundary;
-8. text/SMS conversational interface;
-9. post-arrival continuation;
-10. queue/concurrency measurement;
-11. additional transports;
-12. broader guide discovery.
+7. small replaceable Interface A adapter;
+8. small replaceable Interface B adapter;
+9. small replaceable Interface C adapter;
+10. connect A+B+C through the shared core in one end-to-end demonstration;
+11. queue/concurrency measurement;
+12. additional transports;
+13. broader guide discovery.
+
+The order above is an implementation work order, not a statement that the interfaces are separate systems.
 
 Do not begin with a national crawler.
 
@@ -384,6 +469,8 @@ and:
 
 Report exactly what works, what is simulated, what depends on external infrastructure, and what remains unknown.
 
+The three demonstrations should use the same underlying resource/session model rather than three duplicated implementations.
+
 ## Final instruction to the coding AI
 
 Do not decide what the project “really is” before reading its history.
@@ -393,5 +480,11 @@ Do not decide what the project “really is” before reading its history.
 **Reconcile before extending.**
 
 **Preserve the local guide; generalize the interface.**
+
+**One underlying system, multiple replaceable interfaces.**
+
+**Build the smallest modular vertical slice before expanding the system.**
+
+The repository's history tells you why the system exists. The current project documents tell you what has been established. This prompt tells you what the coding AI is currently being asked to build. Workflow archives preserve the path by which those understandings developed.
 
 Build the smallest testable increment that moves the repository toward the demonstrated workflow, while preserving the evidence trail and all meaningful prior work.

@@ -1,0 +1,3 @@
+# Initial Flowchart
+
+START → Identify state → Identify county and jurisdiction → Identify property condition → Select proposed dome/yurt configuration → Check zoning and development rights → Determine dwelling or accessory-structure classification → Check demolition/replacement pathway if applicable → Check setbacks, lot coverage, utilities, access, and fire requirements → Check seismic, wildfire, wind, flood, landslide, soil, and drainage conditions → Identify plans, professionals, permits, fees, and inspections → Generate personalized checklist → Record sources, dates, open questions, and next actions.

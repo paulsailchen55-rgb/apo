@@ -5,6 +5,8 @@
 - [x] Create project folder in APO without modifying the root README.
 - [x] Preserve the separate biblical foodway interpretation.
 - [x] Record privacy, no-app-signup, food-choice, and same-day harvest requirements.
+- [x] Archive the Harvest Calendar & Temporary Food Signals concept.
+- [x] Archive core understandings concerning seasonal awareness, dignity, and connection to land.
 - [ ] Add a conversation-wide inventory and detailed provenance archive.
 
 ## Phase 1 — Service design
@@ -15,6 +17,11 @@
 - [ ] Define appointment and same-day ordering rules.
 - [ ] Define food-quality concern and recall workflows.
 - [ ] Define data retention, deletion, and access rules.
+- [ ] Define temporary notification permissions, renewal, and expiration.
+- [ ] Define forecast, inspection, and confirmed-availability states.
+- [ ] Define calendar export and subscription behavior.
+- [ ] Define geographic precision and private-property protections.
+- [ ] Model recurring pantry, store-food, and seasonal distribution patterns without profiling individuals.
 
 ## Phase 2 — Prototype
 
@@ -23,6 +30,8 @@
 - [ ] Implement selectable orders and staff approval.
 - [ ] Implement pickup windows and reminders.
 - [ ] Add basic audit events without unnecessary personal data.
+- [ ] Prototype temporary notification tokens and automatic expiration.
+- [ ] Prototype forecast calendar events and `.ics` export.
 
 ## Phase 3 — Community testing
 
@@ -31,6 +40,8 @@
 - [ ] Test missed appointments, substitutions, and unavailable food.
 - [ ] Test privacy assumptions and staff permissions.
 - [ ] Obtain feedback from participating nonprofit or garden operators.
+- [ ] Test calendar accuracy, update behavior, and understandable uncertainty labels.
+- [ ] Test whether seasonal education supports agency without becoming a condition for food.
 
 ## Phase 4 — Optional integrations
 
@@ -44,3 +55,4 @@
 - [ ] Preserve the spiritual interpretation in its own document.
 - [ ] Research biblical, linguistic, and historical questions separately.
 - [ ] Keep participation voluntary and document the distinction between interpretation and established evidence.
+- [ ] Explore seasonal education and land-connection materials without romanticizing scarcity or blaming people who need emergency food.

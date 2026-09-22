@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open Food Access — AI Response Practice</title>
+  <style>
+    :root { font-family: system-ui, sans-serif; color: #17202a; background: #f4f6f8; }
+    body { margin: 0; padding: 1rem; }
+    main { max-width: 900px; margin: auto; }
+    section { background: white; border: 1px solid #ccd3da; border-radius: 12px; padding: 1rem; margin: 1rem 0; }
+    h1, h2 { margin-top: 0; }
+    label { display: block; font-weight: 700; margin-bottom: .4rem; }
+    select, button { font: inherit; }
+    select { width: 100%; padding: .7rem; }
+    .keypad { display: grid; grid-template-columns: repeat(3, minmax(60px, 1fr)); gap: .5rem; max-width: 360px; }
+    button { min-height: 3.2rem; border: 1px solid #7d8a96; border-radius: 8px; background: #eef2f5; cursor: pointer; }
+    button:focus-visible, select:focus-visible { outline: 3px solid #2457d6; outline-offset: 2px; }
+    .response { min-height: 7rem; white-space: pre-wrap; background: #f7f9fb; border-left: 5px solid #4c6ef5; padding: 1rem; }
+    .meta { font-size: .9rem; color: #4d5964; }
+    .result-buttons { display: flex; flex-wrap: wrap; gap: .5rem; }
+    .result-buttons button { min-height: 2.5rem; }
+    .danger { border-color: #9a3d3d; }
+    .log { font-family: ui-monospace, monospace; font-size: .85rem; white-space: pre-wrap; overflow-wrap: anywhere; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>AI Response Practice</h1>
+  <p class="meta">Fictional practice prototype. No personal information is requested or stored. This is a deterministic response simulator, not a production AI service.</p>
+
+  <section>
+    <h2>1. Choose a fictional scenario</h2>
+    <label for="scenario">Scenario</label>
+    <select id="scenario">
+      <option value="menu">Main menu: person needs a nearby food-access location</option>
+      <option value="ambiguous">Ambiguous landmark: person says they are near a store and bus stop</option>
+      <option value="access">Travel barrier: selected location may be difficult to reach or carry from</option>
+      <option value="failure">Resource unavailable: selected option cannot serve the person now</option>
+      <option value="feedback">Person says the system is not working</option>
+    </select>
+    <p><button id="reset">Reset scenario</button></p>
+  </section>
+
+  <section>
+    <h2>2. Keypad input</h2>
+    <p class="meta">1–5 = choices · 0 = neutral exit/navigation · * = explicit “not working” feedback · # = confirm/continue</p>
+    <div class="keypad" aria-label="Keypad">
+      <button data-key="1">1</button><button data-key="2">2</button><button data-key="3">3</button>
+      <button data-key="4">4</button><button data-key="5">5</button><button data-key="6">6</button>
+      <button data-key="7">7</button><button data-key="8">8</button><button data-key="9">9</button>
+      <button data-key="*">*</button><button data-key="0">0</button><button data-key="#">#</button>
+    </div>
+  </section>
+
+  <section>
+    <h2>3. Simulated AI response</h2>
+    <div id="response" class="response" role="status" aria-live="polite">Choose a scenario, then press a keypad button.</div>
+    <p class="meta" id="rule">Rule: none yet</p>
+  </section>
+
+  <section>
+    <h2>4. Minimal behavior check</h2>
+    <p class="meta">Mark only what happened in this practice run. The record remains in this page until it is reset or closed.</p>
+    <div class="result-buttons">
+      <button data-result="PASS">Pass</button>
+      <button data-result="PARTIAL">Partial</button>
+      <button data-result="FAIL">Fail</button>
+      <button data-result="BLOCKED">Blocked</button>
+      <button data-result="UNKNOWN">Unknown</button>
+    </div>
+    <p id="result" class="meta">Result: not marked</p>
+    <h3>Minimal test record</h3>
+    <div id="log" class="log">No test input yet.</div>
+  </section>
+</main>
+<script>
+(() => {
+  const scenario = document.querySelector('#scenario');
+  const response = document.querySelector('#response');
+  const rule = document.querySelector('#rule');
+  const result = document.querySelector('#result');
+  const log = document.querySelector('#log');
+  let history = [];
+  let selectedResult = 'NOT_MARKED';
+
+  const scenarios = {
+    menu: {
+      name: 'Main menu',
+      start: 'You are at the starting menu. Choose one:\n1 Closest location\n2 Compare nearby locations\n3 Check whether I can get there\n4 More information\n5 Something else',
+      responses: {
+        '1': ['You chose closest location. Next: I will look for the nearest authorized food-access option using the location clues available.', 'MENU-1'],
+        '2': ['You chose comparison. Next: I will present a small set of nearby options without requiring a food-type answer first.', 'MENU-2'],
+        '3': ['You chose access check. Next: we will check route feasibility, carrying/return needs, and possible assistance.', 'MENU-3'],
+        '4': ['You chose more information. Next: choose the specific information you need, such as hours, eligibility, or what to bring.', 'MENU-4'],
+        '5': ['You chose something else. Next: briefly describe the different goal, or press 0 to leave this path.', 'MENU-5']
+      }
+    },
+    ambiguous: {
+      name: 'Ambiguous landmark',
+      start: 'I have a possible location clue, but it is not confirmed. Choose:\n1 Use the closest likely match\n2 Compare other nearby matches\n3 Describe the landmark again\n4 Pause\n5 Return to the main menu',
+      responses: {
+        '1': ['I can use the closest likely match as a hypothesis. Next: I will ask for one observable confirmation before giving final directions.', 'AMB-1'],
+        '2': ['We will compare nearby possible matches. Next: I will show a short list and avoid treating an unconfirmed guess as fact.', 'AMB-2'],
+        '3': ['Please describe one more visible clue, such as a cross street, bus stop, sign, or direction. No personal details are needed.', 'AMB-3'],
+        '4': ['Paused. Your current context is retained in this practice run. Press # to continue or 0 to leave.', 'AMB-4'],
+        '5': ['Returning to the main menu. Choose a new goal when ready.', 'AMB-5']
+      }
+    },
+    access: {
+      name: 'Travel barrier',
+      start: 'The selected location may be difficult to reach or carry from. Choose:\n1 Check a different nearby location\n2 Explore delivery or proxy pickup\n3 Consider a smaller amount or carrying aid\n4 Get access requirements\n5 Return to the main menu',
+      responses: {
+        '1': ['We will check another nearby option. Next: I will preserve the current location context while comparing feasibility.', 'ACCESS-1'],
+        '2': ['We will explore delivery, proxy pickup, volunteer help, or another authorized assistance route if available.', 'ACCESS-2'],
+        '3': ['We will consider a smaller amount, a bag/cart, or a staged trip. Next: choose the option that matches the person’s actual capacity.', 'ACCESS-3'],
+        '4': ['Next: I will explain location-specific access rules and documentation requirements without assuming immigration status.', 'ACCESS-4'],
+        '5': ['Returning to the main menu without treating the travel barrier as user failure.', 'ACCESS-5']
+      }
+    },
+    failure: {
+      name: 'Unavailable resource',
+      start: 'The selected resource is unavailable right now. Choose:\n1 Try another nearby location\n2 Check a later time or date\n3 Explore delivery or assistance\n4 Get the reason and requirements\n5 Return to the main menu',
+      responses: {
+        '1': ['The resource is unavailable, so we will try another nearby authorized option while preserving your context.', 'FAIL-1'],
+        '2': ['We can check a later time or date. I will not promise availability until it is verified.', 'FAIL-2'],
+        '3': ['We will explore another access pathway, such as delivery, proxy pickup, volunteer help, or an authorized partner.', 'FAIL-3'],
+        '4': ['I will explain the known reason and any requirements without blaming you or inventing an answer.', 'FAIL-4'],
+        '5': ['Returning to the main menu. The unavailable resource does not end the journey.', 'FAIL-5']
+      }
+    },
+    feedback: {
+      name: 'Explicit negative feedback',
+      start: 'You indicated that the system is not working. Choose:\n1 Stop this session\n2 Return to the main menu\n3 Try one different path\n0 Leave without adding details',
+      responses: {
+        '1': ['Session stopped. No explanation is required. Minimal signal recorded: explicit negative feedback.', 'FEEDBACK-1'],
+        '2': ['Returning to the main menu. The negative feedback remains distinct from a neutral exit.', 'FEEDBACK-2'],
+        '3': ['We can try one different path without asking for personal details. Choose the next goal from the main menu.', 'FEEDBACK-3'],
+        '0': ['Leaving without additional details. Minimal signal recorded: explicit negative feedback plus neutral exit.', 'FEEDBACK-0']
+      }
+    }
+  };
+
+  function current() { return scenarios[scenario.value]; }
+  function show(text, ruleId) {
+    response.textContent = text;
+    rule.textContent = 'Rule: ' + ruleId;
+  }
+  function handleKey(key) {
+    const s = current();
+    let text = '';
+    let ruleId = 'COMMON-UNKNOWN';
+    if (key === '*') {
+      text = 'You indicated that this is not working. We will provide an exit pathway without requiring an explanation. Choose 1 to stop, 2 for the main menu, or 3 to try one different path.';
+      ruleId = 'COMMON-EXPLICIT-NEGATIVE-FEEDBACK';
+    } else if (key === '0') {
+      text = 'Neutral exit/navigation selected. Choose 1 to return to the main menu or 2 to leave this practice path.';
+      ruleId = 'COMMON-NEUTRAL-EXIT';
+    } else if (key === '#') {
+      text = history.length ? 'Continue from the current context. Choose one numbered option, or press 0 to leave.' : 'There is no pending choice to confirm. Choose a numbered option first.';
+      ruleId = 'COMMON-CONFIRM-CONTINUE';
+    } else if (s.responses[key]) {
+      [text, ruleId] = s.responses[key];
+    } else {
+      text = 'I did not recognize that choice for this scenario. Please choose one of the displayed options, press 0 to navigate away, or press * if this is not working.';
+    }
+    history.push({ scenario: s.name, input: key, rule: ruleId, response: text });
+    show(text, ruleId);
+    renderLog();
+  }
+  function renderLog() {
+    if (!history.length) { log.textContent = 'No test input yet.'; return; }
+    log.textContent = JSON.stringify({ scenario: scenario.value, inputs: history, result: selectedResult }, null, 2);
+  }
+  function reset() {
+    history = [];
+    selectedResult = 'NOT_MARKED';
+    result.textContent = 'Result: not marked';
+    show(current().start, 'SCENARIO-START');
+    renderLog();
+  }
+
+  document.querySelectorAll('[data-key]').forEach(button => button.addEventListener('click', () => handleKey(button.dataset.key)));
+  document.querySelectorAll('[data-result]').forEach(button => button.addEventListener('click', () => {
+    selectedResult = button.dataset.result;
+    result.textContent = 'Result: ' + selectedResult;
+    renderLog();
+  }));
+  scenario.addEventListener('change', reset);
+  document.querySelector('#reset').addEventListener('click', reset);
+  reset();
+})();
+</script>
+</body>
+</html>

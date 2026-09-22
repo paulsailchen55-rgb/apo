@@ -1,7 +1,7 @@
 # Stage 1 — Foundation Decisions
 
 **Project:** Civic Two-Minute Ideas / Civic Communication Lab  
-**Status:** Proposed — Stage 1 established  
+**Status:** Proposed — Stage 1 established and expanded  
 **Evidence classification:** PROPOSED, based on user-directed design decisions  
 
 ## 1. Purpose of Stage 1
@@ -18,9 +18,15 @@ The system must support all of the following:
 2. **Idea holders:** People who have an idea, concern, observation, or proposal but need help separating, organizing, and expressing it.
 3. **Experienced participants:** People who already understand civic participation and want an efficient process for preparing, checking, or adapting a communication.
 
-The interface should not assume literacy level, technical skill, prior civic knowledge, available time, or confidence. Plain-language explanations and optional advanced detail should coexist.
+The broad intended audience is any person who wants to participate, learn, observe, experiment, or understand what is happening in civic life. The system should not assume citizenship, literacy level, technical skill, prior civic knowledge, available time, or confidence; applicable participation eligibility must be explained from current official rules rather than assumed.
 
-## 3. Entry Methods
+## 3. Human-First Entrance
+
+The first visible entrance should offer verified ways to reach a human by phone, text, or in person. This is a primary pathway for people who are technologically fatigued, do not want to use an app, lack reliable internet, prefer conversation, or simply want another person to help develop an idea.
+
+Digital pathways remain available afterward: website, downloadable HTML, AI conversation, practice, printing, follow-up, and Labs. A separate related project may investigate a human civic-idea support network.
+
+## 4. Entry Methods
 
 A user may begin through any of these paths:
 
@@ -28,11 +34,12 @@ A user may begin through any of these paths:
 - Type a new idea.
 - Speak a new idea for transcription.
 - Upload a document, handwritten page, photograph, or other supported source.
+- Contact a verified human-help resource.
 - Combine multiple entry methods.
 
 The system should preserve the original input and distinguish user-provided material from AI-generated organization or interpretation.
 
-## 4. AI Assistance Modes
+## 5. AI Assistance Modes
 
 The system must support all three modes:
 
@@ -50,7 +57,7 @@ The user creates an initial draft, including a handwritten draft. The system may
 
 No assistance mode should be treated as mandatory. The user must be able to change modes during the process.
 
-## 5. Possible Outcomes
+## 6. Possible Outcomes
 
 All outcomes are available, but each should be optional:
 
@@ -64,21 +71,6 @@ All outcomes are available, but each should be optional:
 
 The system should not force practice, public posting, recording, or submission. It should explain which steps are optional and which requirements come from the relevant meeting or agency.
 
-## 6. Initial User-Controlled Flow
-
-A flexible default flow is:
-
-1. Choose or provide source material.
-2. Identify and separate distinct ideas.
-3. Clarify the intended audience, jurisdiction, and purpose.
-4. Select the desired level of AI assistance.
-5. Verify relevant current official sources when external verification is available and implemented.
-6. Generate or revise one or more communication outputs.
-7. Review and approve the content.
-8. Optionally practice, print, export, or prepare follow-up material.
-
-Users may return to earlier steps, skip optional steps, or stop after producing a draft.
-
 ## 7. Accessibility and Human Control Requirements
 
 - Use plain-language explanations alongside technical or procedural detail.
@@ -88,22 +80,25 @@ Users may return to earlier steps, skip optional steps, or stop after producing 
 - Require meaningful user review before content is submitted or publicly shared.
 - Avoid claiming that an AI-generated communication will produce a particular official or public response.
 - Do not require a user to record audio, upload sensitive information, or publish personal details merely to use the basic workflow.
+- Do not invent or present unverified local contact numbers as currently available services.
 
 ## 8. Open Questions for Stage 2
 
 - Which user profile should the first prototype display by default?
-- Should the system ask a short onboarding question or show all entry methods immediately?
+- Should the system ask a short onboarding question or show all entry methods immediately after the human-first panel?
 - What minimum information is required before source verification begins?
 - How should the system handle users who provide several unrelated ideas in one submission?
 - Which features can operate locally in the HTML prototype, and which require a connected AI or retrieval service?
+- What verified local human-support services actually exist for civic idea development?
 
 ## 9. Decision Record
 
 Stage 1 decisions were provided by the project initiator:
 
-- Primary user: all defined user groups.
-- Entry methods: all defined entry methods.
+- Primary user: all defined user groups, broadly understood as participating people, including curious observers and people experimenting with civic participation.
+- Entry methods: all defined entry methods, including human contact.
 - AI assistance: all three assistance modes.
 - Outcomes: all listed outcomes, with optional steps.
+- Priority distinction: human assistance should be offered first, before digital tools are presented as the primary route.
 
 These are design decisions for the proposed system, not claims that the implementation has already been built or tested.

@@ -488,3 +488,50 @@ Do not decide what the project “really is” before reading its history.
 The repository's history tells you why the system exists. The current project documents tell you what has been established. This prompt tells you what the coding AI is currently being asked to build. Workflow archives preserve the path by which those understandings developed.
 
 Build the smallest testable increment that moves the repository toward the demonstrated workflow, while preserving the evidence trail and all meaningful prior work.
+
+## Human + AI self-directed building principle
+
+This project is intentionally designed so that a person does not need to be a professional software engineer to begin building from the idea.
+
+The repository should communicate enough of the **problem, purpose, architecture, constraints, evidence, and current build target** that a human and a coding AI can independently understand what is being attempted and begin useful work within the time, tools, and capabilities available to them.
+
+The project does not require every builder to use the same programming language, framework, agent, workflow, or implementation technique. Different builders may reach different first implementations while still honoring the same underlying project principles.
+
+This is part of the experiment:
+
+ > **Put the idea into the repository clearly enough that both a human and an AI can understand it, then let the builder work within its available day, tools, and environment.**
+
+A future builder should be able to ask:
+
+- What problem is this trying to solve?
+- What has already been learned?
+- What is established versus uncertain?
+- What is the smallest thing I can build today?
+- What can I test today?
+- What should I leave unchanged because it is historical or unresolved?
+- What implementation choices are mine to make?
+
+The repository should answer those questions without requiring the original conversation to be present.
+
+### Independent-builder experiment
+
+Multiple AIs or human/AI teams may build independently from the same repository and build prompt.
+
+Their implementations should **not** be assumed to be identical or automatically treated as competing answers. Differences may reveal:
+
+- ambiguity in the prompt;
+- alternative implementation paths;
+- useful design discoveries;
+- missing constraints;
+- better tests;
+- technical limitations of a particular environment.
+
+When independent implementations are brought back into the APO repository, use the reconciliation workflow to compare them before combining or extending them.
+
+The purpose is not to make the prompt so complete that no builder has to think. The purpose is to make the project's intent and boundaries sufficiently legible that **the builder can think and build without needing the original author standing beside them.**
+
+This principle supports the broader APO rule:
+
+> **Preserve the possibility before deciding what it is.**
+
+The human provides the idea, purpose, values, and evolving judgment. The AI or other builder provides an implementation path appropriate to its available tools and environment. The repository preserves the shared understanding between them.

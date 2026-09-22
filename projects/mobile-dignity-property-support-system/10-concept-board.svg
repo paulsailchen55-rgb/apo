@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="white"/>
+<text x="60" y="70" font-family="Arial,sans-serif" font-size="38" font-weight="700" fill="#17324d">Modular Mobility &amp; Property Support System</text>
+<text x="60" y="105" font-family="Arial,sans-serif" font-size="22" fill="#40566b">Concept board — walking / riding / sleeping / independently removable modules</text>
+
+<!-- panels -->
+<rect x="40" y="140" width="490" height="300" rx="12" fill="#f7fafc" stroke="#8aa9bf" stroke-width="2"/>
+<rect x="555" y="140" width="490" height="300" rx="12" fill="#f7fafc" stroke="#8aa9bf" stroke-width="2"/>
+<rect x="1070" y="140" width="490" height="300" rx="12" fill="#f7fafc" stroke="#8aa9bf" stroke-width="2"/>
+
+<text x="65" y="180" font-family="Arial" font-size="25" font-weight="700" fill="#17324d">1. WALKING MODE</text>
+<text x="580" y="180" font-family="Arial" font-size="25" font-weight="700" fill="#17324d">2. RIDING MODE</text>
+<text x="1095" y="180" font-family="Arial" font-size="25" font-weight="700" fill="#17324d">3. SLEEPING MODE</text>
+
+<!-- walking -->
+<rect x="250" y="230" width="125" height="145" rx="12" fill="#4d5a64"/>
+<rect x="265" y="245" width="95" height="115" rx="8" fill="#74818a"/>
+<path d="M250 375 H395 M395 375 L425 390" stroke="#222" stroke-width="14" fill="none"/>
+<circle cx="235" cy="385" r="27" fill="#222"/><circle cx="410" cy="385" r="27" fill="#222"/>
+<path d="M245 375 Q220 245 265 205" stroke="#222" stroke-width="13" fill="none"/>
+<path d="M265 205 Q290 180 320 205" stroke="#222" stroke-width="13" fill="none"/>
+<text x="75" y="420" font-family="Arial" font-size="17" fill="#40566b">upright removable cargo case • arched push/steering handle • compact 3-wheel base</text>
+
+<!-- riding -->
+<rect x="770" y="230" width="120" height="135" rx="10" fill="#4d5a64"/>
+<rect x="785" y="245" width="90" height="105" rx="8" fill="#74818a"/>
+<circle cx="755" cy="385" r="27" fill="#222"/><circle cx="905" cy="385" r="27" fill="#222"/>
+<path d="M755 375 H905" stroke="#222" stroke-width="12"/>
+<path d="M755 375 H670" stroke="#222" stroke-width="12"/>
+<circle cx="655" cy="385" r="27" fill="#222"/>
+<rect x="675" y="315" width="70" height="18" rx="8" fill="#222"/>
+<path d="M705 315 V260" stroke="#222" stroke-width="10"/><ellipse cx="705" cy="248" rx="42" ry="14" fill="#222"/>
+<path d="M755 375 Q735 325 700 330" stroke="#777" stroke-width="7" fill="none"/>
+<text x="580" y="420" font-family="Arial" font-size="17" fill="#40566b">detachable rear riding module • seat • pedal/reciprocating drive • optional electric module</text>
+
+<!-- sleeping -->
+<rect x="1130" y="285" width="110" height="100" rx="10" fill="#4d5a64"/>
+<rect x="1143" y="300" width="84" height="70" rx="7" fill="#74818a"/>
+<circle cx="1118" cy="390" r="24" fill="#222"/><circle cx="1245" cy="390" r="24" fill="#222"/>
+<path d="M1240 350 H1510" stroke="#222" stroke-width="16"/>
+<path d="M1260 370 H1490" stroke="#66737d" stroke-width="12"/>
+<path d="M1290 390 H1470" stroke="#8b969e" stroke-width="12"/>
+<path d="M1280 366 v22 M1360 386 v22 M1440 406 v22 M1510 350 v35" stroke="#333" stroke-width="12"/>
+<path d="M1270 300 Q1380 190 1500 300" fill="#d8e3c5" stroke="#52644c" stroke-width="4"/>
+<path d="M1270 300 L1385 380 L1500 300" fill="none" stroke="#52644c" stroke-width="4"/>
+<text x="1095" y="420" font-family="Arial" font-size="17" fill="#40566b">nested flat panels • integrated ground-support blocks • tent/bivy attaches after extension</text>
+
+<!-- main architecture -->
+<rect x="40" y="465" width="730" height="485" rx="12" fill="#fbfcfd" stroke="#8aa9bf" stroke-width="2"/>
+<text x="65" y="505" font-family="Arial" font-size="27" font-weight="700" fill="#17324d">Modular architecture</text>
+
+<!-- side schematic -->
+<text x="70" y="545" font-family="Arial" font-size="19" font-weight="700" fill="#40566b">Side view — riding module attached to dolly</text>
+<rect x="250" y="600" width="120" height="130" rx="8" fill="#5b6973"/>
+<rect x="265" y="615" width="90" height="100" rx="5" fill="#89959d"/>
+<path d="M250 730 H580" stroke="#222" stroke-width="12"/>
+<circle cx="235" cy="745" r="30" fill="#222"/><circle cx="595" cy="745" r="30" fill="#222"/>
+<path d="M580 730 H430" stroke="#222" stroke-width="12"/>
+<rect x="435" y="655" width="75" height="18" rx="8" fill="#222"/>
+<path d="M470 655 V600" stroke="#222" stroke-width="9"/>
+<ellipse cx="470" cy="590" rx="40" ry="13" fill="#222"/>
+<path d="M250 730 Q220 580 270 550 Q310 530 340 555" stroke="#222" stroke-width="12" fill="none"/>
+<text x="90" y="790" font-family="Arial" font-size="18" fill="#40566b">Dolly/cargo base</text>
+<text x="410" y="790" font-family="Arial" font-size="18" fill="#40566b">Detachable riding module</text>
+<text x="90" y="830" font-family="Arial" font-size="17" fill="#40566b">The complete vehicle is not the only product.</text>
+<text x="90" y="858" font-family="Arial" font-size="17" fill="#40566b">The attachment/interface can be the developed component.</text>
+<text x="90" y="905" font-family="Arial" font-size="17" fill="#40566b">Universal attachment remains an engineering question;</text>
+<text x="90" y="930" font-family="Arial" font-size="17" fill="#40566b">ordinary dollies do not automatically provide steering.</text>
+
+<!-- deck detail -->
+<rect x="800" y="465" width="760" height="485" rx="12" fill="#fbfcfd" stroke="#8aa9bf" stroke-width="2"/>
+<text x="825" y="505" font-family="Arial" font-size="27" font-weight="700" fill="#17324d">Telescoping sleeping deck — concept</text>
+<text x="825" y="540" font-family="Arial" font-size="18" fill="#40566b">Each section is an independent nested panel with its own integrated ground-support block.</text>
+
+<!-- deck schematic -->
+<rect x="850" y="590" width="170" height="55" fill="#5d6a74"/>
+<rect x="1020" y="610" width="190" height="55" fill="#78858e"/>
+<rect x="1210" y="630" width="190" height="55" fill="#929ca3"/>
+<rect x="1400" y="650" width="120" height="55" fill="#aeb6bb"/>
+<rect x="980" y="645" width="38" height="30" fill="#30383e"/>
+<rect x="1170" y="665" width="38" height="30" fill="#30383e"/>
+<rect x="1360" y="685" width="38" height="30" fill="#30383e"/>
+<rect x="1480" y="705" width="38" height="30" fill="#30383e"/>
+
+<text x="855" y="755" font-family="Arial" font-size="18" fill="#40566b">Panel 1</text>
+<text x="1050" y="780" font-family="Arial" font-size="18" fill="#40566b">Panel 2</text>
+<text x="1240" y="800" font-family="Arial" font-size="18" fill="#40566b">Panel 3</text>
+<text x="1420" y="820" font-family="Arial" font-size="18" fill="#40566b">Panel 4</text>
+<text x="855" y="850" font-family="Arial" font-size="18" fill="#40566b">→ panels telescope outward one at a time</text>
+<text x="855" y="880" font-family="Arial" font-size="18" fill="#40566b">→ support blocks progressively reach the ground</text>
+<text x="855" y="910" font-family="Arial" font-size="18" fill="#40566b">→ no separate folding legs or extra wheels required by the concept</text>
+<text x="855" y="940" font-family="Arial" font-size="18" fill="#40566b">→ sections intended to be removable/replaced independently</text>
+
+<text x="60" y="985" font-family="Arial" font-size="20" font-weight="700" fill="#17324d">DESIGN PRINCIPLE: use existing commodity parts where practical; develop simple interfaces and modules; keep the design open for study, repair, modification, and fabrication.</text>
+</svg>

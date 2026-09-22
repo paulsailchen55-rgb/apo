@@ -77,6 +77,30 @@ The project may cross-reference a future standalone “Existing Buildings Materi
 
 California State Parks identifies condition assessment, retention, adaptive reuse, and sustainable rehabilitation as relevant preservation practices. CalRecycle identifies material-selection factors such as low toxicity, low emissions, durability, local production, recyclability, and reuse. These sources support the research direction but do not approve any specific material or assembly.
 
+## 2026-09-22 — Plastic Burden and Informed Material Choice
+
+### User intention
+
+The user clarified that “plastic” should be examined not only as a chemical category but also as a practical end-of-life burden. A material becomes especially relevant when its composition, contamination, combination with other materials, or disposal requirements make ordinary reuse, separation, recycling, recovery, or disposal difficult, expensive, restricted, or unavailable.
+
+The user gave the example of excavated dirt or soil that may be easy to place under ordinary conditions but becomes more difficult or costly when mixed with plastic or other problematic materials. This example is to be investigated and verified for specific facility rules rather than treated as a universal disposal rule.
+
+### Working project definition
+
+The new file `MATERIAL-DEFINITION-AND-CHOICE-PATHWAYS.md` defines **plastic burden** as the difficulty, cost, restriction, risk, or lack of an accessible pathway associated with synthetic or substantially synthetic materials, or materials containing synthetic polymers, petrochemical-derived components, coatings, binders, adhesives, foams, laminates, or composites.
+
+### Decision-pressure concern
+
+The user raised concern that residents may be pushed toward material choices by suppliers, builders, developers, or government processes without enough time to understand the consequences or compare alternatives. The project should investigate this as a time, information, authority, and meaningful-choice issue.
+
+The project must distinguish documented evidence from reported experience, interpretation, and unknown information. It should not assume improper motive without evidence, but it should ask whether residents received understandable information, adequate review time, meaningful alternatives, and access to an independent explanation or second opinion.
+
+### Implementation direction
+
+Material identity and end-of-life pathway must be recorded separately. The workflow should document composition, synthetic content, additives, coatings, adhesives, and composites alongside facility acceptance, separation requirements, transport, cost, repair, reuse, recovery, recycling, and disposal pathways.
+
+The project should not automatically prohibit all plastics or automatically prefer all natural materials. It should apply additional scrutiny where composition, facility acceptance, separation, pollution, or end-of-life handling is uncertain or burdensome.
+
 ### Unresolved items
 
 - Identify the Los Angeles dome community referenced by the user.
@@ -85,3 +109,4 @@ California State Parks identifies condition assessment, retention, adaptive reus
 - Build a source-backed workflow for current rules and contacts.
 - Develop a materials evaluation rubric aligned with the Omega Principle.
 - Determine whether and when the existing-building materials pathway should become a separate APO project.
+- Verify examples of soil, plastic-contaminated soil, mixed construction debris, and facility-specific rejection or surcharge policies.

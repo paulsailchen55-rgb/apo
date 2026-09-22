@@ -130,6 +130,34 @@ original conversation → archival interpretation → human revision → externa
 
 The archive should make it possible to tell what originated with the user, what was generated or organized by AI, and what was later verified or changed.
 
+## 11. Market Alternatives and Burden of Consent
+
+The archive must preserve the distinction between a conventional estimating tool and an independent choice-and-burden resource.
+
+The project is not intended to become a vendor-centered estimator that calculates costs around a supplier's preferred products or functions as advertising for particular materials, contractors, developers, or investments. Existing estimating tools may be acknowledged as available infrastructure, but the project should focus on making alternatives easier to discover, understand, compare, and investigate.
+
+For each material or assembly, the workflow should consider:
+
+- Purchase and installation burden.
+- Repair, maintenance, and replacement burden.
+- Separation, transport, acceptance, recovery, recycling, and disposal pathways.
+- Actual end-of-life cost and restrictions, verified for the relevant facility and jurisdiction.
+- Whether a requirement is mandatory, conditionally required, recommended, or merely preferred by a supplier or installer.
+- Whether the decision-maker received sufficient time, understandable information, and meaningful alternatives.
+- Whether independent advice, second opinions, appeal pathways, or further review are available.
+
+The phrase **burden of consent** is treated as a proposed project framework, not an established legal doctrine. It describes the practical burden placed on a person when they are expected to agree to a material or construction choice without adequate time, information, authority, or feasible alternatives.
+
+The workflow must preserve the difference between:
+
+- Documented facts about costs, requirements, suppliers, and facility acceptance.
+- Personal observations and reported experiences.
+- Assistant interpretations.
+- Hypotheses about market structure, institutional pressure, or motive.
+- Legal conclusions, which require applicable law and case-specific analysis.
+
+The project should not assume that all existing market participants act improperly, but it should systematically document whether people can make informed choices consistent with their values and whether alternative pathways are practically accessible.
+
 ## Guiding Principle
 
 **Preserve the possibility before deciding what it is.**

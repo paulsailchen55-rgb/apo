@@ -55,3 +55,8 @@ Do not collapse this work into the phrase “better condenser.” The distinctiv
 5. Measure condensate mass per pulse.
 6. Measure pressure drop and compressed-air cost.
 7. Determine whether the concept deserves broader cross-industry research.
+
+
+## Origin Note — Laundromat
+
+This broader application connection was being thought through **on the way to the laundromat and while doing laundry**. The laundromat setting prompted the realization that rapid moisture separation could be relevant far beyond Breeze, including clothes dryers and other machines that continuously move humid air.

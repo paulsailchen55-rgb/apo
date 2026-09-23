@@ -416,6 +416,89 @@ The next step is to test whether these nodes change the **actual choice set** an
 
 ---
 
+## 16. The Dependency Question — Explicit for Whom?
+
+The case now adds a more precise question to the prototype:
+
+> **At what point does an optional possibility become a system requirement — and for whom?**
+
+The phrase **for whom** is essential. A project can become a requirement for one actor, institution, contract, revenue model, investment thesis, government expectation, technology pathway, or community without becoming a requirement for the larger system.
+
+This prevents the analysis from silently moving from:
+
+`REQUIREMENT FOR ONE ACTOR`
+
+to:
+
+`REQUIREMENT FOR THE SYSTEM`
+
+without evidence.
+
+### Dependency should therefore be traced actor-by-actor
+
+For each dependency, identify the first point at which it becomes explicit:
+
+| Dependency question | What to identify |
+|---|---|
+| **Requirement for whom?** | Actor, institution, contract, project, market, or broader system |
+| **First explicit statement?** | First dated document where the dependency is stated or contractually created |
+| **What is required?** | Capital, approval, production, revenue, technology, sponsor, resource, price, etc. |
+| **Required for what?** | Continuation, profitability, contract performance, financing, regulatory approval, or some other outcome |
+| **Conditional or unconditional?** | Whether the requirement depends on a specified future event |
+| **What happens if it fails?** | Pause, loss, renegotiation, termination, write-off, insolvency risk, reduced capacity, or other documented consequence |
+| **Does the dependency propagate?** | Whether another actor becomes dependent on the same condition |
+
+### The first-explicit-dependency test
+
+Instead of asking only whether the project is "dependent," trace the sequence:
+
+~~~text
+OPTION
+  ↓
+FIRST EXPLICIT DEPENDENCY
+  ↓
+SPECIALIZATION
+  ↓
+INVESTMENT / COMMITMENT
+  ↓
+NEW CAPACITY
+  ↓
+NEW DEPENDENCY
+  ↓
+REINFORCEMENT
+  ↓
+REQUIREMENT FOR WHOM?
+~~~
+
+The research task is to find the **earliest documentary point** at which each dependency becomes explicit, rather than inferring dependency backward from the project's present state.
+
+### Two separate propositions must be tested
+
+**Proposition A — Actor-level requirement:**
+
+> A future condition becomes necessary for a particular actor or project to achieve a stated objective.
+
+**Proposition B — System-level requirement:**
+
+> The same condition becomes necessary for the larger system, population, or public objective.
+
+Proposition B requires substantially more evidence than Proposition A.
+
+### Current case status
+
+For the TMC/NORI case, the existing evidence already supports investigation of actor-level dependencies involving exploration rights, Nauruan sponsorship, financing, technical feasibility, regulatory approval, future production, and market conditions. It does **not** yet establish that commercial deep-sea recovery is a requirement for the broader economy, for the United States, for Nauru, for the ocean economy, or for society generally.
+
+That distinction is now part of the prototype.
+
+### Next evidence target
+
+For Hour 2, build a dependency ledger with this structure:
+
+`ACTOR → FIRST EXPLICIT DEPENDENCY → DOCUMENT DATE → REQUIRED CONDITION → PURPOSE → CONSEQUENCE IF ABSENT → PROPAGATION`
+
+This should be built from primary documents where possible and should distinguish **stated dependency** from **analytical dependency inferred from the system map**.
+
+---
 ## Sources
 
 - International Seabed Authority, ISA FAQ, July 2025.

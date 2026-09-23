@@ -7,78 +7,31 @@
 > This repository is intended to be a reusable archive and reference point for ideas, conversations, experiments, designs, research, and possible projects.
 >
 > **When adding new work:** put it into its own clearly named folder, keep that folder self-contained and usable, preserve its original meaning and provenance, and do not treat unfinished ideas as established facts.
->
-> ### Standard APO Push Prompt
+
+## The Butterfly — Distributed Biological Computation
+
+A speculative concept developed from the fruit-compute discussion: extremely low-energy computational nodes could use biological energy as a limited computational budget and communicate as a distributed network. The engineering concept is intentionally distinct from the energy required for motors or other physical actuation.
+
+The corresponding philosophical question is broader: **what if distributed computation is already present in living systems, including the collective activity of flying insects?**
+
+This is preserved as a speculative meditation, not as a scientific claim. The project should distinguish clearly between documented biology, engineering prototypes, hypotheses, metaphor, and philosophical exploration.
+
+See [butterfly/THE-BUTTERFLY-MEDITATION.md](butterfly/THE-BUTTERFLY-MEDITATION.md).
+
+**Working principle:** biological energy may support information processing without making biological abundance an excuse for unlimited extraction.
+
+**Omega Principle:** consider not only what a technological system can do, but its complete material and energetic life cycle — origin → use → consequence → end → return.
+
+### Standard APO Push Prompt
 Upload this conversation to my GitHub repository:
-
-
 
 https://github.com/paulsailchen55-rgb/apo
 
-
-
 Treat apo only as a chat archive/reference repository.
-
-
 
 Create ONE new folder for this conversation and put the conversation archive inside that folder.
 
->
-> ```text
-> Push this work to my GitHub repository:
->
-> https://github.com/paulsailchen55-rgb/apo
->
-> Treat `apo` as an archive / chat-loader repository for reference, not as the project itself.
->
-> Do not create or modify the root README unless I explicitly ask you to.
->
-> Before deciding what the "work" is, examine the entire conversation available for this task and identify all distinct projects, proposals, experiments, research directions, frameworks, article/book ideas, technical concepts, tools, or other potentially reusable bodies of work that have emerged.
->
-> First create a conversation-wide inventory of those possibilities. Distinguish, where possible, between:
-> - project
-> - potential project
-> - research question
-> - framework / concept
-> - article / book idea
-> - experiment / prototype
-> - supporting idea
-> - personal or philosophical exploration
->
-> Do not assume every idea is a project. Identify which ideas belong together and which should remain separate. Do not silently merge unrelated projects merely because they share themes.
->
-> After creating the inventory, compare it with the existing contents of `apo`. Identify what is already archived and what is missing. Then create clearly named, self-contained folders for distinct projects or substantial bodies of work that are not already adequately represented.
->
-> For each folder:
-> - Keep the contents self-contained and usable.
-> - Preserve the original meaning, context, and provenance of the material.
-> - Include supporting notes, source/context material, assumptions, unresolved questions, and current status when useful.
-> - Preserve important distinctions between user ideas, observations, interpretations, hypotheses, proposals, documented facts, external evidence, disputed claims, and assistant-generated interpretations.
-> - Do not silently turn ideas, hypotheses, conversations, metaphors, or possibilities into established facts.
-> - If the material is a project, make the folder usable as an independent project or reference package.
-> - If the material is better understood as research or a possibility, preserve it at that level rather than forcing it into a project structure.
->
-> Archive the conversation-wide inventory itself in a clearly named location, such as `project-inventory/conversation-project-inventory.md`, so the reasoning behind the archive structure is preserved.
->
-> Do not overwrite existing work. Inspect existing files and folders before changing anything. If an existing folder already represents a project, update it only when the new material adds genuinely relevant context or artifacts; otherwise leave it intact.
->
-> Use clear filenames and a sensible folder structure. Keep supporting files inside the relevant project folder rather than scattering them through the repository.
->
-> Preserve uncertainty. If something cannot be determined from the conversation, record it as unresolved rather than inventing an answer.
->
-> Commit directly to `main` unless I specify otherwise.
->
-> After pushing, report:
-> 1. the conversation-wide project/possibility inventory,
-> 2. which items were already represented in `apo`,
-> 3. which folders/files were added or changed,
-> 4. the commit SHA,
-> 5. important assumptions, ambiguities, or unresolved issues.
->
-> Guiding principle:
->
-> **Preserve the possibility before deciding what it is.**
-> ```
+> Preserve the possibility before deciding what it is.
 
 This repository is an archive.
 
@@ -86,9 +39,9 @@ It is a place to preserve ideas, conversations, experiments, designs, questions,
 
 Nothing here should be assumed to be a finished system.
 
-Some material may be incomplete.  
-Some ideas may contradict one another.  
-Some proposals may turn out to be impractical.  
+Some material may be incomplete.
+Some ideas may contradict one another.
+Some proposals may turn out to be impractical.
 Some may become useful only when combined with something discovered later.
 
 That is part of the purpose.

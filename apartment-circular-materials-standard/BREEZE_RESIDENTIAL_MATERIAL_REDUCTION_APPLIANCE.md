@@ -48,3 +48,14 @@ Moisture is also expected to interact strongly with the proposed acoustic partic
 ## Updated Research Sequence
 
 After defining permitted feedstock, establish: **moisture envelope → heat generation → condensation risk → particle behavior → collection → filtered boundary-air performance.**
+
+
+## Pulsed Vortex Moisture Management — New Technical Track
+
+A separate research track has been added for a **Pulsed Vortex Moisture Separator**. The concept investigates using Breeze's existing compressed-air pulses with Tesla-valve-like flow geometry, vortex formation, pressure/velocity changes, possible expansion cooling, condensation, droplet coalescence, and rapid mechanical liquid separation.
+
+The objective is to manage moisture at the rate it is released rather than relying on a large conventional condenser to process the entire downstream vapor load.
+
+This remains **PROPOSED / UNKNOWN**. It does not establish that Tesla-valve geometry, vortex cooling, or a vortex-tube stage can condense and remove water fast enough for Breeze. The critical experimental question is whether meaningful water mass can be removed within a single pressure pulse or short pulse train at an acceptable energy and pressure-drop cost.
+
+See: `BREEZE_PULSED_VORTEX_MOISTURE_MANAGEMENT.md`.

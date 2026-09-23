@@ -506,3 +506,132 @@ This should be built from primary documents where possible and should distinguis
 - TMC SEC filings concerning exploration rights, technology development, and regulatory applications.
 
 The project should retain the distinction between **company statements**, **regulatory statements**, and **our analytical interpretation** when this case is expanded.
+
+
+---
+
+## 17. Chutes-and-Ladders Test — First Multi-Flow Re-Map
+
+The new concept is now being applied to this case rather than left as a metaphor.
+
+The first result is that the case is better represented as **several coupled flows operating at the same time**, rather than one project-development line.
+
+### Flow A — Resource / opportunity
+
+RESOURCE OPPORTUNITY
+↕
+EXPLORATION ACCESS
+↕
+RESOURCE DEFINITION
+↕
+FUTURE RECOVERY OPTION
+
+The relationship is not purely forward. Better resource definition can change the perceived and technically evaluated value of the opportunity, while the existence of the opportunity motivates further definition.
+
+### Flow B — Technology / capability
+
+RESOURCE OPPORTUNITY
+→ TECHNOLOGY DEVELOPMENT
+→ COLLECTION / LIFT / TRANSPORT / PROCESSING CAPABILITY
+→ GREATER CAPACITY TO PURSUE THE RESOURCE
+→ NEW TECHNICAL POSSIBILITIES
+
+The return arrow matters.
+
+Technology is not only an output of the opportunity. Once developed, technology can alter which future opportunities are technically approachable.
+
+### Flow C — Institutional context
+
+EXPLORATION RIGHTS
+→ SPONSORSHIP / CONTRACTUAL RELATIONSHIPS
+→ REGULATORY PATHWAYS
+→ NEW INSTITUTIONAL CONTEXT
+→ FUTURE ACTIONS BECOME AVAILABLE
+
+This context is not merely background. It becomes part of the system's operating environment.
+
+### Flow D — Financial / expectation layer
+
+CAPITAL
+→ PROJECT CAPACITY
+→ EXPECTATION OF FUTURE ACTIVITY
+→ REQUIREMENTS FOR CONTINUED DEVELOPMENT
+→ NEW CAPITAL / PARTNER REQUIREMENTS
+
+This flow remains incomplete until the project reconstructs the actual capital stack and documented future financial requirements.
+
+### Flow E — Information / perception
+
+PHYSICAL + INSTITUTIONAL + FINANCIAL ACTIVITY
+→ DOCUMENTS / FILINGS / PUBLIC REPRESENTATION
+→ PERCEIVED PROJECT STATE
+→ DECISIONS / EXPECTATIONS
+→ CHANGED PROJECT STATE
+
+This is an analytical layer, not a claim that anyone is deliberately manipulating perception.
+
+### The combined picture
+
+The initial linear map was:
+
+RESOURCE OPPORTUNITY
+→ EXPLORATION
+→ TECHNOLOGY
+→ FINANCING
+→ REGULATORY PATHWAY
+→ POTENTIAL RECOVERY
+
+The first multi-flow map is closer to:
+
+RESOURCE OPPORTUNITY
+↕
+EXPLORATION / RESOURCE DEFINITION
+↕
+TECHNOLOGY ↔ CAPABILITY
+↕
+INFRASTRUCTURE / SPECIALIZATION
+↕
+INSTITUTIONAL CONTEXT
+↕
+FINANCING / EXPECTATION
+↕
+REGULATORY PATHWAY
+↕
+FUTURE OPPORTUNITY
+
+with information and perception crossing all layers.
+
+### What became visible
+
+The re-map exposes several relationships that the linear version can hide:
+
+1. **Technology is both consequence and context.** It can be developed because an opportunity exists, then become part of the context for later opportunity.
+2. **Institutional relationships are not simply a final approval step.** They can shape what activities are possible throughout the project.
+3. **Capital is not simply an input.** It can create capacity, which creates new expectations and future requirements.
+4. **Resource definition is not merely descriptive.** It can change the project's future option space by changing what is known about the resource.
+5. **Information representation is itself part of the system.** Different observers may see a single "mining project" while the underlying system contains resource, technology, institutional, financial, regulatory, and informational processes occurring simultaneously.
+6. **Exit remains a separate question.** A multi-flow system can continue to contain a formal exit while the accumulated flows may change the practical cost of using it.
+
+### First result of the test
+
+The Chutes-and-Ladders concept earns a place in the working model because it reveals a structural distinction:
+
+> **A project can be moving toward a possible outcome while simultaneously building the context that changes what other outcomes become possible.**
+
+That is different from saying the project is inevitably moving toward that outcome.
+
+### Next empirical test
+
+The next step is to identify, for each arrow above:
+
+- the actor;
+- the dated documentary evidence;
+- whether the relationship is stated or inferred;
+- whether it is one-way, reciprocal, or conditional;
+- what capacity it creates;
+- what new dependency it creates;
+- what alternative it opens;
+- what alternative it closes or makes more costly;
+- whether the effect is physical, financial, institutional, informational, or perceptual.
+
+This is the first operational version of the Chutes-and-Ladders diagnostic.

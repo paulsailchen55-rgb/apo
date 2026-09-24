@@ -64,3 +64,38 @@ Working architecture:
 ## Archive principle
 
 > Preserve the possibility before deciding what it is.
+
+
+## 2026-09-24 — Ghost Teacher / Responsive Body Layer reframing
+
+The user introduced a major refinement based on movement arts including Tai Chi, yoga, Qigong, Pilates, calisthenics, and Kung Fu.
+
+The project is now being explored as a **teacher-like physical presence**, rather than primarily as an automated exercise machine.
+
+The current teaching-layer model is:
+
+1. human teacher/therapist;
+2. mediated teacher through book, video, or audio;
+3. responsive physical movement presence — the current focus;
+4. future deeply adaptive presence — speculative.
+
+New vocabulary:
+
+- **Ghost Teacher** — teacher-like presence without a human or humanoid body.
+- **Responsive Body Layer** — removable physical interface around/supporting the body.
+- **Silent movement teacher** — guidance expressed through physical response, not primarily speech.
+- **Movement as relationship** — sensing, timing, response, release, and waiting.
+
+New conceptual loop:
+
+**notice → guide → respond → adjust → release → wait**
+
+The target experience is: **“Something is helping me move.”**
+
+Movement arts are now a conceptual design laboratory for timing, rhythm, support, tension/release, correction, and progressive independence.
+
+The user also added spiritual symbolism around being covered or surrounded by a responsive presence, including a symbolic connection to the Holy Spirit. This is archived as spiritual/conceptual inspiration, not engineering evidence.
+
+## Updated project center
+
+> What would it take for a removable layer surrounding the human body to behave like a silent movement teacher—sensing tension, offering motion, feeling the response, knowing when to release, and knowing when to simply remain present?

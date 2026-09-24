@@ -92,3 +92,32 @@ The concept concerns the relationship:
 When voluntary control is interrupted, the device becomes a temporary bridge in that relationship.
 
 The goal is not simply to move a limb. It is to help a person remain connected to bodily movement while preserving the person's right to participate, refuse, recover, and change.
+
+
+## 2026-09-24 — Ghost Teacher reframing
+
+The project now explores a **Ghost Teacher**: a nonhuman, non-humanoid movement-teaching presence that is physically sensed through a removable responsive interface.
+
+The user distinguishes:
+1. human teacher/therapist;
+2. mediated teacher through book, video, or audio;
+3. responsive physical teacher-like presence — the current focus;
+4. a future continuously adaptive presence — speculative.
+
+### Responsive Body Layer
+
+A **Responsive Body Layer** is the proposed removable physical interface surrounding, supporting, or contacting the body. It may guide through pressure, tactile cues, rhythm, support, small directional motion, assistance, resistance, or release.
+
+The key relationship is:
+
+**notice → guide → respond → adjust → release → wait**
+
+The target experience is not “a machine is exercising me,” but **“something is helping me move.”**
+
+Movement arts such as Tai Chi, yoga, Qigong, Pilates, calisthenics, and Kung Fu become conceptual design laboratories for studying timing, rhythm, tension/release, support, correction, and progressive independence. This is a research direction, not a claim that the device should reproduce any particular practice.
+
+The central question is now:
+
+> Can a physical interface become a teacher-like presence without becoming a person-shaped machine?
+
+The user's spiritual image of a surrounding or responsive covering, including its symbolic connection to the Holy Spirit, is preserved as conceptual inspiration rather than engineering or theological evidence.

@@ -115,3 +115,70 @@ Its most important unresolved engineering problem is not actuation alone. It is 
 The machine should preserve the person's ability to participate, refuse, stop, or change the intervention.
 
 The concept remains an early APO possibility rather than a validated medical device.
+
+
+## User — Ghost Teacher reframing
+
+The user expanded the project through personal study or observation of Tai Chi, yoga, Qigong, Pilates, calisthenics, and Kung Fu.
+
+The user imagined a **“ghost teacher”** that assists someone with these kinds of motions. The important distinction is that this is not a humanoid robot and not merely an audiobook or video giving instructions.
+
+The user described three important layers:
+
+1. a human teacher or therapist who can observe, guide, touch, massage, and correct;
+2. mediated instruction through a book, video, audiobook, or similar medium;
+3. a new layer where the person senses a teacher-like presence through a responsive device around them.
+
+The third layer is the current project focus. A possible future fourth layer would be a highly adaptive system that continuously senses and responds.
+
+The user's language for the desired presence was essentially: **“it’s there”** and **“wrapped around us.”**
+
+## Assistant — Responsive Body Layer
+
+The project was reframed as a nonhuman movement presence rather than simply an automated exercise machine.
+
+A possible physical architecture was named the **Responsive Body Layer**: a removable layer surrounding, supporting, or contacting the body.
+
+Possible behaviors include supporting a limb, offering tiny directional cues, changing pressure, providing rhythm, assisting movement, providing tactile or vibrational cues, sensing response, pausing, waiting, releasing, and remaining present without acting.
+
+The central relationship became:
+
+**notice → guide → respond → adjust → release → wait**
+
+A possible target experience is:
+
+> **“Something is helping me move.”**
+
+rather than:
+
+> **“A machine is exercising me.”**
+
+## Movement arts as design laboratory
+
+The discussion identified movement arts as useful conceptual neighborhoods for studying timing, rhythm, tension/release, support, correction, bodily awareness, and the transition from assisted movement to self-directed movement.
+
+This is a design research direction, not a claim that the device should reproduce any particular movement discipline.
+
+## User — spiritual/material metaphor
+
+The user connected the responsive-covering idea symbolically to the biblical image of human covering: plants used to cover humanity after eating from the Tree of Knowledge of Good and Evil, followed by the Lord providing animal-derived coverings.
+
+The user saw the responsive covering as symbolically related to being covered or surrounded by a presence, including a possible connection to the Holy Spirit.
+
+This is preserved as the user's spiritual/conceptual symbolism, not as engineering evidence or a settled theological interpretation.
+
+## Current consolidated formulation
+
+The project has evolved from:
+
+**“How can a machine move an inactive body?”**
+
+toward:
+
+**“How can a removable physical layer become a responsive movement teacher that helps a person move without taking ownership of their body?”**
+
+The current primary concept is:
+
+> **A Ghost Teacher / Responsive Body Layer: a removable, non-implantable physical presence that can sense, guide, assist, release, and wait—helping a person maintain or rediscover movement while preserving agency.**
+
+The exact device architecture remains **UNKNOWN**.

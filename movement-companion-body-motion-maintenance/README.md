@@ -6,47 +6,96 @@
 
 ## Core question
 
+> What would it take for a removable layer surrounding the human body to behave like a silent movement teacher—sensing tension, offering motion, feeling the response, knowing when to release, and knowing when to simply remain present?
+
+The broader human question remains:
+
 > What movements does the human body need when voluntary movement is unavailable, and how can a machine provide those movements while preserving dignity, comfort, agency, and remaining biological function?
 
-## Core idea
+## New central framing: the Ghost Teacher
 
-A removable movement companion for a bed, wheelchair, or chair that helps a person maintain appropriate bodily movement when voluntary movement is reduced or unavailable.
+The project has evolved from a possible automated exercise machine toward a **nonhuman movement presence**.
 
-The concept is broader than an electrical muscle stimulator. It may eventually combine mechanical movement, external electrical stimulation, sensory feedback, pressure/position changes, and sensing.
+The user has studied or observed movement arts including **Tai Chi, yoga, Qigong, Pilates, calisthenics, and Kung Fu**. These practices make visible something important: movement can be taught through timing, rhythm, attention, posture, release, repetition, correction, and bodily awareness—not merely through commands to move a particular limb.
 
-The hardest problem identified so far is not simply how to make a body move. It is sensing when movement is needed, determining an appropriate amount for this particular person at this particular time, recognizing when enough is enough, and respecting the person's decision to stop.
+The new concept is a **“ghost teacher”**: a teacher-like presence that is not a person physically standing beside the individual, not a humanoid robot, and not merely a book, video, or audiobook.
 
-## Design principle
+Instead, the person senses the teacher through a responsive physical layer around or supporting the body.
 
-> When voluntary control disappears, don't let movement disappear with it.
+The desired experience is closer to:
 
-A second formulation:
+> **“Something is helping me move.”**
 
-> Maintain the body while the nervous system has an opportunity to recover.
+than:
 
-## Intended population
+> **“A machine is exercising me.”**
 
-The concept is deliberately broad: people with paralysis or major loss of voluntary movement; people recovering from neurological injury; accident and work-injury survivors; veterans; people adapting to limb loss; people whose activity decreases after loss of sight; elderly or frail people; people confined to bed; people who spend long periods seated; and people whose functional capacity is temporarily reduced.
+## Three teaching layers
 
-## Explicit boundary
+### Layer 1 — Human teacher / therapist
 
-**No implants.** The initial concept is removable and externally applied.
+A human can observe, touch, guide, support, massage, correct, slow down, and respond to the person's body in real time.
+
+### Layer 2 — Mediated instruction
+
+Books, video, audio, and other recorded instruction can describe or demonstrate movement, but the medium does not physically participate in the person's movement.
+
+### Layer 3 — Responsive movement presence
+
+The Movement Companion becomes a physical, responsive layer that surrounds, supports, or contacts the person and participates in movement guidance without pretending to be a human.
+
+This is the primary focus of the project.
+
+### Possible future Layer 4 — Deeply adaptive companion
+
+A future system could continuously sense the person's movement, tension, timing, and response and adapt its assistance moment by moment.
+
+This remains speculative.
+
+## Responsive Body Layer
+
+A possible physical architecture is a **Responsive Body Layer**: a removable layer surrounding or supporting the human body.
+
+It might be integrated with a bed, wheelchair, chair, garment-like structure, cushions, bands, supports, or other external interfaces.
+
+It could:
+
+- invite a movement rather than command it
+- provide tiny directional cues
+- support a limb while the person participates
+- create or alter pressure
+- provide rhythm
+- assist a joint through a range
+- provide tactile or vibrational guidance
+- help release tension
+- sense resistance or response
+- pause and wait
+- know when to stop
+- remain present without acting
+
+The exact physical form is **UNKNOWN**.
+
+## Relationship, not humanoid appearance
+
+The project does not require a humanoid robot.
+
+The important thing about a human teacher is not the human shape. It is the relationship:
+
+**notice → guide → respond → adjust → release → wait**
+
+The machine's value may therefore come from responsive physical participation rather than from speech, appearance, or imitation of a person.
 
 ## Working loop
 
 **sense → interpret → offer movement → observe response → adjust → release → rest → repeat**
 
-The system should be capable of asking:
+A particularly important possibility is that the system's intelligence may be expressed through knowing when **not** to move.
 
-- Does this person need movement now?
-- Where?
-- What kind?
-- How much?
-- Is the person comfortable?
-- Is the body responding?
-- Has enough movement occurred?
-- Should the system stop?
-- Does the person want to continue?
+## Explicit boundary
+
+**NO IMPLANTS.**
+
+The initial concept is removable, externally applied, and intended to preserve the person's authority over their own body.
 
 ## Agency
 
@@ -62,16 +111,47 @@ Silence must not automatically mean consent.
 
 **Electrical:** externally applied NMES/FES where clinically appropriate.
 
-**Sensory:** vibration, pressure, tactile feedback, other noninvasive sensory cues.
+**Sensory:** vibration, pressure, tactile feedback, rhythm, directional cues, other noninvasive sensory signals.
 
 **Sensing:** movement, position, pressure/contact, muscle activity where feasible, user input, and changes from an individual baseline.
 
+The project should not assume that electrical stimulation is the central solution.
+
+## Movement arts as a design laboratory
+
+Tai Chi, yoga, Qigong, Pilates, calisthenics, Kung Fu, rehabilitation, massage, and therapeutic movement can be treated as different knowledge neighborhoods for asking:
+
+- How is movement initiated?
+- How is weight supported?
+- How is tension recognized?
+- How is release taught?
+- How is rhythm established?
+- How does a teacher know when to help?
+- How does a teacher know when to stop helping?
+- How does the student gradually take over the movement?
+
+This does **not** mean the device should automatically reproduce any particular practice or make medical claims.
+
+## Spiritual symbolism
+
+The user also connected the idea symbolically to the biblical image of being **covered**: humanity first covering itself with plants after eating from the Tree of Knowledge of Good and Evil, followed by the Lord providing animal skins/animal-derived coverings.
+
+The user sees a responsive covering or surrounding layer as potentially resonant with the idea of being covered or surrounded by a presence, including a symbolic connection to the Holy Spirit.
+
+This is preserved as **spiritual/conceptual symbolism**, not as an engineering claim or a settled theological interpretation.
+
 ## Important behavioral question
 
-The conversation raised the possibility that some people may strongly seek movement or stimulation. Therefore more movement must not automatically be treated as better.
+Some people may strongly seek movement or stimulation. Therefore:
+
+> **More movement is not automatically better movement.**
+
+The system must be able to distinguish assistance from overuse and participation from compulsion.
 
 ## Evidence tags
 
 KNOWN / CALCULATED / TESTED / PROPOSED / SPECULATIVE / UNKNOWN
 
-This folder preserves the possibility before deciding exactly what the final device is.
+The project remains dominated by **PROPOSED** and **UNKNOWN** material.
+
+> **Preserve the possibility before deciding what it is.**

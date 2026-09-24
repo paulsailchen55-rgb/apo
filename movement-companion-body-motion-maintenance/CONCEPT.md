@@ -121,3 +121,29 @@ The central question is now:
 > Can a physical interface become a teacher-like presence without becoming a person-shaped machine?
 
 The user's spiritual image of a surrounding or responsive covering, including its symbolic connection to the Holy Spirit, is preserved as conceptual inspiration rather than engineering or theological evidence.
+
+## 2026-09-24 — Person, Body, and Machine
+
+The Ghost Teacher question also opens a broader human-experience question.
+
+A person does not merely have a body; a person experiences the world through a body. If a removable machine becomes part of the way a person experiences, understands, or moves that body, then the distinction between **person, body, tool, and machine** becomes important.
+
+A central safeguard is awareness:
+
+> **Can a machine become a convincing movement presence without causing the person to forget that it is a machine?**
+
+The intended relationship is not that the machine becomes the person or owns the movement. It may participate in bodily experience while remaining distinguishable from the person.
+
+This leads to a further question beyond the device itself:
+
+> **If a machine can become part of the experience of our body, what have we already made of the things that surround our bodies?**
+
+Clothing, houses, furniture, beds, wheelchairs, tools, and the built environment all participate in how human beings are supported, protected, positioned, and able to move. This does not mean they are literally self-aware machines. It raises a design and philosophical boundary question:
+
+> **At what point does the human environment become a kind of self-aware machine around the person?**
+
+For this project, the important distinction is that the Movement Companion should become responsive enough to accompany the body without erasing the person's awareness that the companion is a machine.
+
+The deeper design question therefore becomes:
+
+**Can technology participate intimately in bodily experience while preserving the person's awareness of self, body, agency, and the difference between human being and machine?**

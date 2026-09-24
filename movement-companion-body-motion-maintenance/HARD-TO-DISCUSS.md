@@ -53,3 +53,30 @@ Dependence, habituation, preference, and excessive use should be studied rather 
 > What does the device do when the correct action is nothing?
 
 That question belongs at the center of the sensing architecture.
+
+
+## 2026-09-24 — Ghost Teacher risks
+
+### A responsive presence can feel authoritative
+
+If the device feels like something is “there,” the person may attribute intention, care, or understanding to it. Responsiveness is not the same as comprehension.
+
+### The machine may imitate teaching without being a human teacher
+
+It may reproduce timing, support, rhythm, or correction without possessing human judgment. The distinction matters for trust and informed use.
+
+### The machine may become a substitute for touch
+
+Mechanical or tactile feedback should not be presented as equivalent to human therapeutic touch or human presence.
+
+### The system could become psychologically significant
+
+A person might become attached to the sensation of the companion or seek increasing stimulation. Habituation, dependence, and excessive use should be considered.
+
+### Spiritual symbolism must remain distinct from evidence
+
+The “covering” and Holy Spirit imagery is meaningful as conceptual inspiration, but it is not engineering evidence or proof of a theological interpretation.
+
+### The deepest new question
+
+> Can a machine become a convincing movement presence without causing the person to forget that it is a machine?

@@ -96,3 +96,39 @@ Potential domains include range of motion, muscle contraction, pressure redistri
 ## Fundamental question
 
 > Can a machine assist bodily movement without taking ownership of the person's body?
+
+
+## 2026-09-24 — Ghost Teacher questions
+
+### 21. What does a Ghost Teacher physically feel like?
+If the teacher is not human, humanoid, video, or audiobook, what sensations communicate its presence?
+
+**Status:** UNKNOWN / RESEARCH
+
+### 22. What is the Responsive Body Layer?
+What removable architecture can surround, support, or contact the body while remaining safe, comfortable, adjustable, and non-implantable?
+
+**Status:** UNKNOWN / RESEARCH
+
+### 23. How can guidance remain guidance rather than control?
+How much force, pressure, resistance, rhythm, or motion can be offered while meaningful participation remains with the person?
+
+**Status:** UNKNOWN / RESEARCH
+
+### 24. How can movement become a conversation?
+Can the system offer a small movement, observe the response, and choose the next action while remaining uncertain about what the response means?
+
+**Status:** PROPOSED / UNKNOWN
+
+### 25. What can movement arts teach the architecture?
+Study Tai Chi, yoga, Qigong, Pilates, calisthenics, Kung Fu, massage, and rehabilitation for timing, support, release, correction, and progressive independence.
+
+**Status:** PROPOSED / RESEARCH
+
+### 26. How can the system know when the correct action is nothing?
+
+**Status:** UNKNOWN
+
+### 27. Can a physical interface become a teacher-like presence without becoming a person-shaped machine?
+
+**Status:** PROPOSED / UNKNOWN

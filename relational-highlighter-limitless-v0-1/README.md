@@ -1,7 +1,6 @@
 # Relational Highlighter — *Limitless* Conceptual Model v0.1
 
 ## Status
-
 **FROZEN — Version 0.1**
 
 This folder preserves the first formalized version of the Relational Highlighter concept developed through conversation.
@@ -9,21 +8,17 @@ This folder preserves the first formalized version of the Relational Highlighter
 This is an **APO archive artifact**, not a finished technical specification and not a scientific claim.
 
 ## Core statement
-
 > **The relational highlighter is not a memory item. It is a temporary field of attention formed by several highlighted observations whose relationships could generate a new observation.**
 
 ## Why *Limitless*?
-
 The 2011 film *Limitless* is being used as a **conceptual laboratory**, not as a neuroscience model.
 
 The useful fictional progression is:
-
 **undifferentiated information → highlighter event → context activation → relational patterning → emergent insight → feedback → increasingly effective future attention**
 
 The movie's NZT premise is fictional. The project extracts the information/attention metaphor rather than treating the drug or its effects as scientifically established.
 
 ## Initial architecture hypothesis
-
 A relational highlighter may operate as a small active constellation rather than as a single memory record.
 
 A working hypothesis is **3–4 active highlights** at a time.
@@ -31,23 +26,36 @@ A working hypothesis is **3–4 active highlights** at a time.
 Older highlights can become **ghost memory**: latent traces that are not continuously active but can participate when new information overlaps with them.
 
 Possible cycle:
-
 **ACTIVE → GHOST → REACTIVATED → SYNTHESIZED → NEW ACTIVE**
 
-## Set-overlap hypothesis
+## 3–4 Highlight Mechanism — v0.1
+This is the first provisional mechanism derived from the frozen concept.
 
+1. **Active field** — keep approximately 3–4 highlights active at once. Each represents an observation that is salient in the current context.
+2. **Ghost memory** — when a highlight leaves the active field, it becomes a ghost: inactive, but available for reactivation when new information overlaps with it.
+3. **Relational overlap** — compare a new observation with active highlights and relevant ghosts. Look for overlapping relationships among several highlights, not merely pairwise similarity.
+4. **Emergence** — when several observations form a meaningful relational pattern that produces something not explicitly contained in any one observation, the system proposes an emergent observation.
+
+Conceptual flow:
+**NEW OBSERVATION → H1/H2/H3/GHOST H4 → OVERLAP → EMERGENT IDEA → HUMAN CHECK → REJECT / CONFIRM / NOT YET**
+
+### Critical rule
+> **An emergence is a proposal, not a fact.**
+
+The human can reject, confirm, or defer the proposed emergence.
+
+The system may retain information about which relationships produced an emergence so future highlighting can improve, without automatically turning every attractive connection into permanent memory.
+
+## Set-overlap hypothesis
 Each highlight may be represented by a set of attributes, concepts, observations, or relationships.
 
 A new observation can overlap with several existing highlights:
-
-`H1 ∩ H2`, `H2 ∩ H3`, `H3 ∩ H4`
+H1 ∩ H2, H2 ∩ H3, H3 ∩ H4
 
 The interesting event is not merely similarity. It is whether the pattern of overlaps supports an **emergent observation** that was not explicitly present in any single highlight.
 
 ## Human control
-
 The system should distinguish:
-
 - noticed
 - highlighted
 - connected
@@ -60,9 +68,7 @@ The system should distinguish:
 The AI may propose a highlight or an emerging relationship. The human remains the authority over what becomes durable memory or authorized action.
 
 ## Design warning derived from the movie
-
 The fictional system also illustrates risks:
-
 - information access without boundaries
 - hidden or inaccessible activity
 - dependency on an external capability
@@ -73,7 +79,6 @@ The fictional system also illustrates risks:
 The project therefore treats **attention, memory, and action as separate layers**.
 
 ## Evidence labels
-
 - **KNOWN:** directly established within the project record or externally documented
 - **CALCULATED:** derived from defined operations
 - **TESTED:** demonstrated by an actual prototype or experiment
@@ -82,9 +87,7 @@ The project therefore treats **attention, memory, and action as separate layers*
 - **UNKNOWN:** unresolved
 
 ## Next stage
-
-Design the **3–4 Highlight Mechanism**:
-
+Design and test the **3–4 Highlight Mechanism**:
 1. define what creates an active highlight
 2. define how highlights decay into ghost memory
 3. define how new observations reactivate old highlights
@@ -96,7 +99,6 @@ Design the **3–4 Highlight Mechanism**:
 ---
 
 ## Provenance
-
 This artifact was derived from a conversation exploring AI memory, attention, databases, human highlighting, and the film *Limitless*.
 
 The conversation itself is part of the project's provenance. Later versions should preserve the distinction between the original metaphor, subsequent human interpretation, AI-assisted organization, and tested implementation.

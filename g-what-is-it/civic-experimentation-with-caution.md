@@ -250,3 +250,156 @@ It treats capability as something that should be appropriate to the problem, mat
 The objective is not maximum capability.
 
 The objective is **appropriate capability, at the right time, in the right place, under the right constraints, with the ability to learn and change course.**
+
+
+## Addition: How Do We Make This Right?
+
+The deeper question is not simply whether civic experimentation should occur.
+
+> **How do we make this right?**
+>
+> **How do we do it rightly?**
+>
+> **Is it possible to do it rightly?**
+
+The civic sandbox is therefore not an end in itself. It is a place where a community can work out **right speech, right action, right design, right restraint, and right responsibility** through observation and correction.
+
+The process begins with a real problem and should end with a community capable of reflecting on what happened.
+
+### The Complete Transition
+
+**PROBLEM → PURPOSE → DESIGN → SANDBOX → OBSERVATION → CORRECTION → DECISION → EXIT → COMMUNITY REFLECTION → LESSON → NEXT STEP**
+
+The final steps matter as much as the beginning.
+
+The community should be able to ask:
+
+- What did we learn?
+- What problem did it actually solve?
+- What did it fail to solve?
+- What costs did we discover?
+- What unintended effects appeared?
+- What should we carry forward?
+- What should we leave behind?
+- What should we try next?
+- What should we not repeat?
+
+Without this final reflection, a civic experiment can become difficult to close cleanly. People can become attached to the intervention itself instead of the purpose that justified it.
+
+### An Experiment Needs an Exit Condition
+
+> **An experiment needs an exit condition just as much as it needs an entry condition.**
+
+The exit condition can be defined before or during the experiment and refined as evidence accumulates.
+
+Possible reasons for closure include:
+
+- the original problem has been sufficiently addressed;
+- the experiment did not work;
+- the experiment worked only under conditions that are no longer present;
+- the costs became unacceptable;
+- a better solution became available;
+- the useful information has already been obtained;
+- the community no longer has a legitimate reason to continue it;
+- continuing would create risks that outweigh its demonstrated purpose.
+
+Closure does not mean failure.
+
+An experiment can succeed by teaching a community **what not to continue**.
+
+### Clean Closure and Clean Transition
+
+The goal is not merely to stop something. The goal is to make a **clean transition**.
+
+> **End the intervention. Preserve the lesson.**
+
+The physical or institutional arrangement can end while the knowledge remains available to the community.
+
+A clean closure should answer:
+
+1. What was the original problem?
+2. What did we attempt?
+3. What actually happened?
+4. What worked?
+5. What did not work?
+6. What did it cost?
+7. What did we learn?
+8. What remains unresolved?
+9. What should happen next?
+10. What should be formally closed or released?
+
+This creates a transition from one civic effort to the next rather than allowing an old experiment to become a permanent obligation simply because it once existed.
+
+### Two Failure Modes of the Door
+
+There are two opposite ways a civic system can lose the ability to learn and transition.
+
+#### The Permanently Locked Door
+
+The community can decide:
+
+> **We do not know how to do this rightly, so the door stays permanently locked.**
+
+This can prevent the community from generating evidence, developing alternatives, or learning whether a smaller and safer version might have been possible.
+
+A locked door can become a permanent prohibition even when the original decision was only meant to establish caution.
+
+#### The Endless Revolving Door
+
+The opposite failure is:
+
+> **We found something valuable, so the door stays open indefinitely.**
+
+The original experiment becomes a permanent entitlement.
+
+Extraction can continue long after the original purpose has disappeared. The community may keep taking value without asking whether the arrangement is still justified, whether the costs have changed, or whether a better solution exists.
+
+The problem is not merely that the door is open.
+
+The problem is that **there is no meaningful exit**.
+
+### The Third Door: Open, Governed, and Closable
+
+The healthier model is neither a permanent wall nor an endlessly revolving extraction door.
+
+It is a door that can:
+
+**OPEN → OPERATE WITH CONDITIONS → OBSERVE → CORRECT → CLOSE → REFLECT → TRANSITION**
+
+The community retains the ability to enter carefully and the ability to leave deliberately.
+
+> **Try to do it rightly. Test it. Govern it. Correct it. Give it a useful life. Close it when its purpose is fulfilled, its costs become unacceptable, or a better solution appears. Then gather the community together and ask what was learned.**
+
+### Close the Door. Keep the Map.
+
+This produces a useful distinction:
+
+> **Close the door. Keep the map.**
+
+The experiment does not need to remain physically or institutionally active for its lessons to remain part of civic knowledge.
+
+This is especially important for Civic Institutional GIS. The system should preserve the history of:
+
+**PROBLEM → AUTHORITY → DESIGN → EXPERIMENT → OBSERVATION → DECISION → CLOSURE → LESSON**
+
+The map therefore does not merely tell the community what exists.
+
+It can eventually tell the community **what was tried, why it was tried, what happened, why it ended, and what the community learned before moving forward.**
+
+### Closure Is a Civic Capability
+
+Clean closure should be treated as a capability in its own right.
+
+A mature civic system should be able to say:
+
+> **We tried this for a useful period. Here is what it accomplished. Here is what it did not accomplish. Here is what it cost. Here is what we learned. Here is what remains unresolved. We are finished with this particular intervention, and now we are moving forward.**
+
+That is not abandonment.
+
+It is **responsible transition**.
+
+The purpose of civic experimentation is therefore not endless experimentation.
+
+The purpose is to move from **problem → responsible action → evidence → reflection → lesson → next step**.
+
+And sometimes the most responsible next step is to walk away.

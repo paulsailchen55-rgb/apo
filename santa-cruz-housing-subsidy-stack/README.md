@@ -75,7 +75,7 @@ Use:
 - **SPECULATIVE** — mechanism not yet demonstrated.
 - **UNKNOWN** — information that still needs research.
 
-The full lab is documented in [outside-the-stack-weird-housing-lab.md](./outside-the-stack-weird-housing-lab.md).
+The full lab is documented in [outside-the-stack-weird-housing-lab.md](./outside-the-stack-weird-housing-lab.md).\n\nThe **Technical Difficulties — Friction, Distortion & Auditable Losses** framework extends the lab into a longitudinal systems audit of California Housing Elements, tracing intended housing capacity through planning, zoning, financing, construction, occupancy, affordability, and stability. See [technical-difficulties-friction-distortion-loss-audit.md](./technical-difficulties-friction-distortion-loss-audit.md).
 
 The existing stability framework is documented in [stability-and-administrative-cost-addendum.md](./stability-and-administrative-cost-addendum.md).
 

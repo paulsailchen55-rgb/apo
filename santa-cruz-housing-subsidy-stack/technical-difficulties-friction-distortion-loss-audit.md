@@ -118,43 +118,7 @@ For each period, ask:
 
 A proposed audit should follow a unit, project, dollar, or household through the system:
 
-**INITIAL CAPACITY**
-
-↓
-
-**PLANNED CAPACITY**
-
-↓
-
-**ZONING / SITE CAPACITY**
-
-↓
-
-**FEASIBLE PROJECT CAPACITY**
-
-↓
-
-**APPROVED CAPACITY**
-
-↓
-
-**PERMITTED CAPACITY**
-
-↓
-
-**CONSTRUCTED UNITS**
-
-↓
-
-**OCCUPIED UNITS**
-
-↓
-
-**AFFORDABLE / ACCESSIBLE UNITS**
-
-↓
-
-**STABLE HOUSEHOLDS**
+**INITIAL CAPACITY → PLANNED CAPACITY → ZONING / SITE CAPACITY → FEASIBLE PROJECT CAPACITY → APPROVED CAPACITY → PERMITTED CAPACITY → CONSTRUCTED UNITS → OCCUPIED UNITS → AFFORDABLE / ACCESSIBLE UNITS → STABLE HOUSEHOLDS**
 
 At every transition:
 
@@ -207,28 +171,170 @@ This connects directly to the project's proposed **Housing Stability Yield** con
 | Operation | Continuing housing | compliance / reserves | affordable vs sustainable | operating capacity |
 | Stability | Retained households | income shocks / administration | affordability vs stability | household continuity |
 
-## 8. The overarching hypothesis
+## 8. Response 13 — the system as a signal
 
-> **California's housing challenge may involve not only insufficient housing capacity, but accumulated friction and distortion between successive layers of the housing system.**
+> **Housing doesn't necessarily have one giant “problem.” It may have too much friction in the transmission of the intended result.**
 
-This is a hypothesis to test, not an established finding.
+Signal:
 
-The historical study should determine whether recurring constraints are:
+**INTENDED HOUSING NEED → STATE REQUIREMENT → REGIONAL ALLOCATION → LOCAL HOUSING ELEMENT → ZONING → SITE → PROJECT → FINANCING → CONSTRUCTION → OCCUPANCY → STABILITY**
 
-- persistent,
-- transformed,
-- cumulative,
-- offset by later reforms,
-- transferred from one system layer to another,
-- or genuinely resolved.
+At every interface:
 
-## 9. The disruptive question
+- **FRICTION:** something requires additional time, money, labor, coordination, or documentation.
+- **DISTORTION:** the original objective gets transformed as it passes through another institutional or technical layer.
+- **LOSS:** some intended capacity never reaches the final household.
+- **TECHNICAL DIFFICULTY:** a legitimate and technically correct system can still require extraordinary effort to transmit the intended outcome.
+
+Key statement:
+
+> **A technically difficult system is not necessarily a failed system.**
+
+A guitar player can execute an incredibly complicated passage correctly while still having enormous technical difficulty. Likewise, housing can have competent planners, legitimate regulations, legitimate safety standards, legitimate environmental requirements, legitimate affordability objectives, and legitimate infrastructure obligations while still producing substantial cumulative friction.
+
+Research should not begin with:
+
+> “Who screwed up housing?”
+
+but:
+
+> **“Where is the transmission losing efficiency?”**
+
+### Distortion
+
+> **The system may not fail to produce something. It may produce something different from the original objective.**
+
+Therefore document:
+
+- original objective
+- intermediate transformations
+- required vs optional transformations
+- transformations responding to other constraints
+- what changed in final output
+
+### Interface question
+
+A single rule may be reasonable in isolation. The interaction among:
+
+**zoning + density + development standards + fees + financing + affordability + permitting + administration**
+
+may produce a substantially different result.
+
+Therefore test cumulative friction and system interactions, not individual rules in isolation.
+
+### Historical transmission experiment
+
+**PROBLEM IDENTIFIED → MECHANISM CREATED → NEW INTERFACE CREATED → FRICTION ENCOUNTERED → ADAPTATION / REFORM → NEW SYSTEM STATE → NEXT HOUSING ELEMENT CYCLE**
+
+Key question:
+
+> **Does each generation eliminate friction, relocate friction, rename friction, or accumulate another interface?**
+
+### Overarching hypothesis
+
+> **California's housing challenge may be partly a transmission problem: intended housing outcomes pass through a growing sequence of technical, regulatory, financial, and administrative interfaces, and each interface can introduce friction, distortion, delay, or loss.**
+
+This remains **PROPOSED** until tested against the historical corpus.
+
+The objective is not to prove the metaphor, but to determine whether it reveals a measurable recurring pattern that ordinary “constraints” inventories miss.
+
+## 9. Response 17 — transmission-audit flowchart
+
+```text
+┌──────────────────────────┐
+│ INTENDED HOUSING NEED    │
+└────────────┬─────────────┘
+             ↓
+┌──────────────────────────┐
+│ STATE REQUIREMENT        │
+└────────────┬─────────────┘
+             ↓
+┌──────────────────────────┐
+│ REGIONAL ALLOCATION      │
+│ / RHNA                   │
+└────────────┬─────────────┘
+             ↓
+┌──────────────────────────┐
+│ LOCAL HOUSING ELEMENT    │
+└────────────┬─────────────┘
+             ↓
+┌──────────────────────────┐
+│ ZONING / SITE CAPACITY   │
+└────────────┬─────────────┘
+             ↓
+┌──────────────────────────┐
+│ PROJECT DESIGN           │
+└────────────┬─────────────┘
+             ↓
+┌──────────────────────────┐
+│ FINANCING + FEASIBILITY  │
+└────────────┬─────────────┘
+             ↓
+┌──────────────────────────┐
+│ PERMITTING / APPROVAL    │
+└────────────┬─────────────┘
+             ↓
+┌──────────────────────────┐
+│ CONSTRUCTION             │
+└────────────┬─────────────┘
+             ↓
+┌──────────────────────────┐
+│ OCCUPANCY / LEASE-UP     │
+└────────────┬─────────────┘
+             ↓
+┌──────────────────────────┐
+│ AFFORDABILITY            │
+└────────────┬─────────────┘
+             ↓
+┌──────────────────────────┐
+│ HOUSING STABILITY        │
+└──────────────────────────┘
+
+At EVERY interface:
+
+      PROVENANCE
+          ↓
+       FRICTION
+          ↓
+      DISTORTION
+          ↓
+         LOSS
+          ↓
+       RECOVERY
+
+Historical loop:
+
+PROBLEM
+  ↓
+MECHANISM
+  ↓
+NEW INTERFACE
+  ↓
+FRICTION
+  ↓
+ADAPTATION / REFORM
+  ↓
+NEW SYSTEM STATE
+  ↓
+NEXT HOUSING ELEMENT CYCLE
+  ↺
+```
+
+## 10. The audit question
+
+For every interface, record:
+
+**WHAT ENTERED → WHAT CHANGED → WHY → WHAT DID IT COST → WHAT CAME OUT → WHAT DID NOT MAKE IT THROUGH**
+
+This makes the metaphor testable.
+
+## 11. The disruptive question
 
 > **Does California primarily have a shortage of housing solutions, or an accumulation of technical interfaces between solutions?**
 
 The answer should come from evidence.
 
-## 10. Evidence discipline
+## 12. Evidence discipline
 
 Use the project's standard tags:
 
@@ -241,7 +347,42 @@ Use the project's standard tags:
 
 The terms **friction**, **distortion**, **auditable loss**, and **provenance** are proposed analytical vocabulary for this project unless and until the research establishes a documented existing usage for a specific housing-policy context.
 
-## 11. Next research step
+## 13. Response 17 connection — Outside the Stack / Weird Housing Lab
+
+The transmission audit should connect to the project's alternative housing-system research.
+
+A particularly disruptive question is:
+
+> **What if the housing affordability problem is partly caused by repeatedly subsidizing transactions instead of designing a housing asset that requires fewer transactions to remain stable?**
+
+This does not assume that subsidies are inherently good or bad. It asks whether some housing models can reduce the number, frequency, or complexity of transactions required to maintain stable housing.
+
+Potential research directions include:
+
+- public or community land held permanently while buildings use long-term leases;
+- cost-based or limited-equity housing;
+- community land trusts;
+- resident cooperatives;
+- mixed-income models with fewer income cliffs;
+- building-generated operating revenue;
+- housing-stability reserves;
+- reduced repeated eligibility determinations;
+- integrated housing administration;
+- housing designed as durable infrastructure rather than solely as a transaction.
+
+These are **PROPOSED / SPECULATIVE** research directions unless separately documented and tested.
+
+## 14. Research objective
+
+The project should ultimately be able to follow a housing outcome from:
+
+**NEED → POLICY → CAPACITY → PROJECT → MONEY → APPROVAL → CONSTRUCTION → OCCUPANCY → AFFORDABILITY → STABILITY**
+
+and identify, with provenance:
+
+**WHERE CAPACITY CHANGED → WHAT CAUSED THE CHANGE → WHAT RESOURCES WERE CONSUMED → WHAT WAS LOST → WHETHER IT WAS RECOVERABLE**
+
+## 15. Next research step
 
 Build a **California Housing Element Historical Corpus, 1969–present** and code successive cycles for:
 

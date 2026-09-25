@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1550" viewBox="0 0 1200 1550">
+<rect width="1200" height="1550" fill="#f7fbfd"/>
+<text x="600" y="60" text-anchor="middle" font-family="Arial,sans-serif" font-size="36" font-weight="700" fill="#163e57">Housing Transmission Audit</text>
+<text x="600" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#315f73">Response 13 + Response 17 flowchart</text>
+
+<g font-family="Arial,sans-serif" font-size="19" text-anchor="middle" fill="#173f55" stroke="#174c68" stroke-width="3">
+<rect x="350" y="130" width="500" height="62" rx="12" fill="#d9eef7"/><text x="600" y="169" stroke="none">INTENDED HOUSING NEED</text>
+<rect x="350" y="235" width="500" height="62" rx="12" fill="#d9eef7"/><text x="600" y="274" stroke="none">STATE REQUIREMENT</text>
+<rect x="350" y="340" width="500" height="62" rx="12" fill="#d9eef7"/><text x="600" y="379" stroke="none">REGIONAL ALLOCATION / RHNA</text>
+<rect x="350" y="445" width="500" height="62" rx="12" fill="#d9eef7"/><text x="600" y="484" stroke="none">LOCAL HOUSING ELEMENT</text>
+<rect x="350" y="550" width="500" height="62" rx="12" fill="#cfe7d9"/><text x="600" y="589" stroke="none">ZONING / SITE CAPACITY</text>
+<rect x="350" y="655" width="500" height="62" rx="12" fill="#cfe7d9"/><text x="600" y="694" stroke="none">PROJECT DESIGN</text>
+<rect x="350" y="760" width="500" height="62" rx="12" fill="#f4e2b6"/><text x="600" y="799" stroke="none">FINANCING + FEASIBILITY</text>
+<rect x="350" y="865" width="500" height="62" rx="12" fill="#f4e2b6"/><text x="600" y="904" stroke="none">PERMITTING / APPROVAL</text>
+<rect x="350" y="970" width="500" height="62" rx="12" fill="#f4e2b6"/><text x="600" y="1009" stroke="none">CONSTRUCTION</text>
+<rect x="350" y="1075" width="500" height="62" rx="12" fill="#ead7ef"/><text x="600" y="1114" stroke="none">OCCUPANCY / LEASE-UP</text>
+<rect x="350" y="1180" width="500" height="62" rx="12" fill="#ead7ef"/><text x="600" y="1219" stroke="none">AFFORDABILITY</text>
+<rect x="350" y="1285" width="500" height="70" rx="12" fill="#bfe3d6"/><text x="600" y="1328" stroke="none" font-weight="700">HOUSING STABILITY</text>
+</g>
+
+<g stroke="#315f73" stroke-width="4" fill="none">
+<path d="M600 192v43M600 297v43M600 402v43M600 507v43M600 612v43M600 717v43M600 822v43M600 927v43M600 1032v43M600 1137v43M600 1242v43"/>
+</g>
+<g fill="#315f73">
+<path d="M592 226l8 14 8-14zM592 331l8 14 8-14zM592 436l8 14 8-14zM592 541l8 14 8-14zM592 646l8 14 8-14zM592 751l8 14 8-14zM592 856l8 14 8-14zM592 961l8 14 8-14zM592 1066l8 14 8-14zM592 1171l8 14 8-14zM592 1276l8 14 8-14z"/>
+</g>
+
+<g font-family="Arial,sans-serif">
+<rect x="45" y="510" width="245" height="300" rx="18" fill="#fff" stroke="#7c9ca8" stroke-width="2"/>
+<text x="167" y="548" text-anchor="middle" font-size="22" font-weight="700" fill="#163e57">AT EVERY</text>
+<text x="167" y="576" text-anchor="middle" font-size="22" font-weight="700" fill="#163e57">INTERFACE</text>
+<text x="75" y="625" font-size="19" fill="#315f73">PROVENANCE</text>
+<text x="167" y="664" text-anchor="middle" font-size="25" fill="#315f73">↓</text>
+<text x="75" y="700" font-size="19" fill="#315f73">FRICTION</text>
+<text x="167" y="739" text-anchor="middle" font-size="25" fill="#315f73">↓</text>
+<text x="75" y="775" font-size="19" fill="#315f73">DISTORTION → LOSS → RECOVERY</text>
+</g>
+
+<g font-family="Arial,sans-serif">
+<rect x="890" y="510" width="265" height="300" rx="18" fill="#fff" stroke="#7c9ca8" stroke-width="2"/>
+<text x="1022" y="548" text-anchor="middle" font-size="22" font-weight="700" fill="#163e57">AUDIT EACH STEP</text>
+<text x="915" y="610" font-size="17" fill="#315f73">WHAT ENTERED?</text>
+<text x="915" y="650" font-size="17" fill="#315f73">WHAT CHANGED?</text>
+<text x="915" y="690" font-size="17" fill="#315f73">WHY?</text>
+<text x="915" y="730" font-size="17" fill="#315f73">WHAT DID IT COST?</text>
+<text x="915" y="770" font-size="17" fill="#315f73">WHAT DID NOT MAKE IT THROUGH?</text>
+</g>
+
+<rect x="175" y="1410" width="850" height="90" rx="18" fill="#163e57"/>
+<text x="600" y="1447" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#fff">HISTORICAL LOOP</text>
+<text x="600" y="1478" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#dff4fa">PROBLEM → MECHANISM → NEW INTERFACE → FRICTION → REFORM → NEW SYSTEM STATE → NEXT CYCLE</text>
+</svg>

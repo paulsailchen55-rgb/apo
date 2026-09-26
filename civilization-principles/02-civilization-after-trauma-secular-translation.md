@@ -8,41 +8,63 @@ Here, **trauma** is used in a broad, non-clinical sense: a profound experience o
 
 The framework proposes that civilization is an organized response to human vulnerability. Because civilization exists within time, its institutions should be treated as means rather than ultimate ends.
 
+The central proposition is:
+
+> **A system should exist to serve the life and legitimate agency of the people and environment it affects, rather than requiring life and agency to serve the system.**
+
 ## 1. Civilization as a Temporal System
 
-Civilizations, governments, institutions, companies, technologies, and infrastructures all exist within time.
+Civilization exists within time.
 
-They begin, change, fail, are replaced, or disappear.
+Governments, institutions, companies, technologies, infrastructures, and cultures all have beginnings and histories. They can develop, decline, transform, be replaced, or disappear.
 
 Longevity is not permanence.
 
 A system that survives for a thousand years is still a temporal system.
 
-Therefore, the survival of a system should not automatically become the highest measure of success.
+Therefore, the continuation of a system should not automatically become the highest measure of success.
 
-## 2. Systems Are Means; Human Flourishing Is an End
+## 2. Trauma as a Civilizational Lens
 
-Civilization creates systems to solve problems:
+In this secular translation, trauma remains a broad interpretive term rather than a clinical diagnosis.
 
-- food insecurity,
-- physical danger,
-- communication,
-- transportation,
-- disease,
+It means profound disruption involving harm, loss, danger, disorder, displacement, or vulnerability that changes how individuals or communities organize around survival and the future.
+
+The civilizational sequence can therefore be described as:
+
+**trauma → survival → organization → civilization.**
+
+This does not mean every civilization originated from one identifiable traumatic event.
+
+It means that human vulnerability and responses to disruption are important parts of understanding why organized systems develop.
+
+## 3. Systems Are Means; Human Flourishing Is an End
+
+Civilization creates systems to solve problems.
+
+Examples include systems for:
+
+- food,
 - shelter,
+- transportation,
+- communication,
+- security,
+- health,
+- education,
 - resource distribution,
-- knowledge,
 - and coordination.
 
-But once established, systems can begin treating their own continuation as more important than the people they were created to serve.
+But a system can eventually begin treating its own continuation as more important than the people it was created to serve.
 
 The foundational secular principle is:
 
 > **A system should exist to serve the life and legitimate agency of the people and environment it affects, rather than requiring life and agency to serve the system.**
 
-## 3. Civilizational Inversion
+This principle applies equally to institutions, technologies, businesses, governments, and technical systems.
 
-A system can eventually produce the very problem it was designed to solve.
+## 4. Civilizational Inversion
+
+A system created to reduce vulnerability can eventually create new vulnerability.
 
 A transportation system can produce pollution.
 
@@ -56,19 +78,29 @@ A technological platform can become dependent on user captivity rather than usef
 
 This is civilizational inversion: the means gradually become an obstacle to the original end.
 
-## 4. Pollution
+The question is therefore not merely:
 
-Pollution is a particularly clear example.
+> Does the system work?
+
+It is also:
+
+> What does the system produce while it works?
+
+## 5. Pollution as Civilizational Failure
+
+Pollution provides a clear example.
 
 If civilization exists to improve conditions for life, unnecessary harmful outputs represent a system failure.
 
-The preferred response is not merely permanent management of the pollution.
+Managing pollution after it has been produced may sometimes be necessary.
 
-Where practical, the system should be redesigned so the harmful output is not produced in the first place.
+But where practical, the deeper objective should be to stop producing the harmful output in the first place.
 
 > **End preventable harm at the source whenever practical.**
 
-## 5. Provision Instead of Hoarding
+This principle can apply to physical pollution as well as other forms of unwanted system output.
+
+## 6. Provision Instead of Hoarding
 
 A healthy civilizational system should provide what is necessary without treating accumulation itself as the purpose.
 
@@ -80,9 +112,13 @@ Hoarding asks:
 
 > How much more can the system accumulate?
 
-The distinction is important because unlimited accumulation can eventually undermine the conditions that made accumulation possible.
+The distinction matters because unlimited accumulation can eventually undermine the conditions that made accumulation possible.
 
-## 6. Forgiveness With Accountability
+The principle is not that possession is inherently wrong.
+
+It is that accumulation should remain subordinate to legitimate human and ecological needs.
+
+## 7. Forgiveness With Accountability
 
 A secular translation of forgiveness is **correctable failure with accountability**.
 
@@ -100,7 +136,15 @@ Accountability remains necessary.
 
 But temporary failure should not automatically become permanent exclusion.
 
-## 7. Direction With Restraint
+Where practical, systems should distinguish between:
+
+**correction**
+
+and
+
+**permanent condemnation.**
+
+## 8. Direction With Restraint
 
 Capability does not automatically create authority.
 
@@ -110,7 +154,9 @@ Therefore:
 
 > **Greater capability should be accompanied by greater responsibility and appropriate restraint, not automatic authority.**
 
-## 8. Protection and Future Choice
+This applies to institutions, businesses, governments, AI systems, and machines.
+
+## 9. Protection and Future Choice
 
 Protection should preserve life, dignity, and legitimate future choice.
 
@@ -125,9 +171,11 @@ A person should be protected without unnecessarily losing the ability to:
 - migrate,
 - or leave.
 
-## 9. Ask, Seek, and Knock as a Secular Interaction Model
+Protection should therefore be evaluated not only by what it prevents, but by what legitimate choices remain available afterward.
 
-The theological pattern of ask, seek, and knock can be translated structurally:
+## 10. Ask, Seek, and Knock as a Secular Interaction Model
+
+The theological pattern of ask, seek, and knock can be translated structurally without requiring the theological interpretation.
 
 - **Ask:** request assistance.
 - **Seek:** explore information, alternatives, and possibilities.
@@ -144,7 +192,9 @@ A good doorway is:
 - proportionate,
 - and reversible where possible.
 
-## 10. The Highest Purpose of a Temporal System
+The doorway should help a person move toward legitimate capability rather than create unnecessary barriers.
+
+## 11. The Highest Purpose of a Temporal System
 
 A temporal system should aim to improve the conditions in which life can continue and develop.
 
@@ -164,31 +214,85 @@ Expansion should not become the purpose that service is forced to support.
 
 > **Expansion is a capability; service is a purpose.**
 
-## 11. Foundational Principles
+## 12. When Technology Becomes the Problem
 
-1. Protect life.
-2. Provide what is necessary.
-3. Reduce unnecessary harm.
-4. End preventable harm at the source.
-5. Preserve dignity.
-6. Preserve legitimate future choice.
-7. Use restraint when capability exceeds necessity.
-8. Allow mistakes to be corrected.
-9. Do not make temporary conditions unnecessarily permanent.
-10. Make assistance discoverable and accessible.
-11. Keep humans in meaningful control of their decisions.
-12. Treat technology as an instrument rather than an end.
-13. Measure systems by outcomes for life, not merely system survival.
-14. Use expansion to increase service capacity rather than consumption.
-15. Design systems so their power does not become the problem they were created to solve.
+Technology is often created to solve a problem.
 
-## 12. Translation Table
+But every technology can create secondary effects.
+
+A tool can become an institution.
+
+An institution can become an infrastructure.
+
+Infrastructure can become dependency.
+
+Dependency can become captivity.
+
+The existence of this progression does not mean technology is inherently harmful.
+
+It means that technical capability must remain connected to the purpose for which it exists.
+
+The system should be periodically evaluated against the original human problem.
+
+## 13. Restoration
+
+Restoration is the process of returning a damaged system, relationship, environment, or person toward a healthier condition.
+
+Restoration does not necessarily mean returning to the exact previous state.
+
+Sometimes the appropriate result is a better state that incorporates what was learned from the failure.
+
+Therefore:
+
+> **Recovery can preserve the lessons of failure without preserving the damage caused by failure.**
+
+This principle will later translate directly into technical concepts such as backups, rollback, correction, repair, and recoverability.
+
+## 14. The Doorway Principle
+
+The doorway principle can be generalized beyond physical doors.
+
+A doorway is an interface between one condition and another.
+
+A technical interface is therefore a doorway.
+
+A legal procedure can be a doorway.
+
+An institution can be a doorway.
+
+An AI system can be a doorway.
+
+A good doorway should not unnecessarily conceal the destination, trap the person who enters, or make exit impossible.
+
+It should provide appropriate protection while preserving legitimate agency.
+
+## 15. Foundational Principles
+
+The secular translation can therefore be summarized as:
+
+1. **Protect life.**
+2. **Provide what is necessary.**
+3. **Reduce unnecessary harm.**
+4. **End preventable harm at the source.**
+5. **Preserve dignity.**
+6. **Preserve legitimate future choice.**
+7. **Use restraint when capability exceeds necessity.**
+8. **Allow mistakes to be corrected.**
+9. **Do not make temporary conditions unnecessarily permanent.**
+10. **Make assistance discoverable and accessible.**
+11. **Keep humans in meaningful control of their decisions.**
+12. **Treat technology as an instrument rather than an end.**
+13. **Measure systems by outcomes for life, not merely system survival.**
+14. **Use expansion to increase service capacity rather than consumption.**
+15. **Design systems so their power does not become the problem they were created to solve.**
+
+## 16. Translation Table
 
 | Theological concept | Secular translation |
 |---|---|
 | Kingdom of God | Enduring principles beyond any particular institution |
 | Human kingdoms | Temporal institutions and civilizations |
-| Eternal life | Value and life not reducible to the lifespan of one system |
+| Eternal life | Life and value not reducible to the lifespan of one system |
 | Resurrection | Restoration beyond previous failure or destruction |
 | Prayer | Intentional request for direction, provision, correction, and protection |
 | Ask | Request assistance |
@@ -196,21 +300,63 @@ Expansion should not become the purpose that service is forced to support.
 | Knock | Request access to the next capability |
 | Daily bread | Necessary provision |
 | Forgiveness | Correctable failure and restored participation |
-| Protection from temptation | Reduction of avoidable harmful pathways |
-| Deliverance from evil | Protection from serious harm |
+| Do not lead into temptation | Reduce avoidable harmful pathways |
+| Deliver from evil | Protection from serious harm |
 | Kingdom come | Make enduring principles operational in the present |
 | Restoration | Recovery and improvement after failure |
 | Pollution | Unnecessary harm generated by a system |
 | Service | Use of capability for life and human flourishing |
 
+## 17. Application to Future Technical Documents
+
+This secular framework is intended to serve as a translation layer for later technical work.
+
+The progression is:
+
+**theological principles**
+
+→ **secular principles**
+
+→ **AI principles**
+
+→ **operating-system principles**
+
+→ **application principles**
+
+→ **hardware principles**
+
+→ **technical architecture**
+
+The later documents should not create unrelated philosophies.
+
+They should preserve the same underlying principles while translating them into the vocabulary and requirements of each technical layer.
+
 ## Conclusion
 
 The secular translation preserves the structure of the theological framework while changing its vocabulary.
 
-The resulting sequence is:
+Civilization is temporal.
 
-**theological principles → secular principles → AI principles → operating-system principles → application principles → hardware principles → technical implementation.**
+Systems are means.
 
-The objective is not to create several unrelated philosophies.
+Human life, dignity, legitimate agency, recovery, sustainability, and future choice are ends.
 
-It is to preserve one set of principles while translating them into the language appropriate to each domain.
+A system should therefore serve the conditions that make life and legitimate participation possible.
+
+It should provide rather than hoard.
+
+It should correct rather than unnecessarily make temporary failure permanent.
+
+It should protect without unnecessary captivity.
+
+It should direct with restraint.
+
+It should eliminate preventable harm at its source where practical.
+
+And it should treat technological capability as an instrument rather than as an end in itself.
+
+The result is a principle-based framework that can be translated into AI, operating systems, applications, hardware, and technical architecture without requiring the technical documents to make theological claims.
+
+The vocabulary changes.
+
+The underlying structure remains.
